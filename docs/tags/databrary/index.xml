@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Databrary on Rick Gilmore&#39;s site</title>
+    <link>/tags/databrary/</link>
+    <description>Recent content in Databrary on Rick Gilmore&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Oct 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/databrary/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Metadata? Whadja think?</title>
+      <link>/2014/10/14/metadata-whadja-think/</link>
+      <pubDate>Tue, 14 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/2014/10/14/metadata-whadja-think/</guid>
+      <description>Databrary has received generous funding from NSF and NICHD in order to foster increased data sharing and reuse. In the almost four years I&amp;rsquo;ve worked on the project, I&amp;rsquo;ve learned a great deal about data repositories and open and transparent research practices. One thing has consistently stood out: Successful repositories attract research communities around datasets when the data have useful and searchable metadata. It&amp;rsquo;s not enough to store and share materials and data openly.</description>
+    </item>
+    
+    <item>
+      <title>Let&#39;s get relational</title>
+      <link>/2014/09/03/let-s-get-relational/</link>
+      <pubDate>Wed, 03 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/2014/09/03/let-s-get-relational/</guid>
+      <description>We know that Databrary will have to compete against other data sharing services. Those of us who really enjoy building products and providing services that help others don&amp;rsquo;t like to talk about competing, but it&amp;rsquo;s a fact of life. Our project has generous support from NSF and NICHD now, but that&amp;rsquo;s no guarantee about the future of the project. We have to deliver a service that meets researcher&amp;rsquo;s needs. But, rather than worry about how Databrary can compete against Dropbox or Box or Amazon to provide cloud storage, we&amp;rsquo;re doing something else.</description>
+    </item>
+    
+    <item>
+      <title>Striking a balance</title>
+      <link>/2014/09/01/striking-a-balance/</link>
+      <pubDate>Mon, 01 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/2014/09/01/striking-a-balance/</guid>
+      <description>YouTube is a fantastic service. I use it all the time in my teaching. But, those of us working on Databrary find ourselves saying &amp;ldquo;We&amp;rsquo;re not YouTube&amp;rdquo; on a regular basis. Here&amp;rsquo;s why.
+Our core community consists of researchers who study infant and child development. We use video to collect the richest possible sample of behavior in natural or laboratory settings. Video often contains faces, voices, and names spoken aloud. This means that the videos could be used to determine the identity of research participants.</description>
+    </item>
+    
+  </channel>
+</rss>

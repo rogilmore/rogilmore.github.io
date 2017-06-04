@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Video on Rick Gilmore&#39;s site</title>
+    <link>/tags/video/</link>
+    <description>Recent content in Video on Rick Gilmore&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Sep 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/video/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Striking a balance</title>
+      <link>/2014/09/01/striking-a-balance/</link>
+      <pubDate>Mon, 01 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/2014/09/01/striking-a-balance/</guid>
+      <description>YouTube is a fantastic service. I use it all the time in my teaching. But, those of us working on Databrary find ourselves saying &amp;ldquo;We&amp;rsquo;re not YouTube&amp;rdquo; on a regular basis. Here&amp;rsquo;s why.
+Our core community consists of researchers who study infant and child development. We use video to collect the richest possible sample of behavior in natural or laboratory settings. Video often contains faces, voices, and names spoken aloud. This means that the videos could be used to determine the identity of research participants.</description>
+    </item>
+    
+  </channel>
+</rss>

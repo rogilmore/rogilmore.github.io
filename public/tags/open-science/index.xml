@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Science on Rick Gilmore&#39;s site</title>
+    <link>/tags/open-science/</link>
+    <description>Recent content in Open Science on Rick Gilmore&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Oct 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/open-science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Open teaching with RMarkdown and GitHub -- Complaints</title>
+      <link>/2015/10/11/open-teaching-with-rmarkdown-and-github-complaints/</link>
+      <pubDate>Sun, 11 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/10/11/open-teaching-with-rmarkdown-and-github-complaints/</guid>
+      <description>In my last post, I sketched out my workflow for using RStudio&amp;rsquo;s RMarkdown package to make HTML-based slides that I serve via GitHub and the RawGit service. I&amp;rsquo;m still a fan, but there is trouble in paradise. Or, I should say that it&amp;rsquo;s not yet paradise. So, in this post, I&amp;rsquo;ll describe some of my complaints. My mom always used to chide me &amp;ldquo;if you don&amp;rsquo;t have something nice to say, don&amp;rsquo;t talk.</description>
+    </item>
+    
+    <item>
+      <title>Open teaching with R Markdown and GitHub</title>
+      <link>/2015/10/09/open-teaching-with-r-markdown-and-github/</link>
+      <pubDate>Fri, 09 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/10/09/open-teaching-with-r-markdown-and-github/</guid>
+      <description>In keeping with my effort to move my research toward more open and reproducible practices, I decided to build all of my lecture slides in RMarkdown using RStudio, make my syllabus and assignments in Markdown, and generate exams and quizzes using LaTex and its Exam class. The lecture slide workflow involves several steps:
+ Making slides in RStudio. Exporting them to HTML. Editing the syllabus file to add links to the HTML, RMarkdown, and sometimes PDF versions of the slides.</description>
+    </item>
+    
+    <item>
+      <title>Multi-lingual, after a fashion</title>
+      <link>/2015/07/22/multi-lingual-after-a-fashion/</link>
+      <pubDate>Wed, 22 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/07/22/multi-lingual-after-a-fashion/</guid>
+      <description>I&amp;rsquo;m giving a talk at the International Conference on Development and Learning/Epigenetic Robotics meeting in Providence in a few weeks. The talk offered me the chance to put into practice some of the software tools I&amp;rsquo;ve been trying to master. The goal was to create a presentation that used open source software components, version control, and included the actual code used to generate as many of the figures as possible. You can see the talk draft at http://gilmore-lab.</description>
+    </item>
+    
+    <item>
+      <title>Metadata? Whadja think?</title>
+      <link>/2014/10/14/metadata-whadja-think/</link>
+      <pubDate>Tue, 14 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/2014/10/14/metadata-whadja-think/</guid>
+      <description>Databrary has received generous funding from NSF and NICHD in order to foster increased data sharing and reuse. In the almost four years I&amp;rsquo;ve worked on the project, I&amp;rsquo;ve learned a great deal about data repositories and open and transparent research practices. One thing has consistently stood out: Successful repositories attract research communities around datasets when the data have useful and searchable metadata. It&amp;rsquo;s not enough to store and share materials and data openly.</description>
+    </item>
+    
+    <item>
+      <title>Improving the scientific enterprise</title>
+      <link>/2014/09/23/improving-the-scientific-enterprise/</link>
+      <pubDate>Tue, 23 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/2014/09/23/improving-the-scientific-enterprise/</guid>
+      <description>The White House Office of Science and Technology Policy has asked for information from the public about how best to maximize the benefits to the public stemming from investments in science and technology. Here are the brief comments I submitted.
+I believe that the Federal government has a key role to play in ensuring that public investments in scientific research have the maximum benefit. I speak to these issues as the grateful recipient of Federal support for my research from the National Science Foundation and the National Institutes of Health.</description>
+    </item>
+    
+    <item>
+      <title>Let&#39;s get relational</title>
+      <link>/2014/09/03/let-s-get-relational/</link>
+      <pubDate>Wed, 03 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/2014/09/03/let-s-get-relational/</guid>
+      <description>We know that Databrary will have to compete against other data sharing services. Those of us who really enjoy building products and providing services that help others don&amp;rsquo;t like to talk about competing, but it&amp;rsquo;s a fact of life. Our project has generous support from NSF and NICHD now, but that&amp;rsquo;s no guarantee about the future of the project. We have to deliver a service that meets researcher&amp;rsquo;s needs. But, rather than worry about how Databrary can compete against Dropbox or Box or Amazon to provide cloud storage, we&amp;rsquo;re doing something else.</description>
+    </item>
+    
+    <item>
+      <title>Striking a balance</title>
+      <link>/2014/09/01/striking-a-balance/</link>
+      <pubDate>Mon, 01 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/2014/09/01/striking-a-balance/</guid>
+      <description>YouTube is a fantastic service. I use it all the time in my teaching. But, those of us working on Databrary find ourselves saying &amp;ldquo;We&amp;rsquo;re not YouTube&amp;rdquo; on a regular basis. Here&amp;rsquo;s why.
+Our core community consists of researchers who study infant and child development. We use video to collect the richest possible sample of behavior in natural or laboratory settings. Video often contains faces, voices, and names spoken aloud. This means that the videos could be used to determine the identity of research participants.</description>
+    </item>
+    
+  </channel>
+</rss>

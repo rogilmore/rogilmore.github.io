@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ham Radio on Rick Gilmore&#39;s site</title>
+    <link>/tags/ham-radio/</link>
+    <description>Recent content in Ham Radio on Rick Gilmore&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Jul 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/ham-radio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>On the air</title>
+      <link>/2016/07/22/on-the-air/</link>
+      <pubDate>Fri, 22 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/2016/07/22/on-the-air/</guid>
+      <description>I&amp;rsquo;ve wanted to be an amateur radio operator since I was a little kid and read about the hobby in Boys&amp;rsquo; Life magazine. As a high schooler, I scraped together the pennies to buy a shortwave radio receiver, a Yaesu FRG-7, and with a long wire I ran up to the roof of my parents&amp;rsquo; house, I listened to the world. Catching the English language broadcast of Radio Tirana from Albania was a memorable highlight.</description>
+    </item>
+    
+  </channel>
+</rss>

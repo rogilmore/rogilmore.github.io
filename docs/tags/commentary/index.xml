@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Commentary on Rick Gilmore&#39;s site</title>
+    <link>/tags/commentary/</link>
+    <description>Recent content in Commentary on Rick Gilmore&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/commentary/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Moving to blogdown</title>
+      <link>/2017/06/03/moving-to-blogdown/</link>
+      <pubDate>Sat, 03 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/06/03/moving-to-blogdown/</guid>
+      <description>I&amp;rsquo;ve decided to move my blog to the blogdown package. I spend so much of my research life in RStudio it makes sense to move this direction.</description>
+    </item>
+    
+  </channel>
+</rss>
