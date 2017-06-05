@@ -6,10 +6,19 @@
     <description>Recent content in Tech on Rick Gilmore&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Jun 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Blogdown workflow</title>
+      <link>/2017/06/04/blogdown-workflow/</link>
+      <pubDate>Sun, 04 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/06/04/blogdown-workflow/</guid>
+      <description>I&amp;rsquo;ve relaunched my blog after a long hiatus. The reboot gave me a chance to learn a new tool&amp;ndash;blogdown&amp;ndash;and it forced me to revisit some old posts from my former blog platform. I wrote a lot of poetry in the last couple of years, most of it sparked by various personal events. Not all of it sounds as good to me now as it did then, but I avoided the temptation to edit my past.</description>
+    </item>
     
     <item>
       <title>Moving to blogdown</title>
