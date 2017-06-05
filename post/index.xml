@@ -22,6 +22,15 @@ Setting aside climate politics for a moment, let&amp;rsquo;s look at the data. S
     </item>
     
     <item>
+      <title>The whole elephant</title>
+      <link>/2017/06/05/the-whole-elephant/</link>
+      <pubDate>Mon, 05 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/06/05/the-whole-elephant/</guid>
+      <description>A couple of months ago, I was feeling rather cranky about the state of our political union. Still am, truth be told. At that time the working title of this piece was &amp;ldquo;Making psychology great.&amp;rdquo; But the current title better reflects the spirit I hoped to capture. Psychology is already great and wonderful in so many ways. I just want to see the whole elephant, don&amp;rsquo;t you? So, here&amp;rsquo;s my manifesto.</description>
+    </item>
+    
+    <item>
       <title>Blogdown workflow</title>
       <link>/2017/06/04/blogdown-workflow/</link>
       <pubDate>Sun, 04 Jun 2017 00:00:00 +0000</pubDate>
@@ -395,6 +404,15 @@ I believe that the Federal government has a key role to play in ensuring that pu
       <guid>/2014/09/01/striking-a-balance/</guid>
       <description>YouTube is a fantastic service. I use it all the time in my teaching. But, those of us working on Databrary find ourselves saying &amp;ldquo;We&amp;rsquo;re not YouTube&amp;rdquo; on a regular basis. Here&amp;rsquo;s why.
 Our core community consists of researchers who study infant and child development. We use video to collect the richest possible sample of behavior in natural or laboratory settings. Video often contains faces, voices, and names spoken aloud. This means that the videos could be used to determine the identity of research participants.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/</guid>
+      <description>The whole elephant       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs &amp;&amp; document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .table th:not([align]) { text-align: left; }    .</description>
     </item>
     
   </channel>
