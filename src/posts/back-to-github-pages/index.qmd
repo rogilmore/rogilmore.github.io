@@ -21,7 +21,7 @@ The process was as follows:
 
 ::: {.callout-note}
 
-I did essentially the same thing for rick-gilmore.org
+Since I also own 'rick-gilmore.org', I added a forward record to my domain name service.
 
 :::
 

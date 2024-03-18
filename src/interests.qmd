@@ -1,5 +1,7 @@
 ---
 title: "Interests"
+html:
+  toc: true
 ---
 
 ## Personal
@@ -22,7 +24,7 @@ In 2019, I took over as Faculty Adviser for the Penn State Amateur Radio Club. I
 
 Finally, in late 2022, I applied for the phonetically and CW-wise shorter callsign, W3TM. Changing callsigns is a royal pain if you’ve been active for awhile, and ham friends are still struggling to use the new call. But we’re getting there.
 
-More information about my amateur radio activities can be found at <https://w3tm.github.io/shack/>
+More information about my amateur radio activities can be found at <https://w3tm.org>.
 
 ## Arts
 
@@ -37,6 +39,34 @@ Needless to say, I love to sing and dance. My wife and daugther are the instrume
 My wife and I also enjoy volunteering with the [Acoustic Brew](https://acousticbrew.org) concert series and attending shows. We rejoined the board in 2021, and I once again serve as president. Please come see why ’the Brew’ has endured over 30 years.
 
 When the spirit moves me, I write [poetry](index.qmd#category=poetry) And when I remember, I take photographs.
+
+## Astronomy
+
+When we first moved to State College, I joined the [Central Pennsylvania Observers](https://cpoclub.org), our local amateur astronomy club.
+A group of us built our own Dobsonian-style telescopes.
+Then the same distractions that made me put ham radio aside intruded.
+But in the last year or so, I've gotten involved with CPO again.
+
+Earlier this spring, I bought a ZWO [Seestar S50](https://www.seestar.com).
+Here are some of my first photos with it:
+
+::: {layout-ncol=2}
+![The Moon](img/moon-close.jpeg)
+
+![The Moon](img/moon.jpeg)
+:::
+
+::: {layout-ncol=2}
+![M31 Andromeda Galaxy](img/M-31.jpeg)
+
+![M42 The Orion Nebula](img/M-42.jpeg)
+:::
+
+I have a kit in-hand for a radiotelescope to participate in the [Radio JOVE project](https://w3tm.org/posts/2024-03-17-radioJOVE.html).
+When time permits, I hope to put it on the air.
+
+And, my wife and I are hoping to see the totality during the April 8, 2024 solar eclipse!
+Cross your fingers for cloud-less weather.
 
 ## Outdoors
 
