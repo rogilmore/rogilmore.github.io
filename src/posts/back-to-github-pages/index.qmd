@@ -1,0 +1,37 @@
+---
+title: "Back to GitHub Pages"
+author: ""
+date: '2024-04-19'
+categories:
+  - R
+  - software
+  - GitHub
+---
+
+After working through the configuration settings for W3TM.org, I decided to overhaul my personal website and blog.
+I'd been using the excellent Netlify service, and there had been no problems.
+But it seemed prudent to apply the same configuration to my other blog and site.
+
+The process was as follows:
+
+1. Remove the automatic build and publishing configuration from Netlify.
+2. Move the site to my personal GitHub account (rogilmore) under the 'rogilmore.github.io' repo. This repo has special status that will make it easier for me to make project-specific sites in the future.
+3. Verifying my custom domain for GitHub pages. I followed the steps outlined [here](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages). This involved changing the DNS configuration parameters from my domain registrar.
+4. Adding the appropriate A records to the DNS configuration so that 'rick-gilmore.com' would point to the GitHub pages servers. I followed [these steps](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#securing-your-custom-domain). I also added a CNAME parameter so that 'www.rick-gilmore.com' would point to 'rogilmore.github.io'. 
+
+::: {.callout-note}
+
+I did essentially the same thing for rick-gilmore.org
+
+:::
+
+5. Under the GitHub Pages tab for rogilmore.github.io, enable the Build and deployment from the master branch using the 'docs/' folder. This required some changes to the rendering parameters for the site. I have come to prefer separate 'src/' and 'docs/' directories for my repos. This means that 'src/_quarto.yml' must have the following:
+
+```
+project:
+  type: website
+  output-dir: "../docs"
+```
+6. Add the custom 'rick-gilmore.com' domain to GitHub pages and permit the DNS check.
+
+That seemed to work.
