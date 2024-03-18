@@ -1,0 +1,42 @@
+---
+title: "What's old is new again"
+date: "2023-09-30 09:09:26 EDT"
+categories:
+  - ham radio
+  - VHF
+  - packet radio
+  - IC-9700
+  - ID-51a
+images: https://digirig.net/wp-content/uploads/2021/08/IMG_5812-750x350.jpg
+---
+
+My local club, the [Nittany Amateur Radio Club (NARC)](https://nittany-arc.org) has organized an [APRS/Packet Special Interest Group](https://groups.io/g/NittanyARCAPRS).
+I've been an active APRS operator since early in my ham career.
+Among other activities, I operate a [receive-only I-Gate](https://aprs.fi/#!mt=roadmap&z=11&call=a%2FW3TM-11&timerange=3600&tail=3600).
+What's gotten me excited about the SIG is the motivation to put a packet radio station on the air.
+NARC operates a packet bulletin board system (BBS) on 145.030 MHz, and it's in a high elevation location that I can hit with compromise antennas and low power.
+
+So, how proceed? I have packet capability with the ICOM IC-705 that sits on my desk, but using it requires me to connect my Evolve III laptop, and to stop scanning the local VHF and UHF repeaters. 
+Weather and family commitments have put my satellite operation ambitions on hold until spring.
+So, I decided to put the new ICOM IC-9700 to work.
+
+Like the IC-7300, IC-9700 has a USB interface.
+That makes it easy to handle audio in and out via USB *and* rig control.
+So, it was easy to configure the [UZ7HO Soundmodem software modem](http://uz7.ho.ua/packetradio.htm) to handle audio and PTT while connected to my existing PC in the shack.
+All that I needed was to make sure I had a vacant USB port.
+Then, it was straightforward to install and connect [Outpost Packet Manager](https://www.outpostpm.org/index.php), and bingo, I was able to send messages and read BBS posts.
+My shack PC permits remote operation using Google Remote Desktop, so I am able to operate the packet station remotely, as well.
+
+Next, I decided to work on creating a more nimble packet station using a spare HT.
+With a [Digirig](https://digrig.net) external soundcard/PTT interface, a cable for my ICOM ID-51a, the ID-51a, and the Evolve III laptop mentioned earlier, I have a low-power, portable packet station.
+
+::: {.callout-note}
+Let me give a shout out to Denis, K0TX, the owner of Digirig.
+He's extremely responsive to user questions.
+:::
+
+![Image from <https://digirig.net>](https://digirig.net/wp-content/uploads/2021/08/IMG_5812-750x350.jpg)
+
+A ham friend who has a love/hate relationship with packet sometimes calls it 1980s technology, and he's not wrong.
+But so what? It worked in the 1980s, and it still works.
+More important, it's fun, and that's what ham radio is about.

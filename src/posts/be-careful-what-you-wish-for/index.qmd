@@ -1,0 +1,25 @@
+---
+title: "Be careful what you wish for"
+date: 2023-11-17
+categories:
+  - reproducibility
+  - data sharing
+bibliography: "../../bib/blog-refs.bib"
+---
+
+![Figure 4 from [@Gilmore2016-lq]](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0157911.g004&type=large)
+
+One of the [assignments](https://psu-psychology.github.io/psych-490-reproducibility-2023-fall/exercises/ex06-replication.html) in PSYCH 490 this term asks students to give a paper a grade for whether the paper meets as set of emerging standards for replication.
+In grading these assignments, I learned that one student decided to evaluate one of my [own papers](Gilmore2016-lq).
+
+Let's just say that my first reaction, was "oh, my."
+But my second reaction was "awesome."
+
+The student was more generous than I think I would have been.
+But the student also highlighted things that I had honestly forgotten, like the fact that we _had_ shared [data and code](Gilmore_undated-vb).
+And the student assignment gave me a chance to walk down memory lane about that project. 
+It has been cited 15 times, and viewed more than 2,500 times.
+
+Garrison Keillor used to say, "be well, do good work, and keep in touch."
+I'm proud of the paper even if I'm not doing much related to that topic right now.
+One student's bravado gave me a chance to remember that.

@@ -1,0 +1,30 @@
+---
+title: "Unseen forces"
+date: 2023-09-30
+categories:
+  - science
+  - religion
+  - concepts
+image: https://static.wixstatic.com/media/936d7c_d961d5c58f984377858acc54247c282f~mv2.png/v1/fill/w_342,h_193,al_c,lg_1,q_85,enc_auto/DBN%20logo_Color_250x150transparent.png
+---
+
+I'm in Boston for a meeting of the [Developing Belief Network (DBN)](https://www.developingbelief.com/), a project I support as a member of the Advisory Board.
+DBN focuses on the development of religious and spiritual beliefs, among other topics.
+
+Early in my career, I joked that while I'd started my career in cognitive science as a developmental psycholinguist, language was too hard. So, I switched to perception.
+The DBN meeting reminded me that perception is only the tip of a very big cognitive iceberg.
+
+It occurs to me that many advancements in science have stemmed from creative new capacities to see natural phenomena that were hard or even impossible to see at the time they were envisioned.
+Astronomers had to imagine the Earth's rotation around its axis, the Moon's rotation around the Earth, and the Earth's rotation around the Sun in order to explain the observed movements of the Sun, the Moon, the planets, and the stars.
+Newton had to imagine that the unseen, but measurable force of gravity applied not just to terrestrial objects but to planets, moons, and stars.
+Electromagnetism, germ theory, the genetic basis of inheritance all required new ways of envisioning things unseen that were the root causes of things that *could* be seen and felt.
+And often, scientists eventually developed tools that made it possible to see the results of these root causes.
+Just this week, the James Webb Space Telescope [released an image](https://www.space.com/james-webb-space-telescope-einstein-ring-gravitationally-lensed) of an "Einstein Ring", an illustration of gravitational lensing predicted by Einstein's theory of relativity that describes how large masses alter the shape of space-time itself.
+
+![](https://cdn.mos.cms.futurecdn.net/JCxsoVAh2S6BxpFnjccEif-1920-80.jpg.webp)
+
+So, really, the development of beliefs about unseen religious figures isn't categorically different from the emergence of scientific ideas.
+Human minds equipped with powerful imaginations can't help but envision unseen causal forces that explain the otherwise inexplicable.
+And some of those ingenious minds go on to make tools that eventually make visible the previously invisible.
+
+So, hats off to the DBN folks for helping me see that atheists have much to learn by thinking about religion and to the JWST team for letting all of us see the warping of space-time itself.

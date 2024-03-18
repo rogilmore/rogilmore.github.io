@@ -1,0 +1,21 @@
+---
+title: "What I did on my summer vacation"
+date: '2023-09-01'
+categories:
+  - blog
+  - Quarto
+image: lola.jpeg
+---
+
+I haven't posted in a while.
+Frankly, the blog slipped to the bottom of a long to-do list.
+But when the graduate student who is coordinating our cognitive psychology area colloquium found my site and sent it round in advance of a [talk](https://gilmore-lab.github.io/cog-colloq-2023) I was giving, I realized I needed to catch up.
+
+Ok, so the academic summer has gone.
+But here is a rebooted blog using my new favorite tool, [Quarto](https://quarto.org).
+
+Over the summer, I spent a lot of time on the Databrary [analytics site](https://databrary.github.io/analytics), writing a new Databrary grant, keeping the PLAY project [survey data site](https://PLAY-behaviorome.github.io/KoBoToolbox/) up-to-date, planning the [Open Science Bootcamp](https://open-science.github.io/bootcamp-2023) and planning my [PSYCH 490 course](https://psu-psychology.github.io/psych-490-reproducibility-2023-fall) on the reproducibility crisis.
+
+Oh, and there might have been a little [ham radio](https://w3tm.github.io/shack) in there, too.
+And lots of time seeing friends and family, especially Alvin Henry ("Sonny") Gilmore and Miss Lola Greyhound-friend.
+

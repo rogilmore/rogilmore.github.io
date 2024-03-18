@@ -1,0 +1,36 @@
+---
+title: "Void and vast"
+date: 2023-10-28
+image: https://i.ytimg.com/vi/0fKBhvDjuy0/mqdefault.jpg
+---
+
+I don't recall exactly when I first saw the Eames' "Powers of Ten," but I know it made a powerful impression on me.
+Later, when my task as an instructor was to teach about the spatial and temporal scales involved in understanding the nervous system and behavior, I returned to it.
+First, that required renting copies from the library along with the required projection equipment.
+Later, it was easily found on YouTube.
+Still later, I embedded it in my lecture notes, as below.
+
+{{< video https://www.youtube.com/embed/0fKBhvDjuy0?si=KBwRMAj9G-YJA8xJ >}}
+
+In subsequent years, others have taken the basic idea and created their own takes.
+But I have special love for the original version with its cheesy special effects and understated but astonishing narration.
+
+While traveling faster than the speed of light may violate the laws of physics, at some point it occurred to me that such travel does *not* break any law of psychology.
+We easily travel substantially faster than light powered solely by our own imaginations. So, fueled, we even travel places that never were and cannot be.
+
+But I didn't really grasp the impact of the difference between the absolute speed of light and the effectively *unlimited speed of mind* until I found this video that simulates just how *slow* the speed of light actually is.
+I know, the speed of light is the speed limit for all things physical.
+But watch it, and see what I mean.
+
+<iframe src="https://player.vimeo.com/video/117815404?h=e044921c26&title=0&byline=0" width="640" height="346" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/117815404">Riding Light</a> from <a href="https://vimeo.com/aswinehart">Alphonse Swinehart</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+Mercury, *Mercury*(!) is a few light-minutes from the sun.
+And the journey past Venus to Earth takes what seems like forever.
+Eight minutes plus, I know, but doesn't it *seem* like moving at the speed of light through the solar system feels like swimming in molasses?^[Has anyone ever tried that, btw?]
+Even our immediate celestial neighborhood takes what seems like an eternity to traverse.
+
+You see, this place and this time is but one tiny speck in a vast void of spacetime.
+And while some might find that terrifying, I find it profoundly humbling and oddly  comforting.
+
+My hope for all of my fellow travelers on this beautiful, frightfully troubled speck is that they too rediscover humility, and where it may have been misplaced, their humanity, in the vastness and void.

@@ -1,0 +1,52 @@
+---
+title: "The hex is in"
+date: 2023-09-14
+categories:
+  - R
+  - hex stickers
+  - ai
+---
+
+Earlier in the summer, I tried to make a hex sticker for the [Open Science Bootcamp](https://penn-state-open-science.github.io/bootcamp-2023).
+
+One of my inspirations was this post from the R bloggers site:
+
+<https://www.r-bloggers.com/2023/06/how-to-generate-a-hex-sticker-with-openai-and-cropcircles/?utm_source=phpList&utm_medium=email&utm_campaign=R-bloggers-daily&utm_content=HTML>
+
+So, I entered the terms "open transparent reproducible science" into the AI, and it came back with this image:
+
+![AI generated image for "open transparent reproducible science"](https://raw.githubusercontent.com/penn-state-open-science/bootcamp-2023/main/src/include/img/bootcamp-hex-v3.png){fig-align="center"}
+
+We didn't like it much, so we ended up using a word cloud as a poor man's substitute.
+
+In digging a little deeper though, I found the *hexSticker* package (<https://github.com/GuangchuangYu/hexSticker>).
+
+Every self-respecting computer-person has to have a collection of hex stickers, right?
+Ok, so I confess that I do not put stickers on my laptop.
+I'm one of those folks who likes the sleek metalic look of my laptop to remain, well sleek and metalic.
+But I recognize a popular trend when I see one.
+So here, mostly to document where and how to do it, is some code to make a simple hex sticker.
+It draws heavily on the how-tos from the *hexSticker* GitHub site.
+
+```{r}
+library(hexSticker)
+
+hexSticker::sticker(
+  "play-leaf.png",
+  package = "PLAY",
+  p_size = 35,
+  p_color = "#5C8C5C",
+  h_fill ="#FFFFFF",
+  h_color = "#5C8C5C",
+  s_x = 1,
+  s_y = .8,
+  s_width = .40,
+  filename = "play-hex.png"
+)
+```
+
+![Hex sticker for the [PLAY Project](https://play-project.org)](play-hex.png){fig-align="center"}
+
+There are a lot of parameters to play with to make this look good.
+But this is a start.
+Go forth and make stickers.

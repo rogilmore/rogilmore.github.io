@@ -1,0 +1,54 @@
+---
+title: "Interests"
+---
+
+## Personal
+
+I grew up in Denver, Colorado then headed East to go to college. In 1985, I earned my B.A. in Cognitive Science at Brown University. After graduation, I worked in Washington, DC for several non-profit organizations (70001 Training & Employment Institute, D.C. Cares, the International Neural Network Society) doing fundraising, public relations, non-profit marketing, and volunteer management. For a short time I was an international trade and public affairs consultant with Tucker & Associates. In 1992, I started graduate school, earning my M.S. and Ph.D. degrees in Psychology at Carnegie Mellon University where I focused on developmental cognitive neuroscience. I also participated in the Center for the Neural Basis of Cognition (CNBC) Graduate Training Program. My family and I moved to State College in 1997. I am married and have two grown children.
+
+## Amateur (ham) radio
+
+I was licensed as a Tech+ in 1993, but was never really active. Kids and finishing grad school were higher priorities. After reading “Seveneves,” I got the bug again and took both the Technician and General in the space of a couple of weeks in the summer of 2016. With the moral support of some fellow club members and a helpful Elmer, I upgraded to Extra in July of 2017.
+
+I enjoy VHF special event support, help run a local EmComm net, and serve as net control for the local QCWA net. I’m doing my best to chase DX on 20 and 40 m using an IC-7300 and FlexRadio 6400. In the fall of 2019, I added tuned dipoles for 20m and 40m, and in the Spring of 2020, I added a Comet 3 for better VHF and UHF coverage. In 2022, I put up an 80-10m EFHW in place of the tuned 20m/40m dipole, and I also put up a DX Commander vertical.
+
+To help with our local APRS coverage, I also run a fill-in digipeater/I-Gate.
+
+I took the CW Academy courses to (re)learn the code in hopes of doing QRP SOTA and POTA type of activations. That seems like an ideal way to combine my love of outdoor activities (hiking, cycling, and paddling) with ham radio. But, my CW journey stalled. It’s hard to teach an old brain new tricks. Let’s hope that getting active in the Long Island CW Club will help me get over the hurdle.
+
+My local club is the Nittany Amateur Radio Club. I check-in to the Western PA D-Star net occasionally, and often monitor the 146.85 W3YA repeater and the Yaesu System Fusion AmericaLink reflector. In Spring 2020, I joined the Board of Directors of NARC.
+
+In 2019, I took over as Faculty Adviser for the Penn State Amateur Radio Club. I am also trustee for the three K3CR repeaters.
+
+Finally, in late 2022, I applied for the phonetically and CW-wise shorter callsign, W3TM. Changing callsigns is a royal pain if you’ve been active for awhile, and ham friends are still struggling to use the new call. But we’re getting there.
+
+More information about my amateur radio activities can be found at <https://w3tm.github.io/shack/>
+
+## Arts
+
+My family and I have been involved theatre and music for a very long time. Indeed, my wife and I met in a production of “South Pacific” with the Georgetown Gilbert & Sullivan Society (GG&SS). I played “The Professor” if you can believe it.
+
+Shows here in State College have included “Oliver!”, “The Sound of Music,” and “Sweeney Todd,” with Singing Onstage, “Dracula”, “The Survivor”, and “Gypsy” with the State College Community Theatre (SCCT), and “The Memory of Water”, “Harper Regan”, and “Two Can Play” with The Next Stage theatre company, and in Spring 2022, “Fallout” produced by Elaine Meder-Wilgus.
+
+I am a former president of SCCT. I’m proud to say that my colleagues and I forced the owners of the Boal Barn to make essential repairs to the facility.
+
+Needless to say, I love to sing and dance. My wife and daugther are the instrumentalists, but I pick a banjo now and then or play a bit of harmonica or tin whistle.
+
+My wife and I also enjoy volunteering with the [Acoustic Brew](https://acousticbrew.org) concert series and attending shows. We rejoined the board in 2021, and I once again serve as president. Please come see why ’the Brew’ has endured over 30 years.
+
+When the spirit moves me, I write [poetry](index.qmd#category=poetry) And when I remember, I take photographs.
+
+## Outdoors
+
+For fun, I like to walk, run, hike, backpack, kayak and ride my bicycles: a Specialized Hybrid that I sometimes use to commute to work, a Specialized Allez road bike, and stoker-willing, a Hokitika road tandem we call Tonya. In 2018 to celebrate our 25th anniversary, my wife and I took a tour of southern Tuscany with Vermont Bicycle Tours (VBT). I’m what some might call a “half-fast” cyclist.
+
+## Public Service
+
+I have been involved in local politics, serving as clerk, Majority Inspector, and Judge of Elections in my State College precinct. I am currently the elected Judge of Elections. I was a moderate Republican at one point, but changed parties soon after the 2000 election.
+
+My wife and I were formerly Democratic Precinct Co-chairs.
+
+I’m especially proud of the work that led to the construction of the Bellefonte Central Rail Trail. It was one of our community’s constructive responses to 9/11. Just weeks after the attack, more than 100 volunteers cleared the first overgrown section of railbed.
+
+I served on the State College Borough Transportation Commission back the early 2000’s and again from 2020-2022. In a previous rotation on the Commission, we helped implement traffic calming speed humps in the Highlands neighborhood, pedestrian lead times in the downtown district, and plan for a set of bike lanes.
+If you enjoy the "Bikes Park Free" bike rack in front of Panera in downtown State College, I'm proud to say I helped write the grant that made that a reality.

@@ -1,0 +1,22 @@
+---
+title: No foolin'
+date: 2023-09-06
+categories:
+  - talks
+  - open science
+  - reproducibility crisis
+  - quarto
+image: https://upload.wikimedia.org/wikipedia/en/4/42/Richard_Feynman_Nobel.jpg
+bibliography: 
+  - "../../bib/blog-refs.bib"
+---
+
+I have a new talk I call "No foolin': May all our crises be 'good' ones".
+It's a new take on familiar topics.
+This time, I decided to tell a story about how the reproducibility crisis sparked considerable soul-searching, but ultimately led to some concrete and specific outcomes that I am proud of.
+Richard Feynmann's graduation speech to CalTech grads in 1974 [@Feynman1974-ld] figures prominently, hence the photo.
+
+Here are the talk slides:
+
+<https://gilmore-lab.github.io/dev-prosem-2023-fall/>
+

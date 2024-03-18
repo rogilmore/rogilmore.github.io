@@ -1,0 +1,47 @@
+---
+title: "Open science for early career researchers"
+date: 2023-09-15
+categories:
+  - open science
+  - early career researchers
+  - JEDI
+---
+
+I gave a [talk](../no-foolin/) last week to our developmental area faculty, grads, and postdocs.
+One attendee noted that many of the factors that make research less open stem from institutional practices.
+They went on to ask what that observation means for early career researchers (ECRs).
+
+This seemed like an excellent question for the group of experts who subscribe to the [Journal Editors' Discussion Interface (JEDI)](https://dpjedi.org/) project on which I serve as a member of the steering committee and one of the founding sponsors via [Databrary](https://databrary.org).
+So, I posed the question there.
+And true to form, I got some very good answers and helpful hints.
+
+For example, the [U.K. Research Integrity Office](https://ukrio.org/) had prepared this infographic:
+
+![<https://ukrio.org/wp-content/uploads/Infographic_ImprovingResearchCulture_Responsibilities-of-a-PGR-student.pdf>](ukrio-infographic-early-career.png)
+
+::: {.callout-note}
+
+The UKRIO has other infographics available here:
+
+<https://ukrio.org/resources/?res_topic=&res_tag=Infographic&res_srch=>
+
+:::
+
+Morton Ann Gernsbacher and colleagues had prepared this one-pager as part of a meeting several years ago:
+
+![](Gernsbacher_APA_Workshop_2019.pdf)
+
+And one of the respondents had this advice:
+
+>One way to do that would be to start a ReproducibiliTea journal club (<https://www.reproducibilitea.org>), with the hope of creating community among the early-career researchers as they learn about and pursue Open Science practices. This could in turn foster changes in their department, such as inclusion in the graduate research training curriculum or the norming of practices like open data sharing, code review and the like. Here’s an introductory reading list I created that a new club can follow through to get the overall picture of the Open Science movement: <https://osf.io/qxbcs>.
+>
+>I would also highly recommend Charlotte Pennington’s recent book: A Student’s Guide to Open Science: Using the Replication Crisis to Reform Psychology. <https://www.mheducation.co.uk/a-student-s-guide-to-open-science-using-the-replication-crisis-to-reform-psychology-9780335251162-emea-group>. It is directly focused on the early-career researcher and gives an overview, advice on how to pursue and adopt open science practices and more.
+
+I myself have a copy of the Pennington book on-order and will say more when I've had a look.
+
+So, the bottom line is this: Not only is the JEDI community awesome, but there are lots of good sources of information for ECRs.
+Maybe we need a separate line of communication with old dogs like me who have a harder time learning new tricks.
+
+![https://www.stevenjosephauthor.com/teaching-the-old-dog-new-tricks-crankatsuris/](https://www.stevenjosephauthor.com/wp-content/uploads/2021/01/old-dog-new-tricks.jpg){fig-align="center"}
+
+It would be good to push-back against the claim that a closed research culture will only change one funeral at a time.

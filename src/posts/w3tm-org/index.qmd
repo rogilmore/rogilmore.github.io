@@ -1,0 +1,20 @@
+---
+title: "W3TM.org"
+date: 2024-03-18
+image: w3tm-org.png
+categories:
+  - ham radio
+  - quarto
+  - GitHub
+---
+
+On a lark I decided to grab the W3TM.org domain.
+W3TM.com wasn't available.
+I think I know why, but the truth is, I prefer a dot-org domain for this sort of thing.
+That spurred me to move my ham radio website to <https://w3tm.org>.
+
+Now, a new ham radio blog, my [shack](https://w3tm.org/shack) operating guide, and the in-progress [*New Ham Book*](https://w3tm.org/new-ham-book) have a home under that domain.
+GitHub pages makes it easy-peasy.
+
+And, of course, [Quarto](https://quarto.org) is the engine.
+If I could only figure out how to get it to cook dinner.

@@ -1,0 +1,36 @@
+---
+title: "Vote like your future depends on it"
+date: 2023-09-11
+categories:
+  - voting
+  - elections
+  - politics
+---
+
+![Map of voting precincts in State College, PA](state-college-precinct-map.png){fig-align="center"}
+
+::: {.callout-note}
+
+The following is a piece I submitted to the Highlands Neighborhood Association newsletter.
+
+:::
+
+## Election 2023 and beyond
+
+All of us shape the future through our actions large and small. One way to shape the future of public policy is to vote. This article provides information about the voting process that may be useful to long-time and first-time voters alike. It is drawn from my nearly 20 years of experience as an election official here in the Highlands neighborhood. 
+
+The 2023 General Election will be held on Tuesday, November 7, 2023. There are no Senate or Congressional races on the ballot, but there are statewide races, a full slate of county-wide races, and races for State College Borough Council and the State College Area School Board being contested. Polls open at 7:00 am and close at 8:00 pm. All voters who are in-line at 8:00 pm are permitted to vote. The latter provision is especially important during presidential elections when voter turn-out is at its highest and lines can be long.
+
+Voting in Pennsylania is strictly by precinct, and precincts are explicit geographic areas. With some very limited exceptions, you must vote in the precinct where you are registered. This poses no challenge for long-time voters unless their polling place location changes, but can cause confusion for occasional voters--those who vote only in presidential elections, for example--or new voters. So, if you plan to vote in-person, you must go to the precinct where you are registered. As this (<https://centrecountypa.gov/DocumentCenter/View/15033/State-College-Precinct-Map-11x17_May-2023?bidId=>) shows, Highlands residents vote in Precincts 23, 26, 29, 30, and 34. That same site provides information about where voters choosing to vote in-person must go on Election Day. For example, Precincts 26 and 30 vote at the State College Friends Meeting on East Prospect Avenue.
+
+If you are new to the Highlands neighborhood or have not voted in some time, you may not remember  where you go to vote. Your best bet to confirm your voting location is to visit the site maintained by the Pennsyvlania Department of State (<https://www.pavoterservices.pa.gov/Pages/PollingPlaceInfo.aspx>). If you have not yet registered to vote, you must do so by October 23, 2023, but it is best to register well in advance of that date by visiting this site (<https://www.pavoterservices.pa.gov/pages/VoterRegistrationApplication.aspx>). There are a number of get-out-the-vote organizations that also register voters, but it is a good idea to confirm that your voter registration has been processed well in advance of the registration date. I failed to do this myself when I was a college student back in 1984 and found out too late that I was *not* registered to vote. The Centre County Election Office maintains a useful website (<https://centrecountyvotes.gov>) where you can confirm that you are registered and in what precinct. The staff are happy to answer any questions (814-355-6703) you can't find answers to online.
+
+Our neighborhood includes, and we welcome, non-permanent residents, including undergraduate and graduate students, post docs, and visiting faculty. If you are eligible to vote in Pennsylvania (<https://www.vote.pa.gov/Register-to-Vote/Pages/Voter-Registration-Requirements.aspx>), you may register and vote here. If you are already registered to vote in another part of Pennsylvania or in another state, you may choose to re-register and vote here in State College, or you may vote absentee in your home PA precinct or state. In this case, you must follow your home jurisdiction’s procedures for requesting and returning an absentee ballot. Some voters are confused by the fact that the same races might be on the ballot here and in the voter’s home precinct, especially state-wide, U.S. Senate, and Presidential races, but the voter must still cast votes in the precinct where they are registered. Again, in Pennsylvania, we vote strictly by precinct. So, voters who are not permanent residents must decide where they want to vote (e.g., back home or here) and then make sure that they are lawfully registered in that jurisdiction.
+
+After you register or re-register, you should receive a voter registration card in the mail. Please keep your voter registration card in a safe place and bring it with you to your polling place. Not only does your voter registration card indicate your precinct, but it serves as one of the acceptable forms of identification that might be required of new or inactive voters. All voters new to a precinct must present an acceptable form of identification--even if they were registered to vote elsewhere for a long time. Some other voters might also be asked to produce identification if the County Election Office has reason to believe that the voter has moved or if the voter has not voted in a number of election cycles.
+
+This piece has focused on in-person voting. If you request an absentee or mail-in ballot but do not receive it, please come to the polling place to let your precinct Election Board try to help sort things out. Similarly, if you received your absentee or mail-in ballot materials but decide to vote in-person, bring the complete ballot packet with you to the polling place. Your Election Board will need those materials to issue you an in-person ballot.
+
+Who is this Election Board I mentioned? Your neighbors. Each precinct has an Election Board that consists of a Judge of Elections, two Inspectors, and a set of Clerks. The Judge of Elections and Inspector are elected positions, but there are often vacancies that must be filled by the County Election Office. In my precinct the vacancies are often filled by some outstanding students from Bellefonte High School. In more than 20 years of living in the Highlands, have served as a Clerk, Inspector, and now Judge of Elections in Precinct 26. Twice a year I get to serve my community while catching up with friends and neighbors on the latest news. It's a long day, but an immensely satisfying one. We poll-workers are on the front lines of democracy, and it is a privilege and honor to serve. So, please consider joining us. If you are in Precinct 26, email me at rogilmore\@mac.com. If you are in other precincts, contact the County Election Office (814-355-6703) and tell them you'd like to be considered.
+
+As the saying goes, vote like your future depends on it. See you at the polls.

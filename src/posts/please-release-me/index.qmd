@@ -1,0 +1,24 @@
+---
+title: "Please release me"
+date: 2023-10-25
+categories:
+  - R
+  - Python
+  - databraryr
+  - Databrary
+  - software
+image: databraryr-logo.png
+---
+
+I am pleased to announce that the `databraryr` has been [released](https://cran.r-project.org/web/packages/databraryr/index.html) on the Comprehensive R Archive Network ([CRAN](https://cran.r-project.org)).
+
+According to [GitHub](https://github.com/databrary/databraryr), I started this back in 2018.
+It was a way to learn about Databrary, learn about interacting with application program interfaces (APIs) in general, and improve my R programming chops.
+The package has become extremely useful to me.
+It's essential to the Databrary [analytics site](https://databrary.github.io/analytics) and to the PLAY Project's [KoBoToolbox workflow](https://PLAY-behaviorome.github.io/KoBoToolbox).
+I hope that others can say the same eventually.
+
+Thanks to Jeff Spies for his help getting this over the final hurdles in the review process.
+And thanks to the CRAN reviewers for their help resolving some last minute bugs.
+
+Now, on to the Python version!

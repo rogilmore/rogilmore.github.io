@@ -1,0 +1,21 @@
+---
+title: "Gilmore or less"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+bibliography:
+  - bib/blog-refs.bib
+---
+
+Welcome to my blog.
+It's a catch-all and a sandbox of writings about this and that.
+But mostly, it's a place to put things that I'd probably lose track of without it.
+
+## Posts
+

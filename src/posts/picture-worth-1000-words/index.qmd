@@ -1,0 +1,48 @@
+---
+title: "If a picture paints 1,000 words..."
+date: 2023-09-08
+categories:
+  - visualization
+  - graphs
+  - R
+  - quarto
+  - mermaid
+  - graphviz
+image: mermaid-graph.png
+---
+
+Music lovers of my generation remember that phrase at the lyrics of a song by the group Bread.
+The phrase is one of those constructive memes that my colleague, Karen Adolph and I have extended to highlight the even *more* informative power of video--10,000 pictures!
+
+This post doesn't feature any video.
+But it does demonstrate a new tool embedded within [Quarto](https://quarto.org) that I expect to make use of frequently, scriptable [diagrams](https://quarto.org/docs/authoring/diagrams.html) using [*Mermaid*](http://mermaid.js.org) and *Graphviz*.
+
+Here's a simple one using Mermaid lightly modified from the project site.
+
+```{mermaid}
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+    D-->A;
+```
+
+And here's a second one, closer to my heart, with some formatting:
+
+```{mermaid}
+%%| fig-cap: "State spaces and causal pathways in cognition"
+%%| fig-align: "center"
+flowchart TD
+  N[Nervous system] --> B(Body)
+  B --> W{World}
+  W --> B
+  B --> N
+  N --> N
+  B --> B
+  W --> W
+```
+
+I sketch graphs like this all the time, so having support for tools like Mermaid and Graphviz built-in to Quarto should help me depict my ideas, at least some of them, in fewer words.
+
+Of course, now I need to learn more about Mermaid (and refresh my memory about Graphviz).

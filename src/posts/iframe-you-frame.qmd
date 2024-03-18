@@ -1,0 +1,14 @@
+---
+title: "iframe, you frame"
+date: "2023-10-25 10:27:56 EDT"
+categories:
+  - R
+  - Quarto
+---
+
+This is a very short post to bookmark this amazing how-to site on using iframes in Quarto:
+
+<https://emilhvitfeldt.github.io/quarto-iframe-examples>
+
+There are some amazingly creative people out there who are also generous with sharing their know-how.
+

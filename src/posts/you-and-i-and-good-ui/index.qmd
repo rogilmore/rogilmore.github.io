@@ -1,0 +1,41 @@
+---
+title: "You and I need good UI"
+date: "2023-10-28 05:50:49 EDT"
+categories:
+  - ham radio
+  - Flex 1500
+  - PowerSDR
+image: ke9ns-powersdr-2023-10-29.PNG
+---
+
+![Screenshot from PowerSDR connected to a FlexRadio 1500 on the first morning of the CQ WW SSB DX contest](ke9ns-powersdr-2023-10-29.PNG)
+
+I ~~Lola~~ woke up early. We took a walk to drain her tanks, and there was a beautiful morning Moon. So, when we got back I made some coffee and sat down to practice operating my FlexRadio 1500 with the [PowerSDR software](https://ke9ns.com) written by [KE9NS](https://www.qrz.com/db/ke9ns).
+It's a contest weekend, after all, so even the [W6LVP loop](https://www.w6lvp.com) mounted indoors should hear something.
+And it sure did.
+
+What KE9SDR has done with the user interface is really impressive.
+The 1500 is a software defined radio (SDR), so must be controlled by a PC.
+There are many controls, but most of the critical ones for an experienced operator are simple keyboard presses.
+To change frequency up or down, press one set of keys.
+To make a larger frequency jump, press another pair.
+To change the receive filter width, press another pair.
+To change the automatic gain control (AGC) threshold--a key adjustment for reducing noise on the FlexRadio platform--press another pair of keys.
+Change band segments or bands, you guessed it.
+
+You do need a mouse or trackpad to navigate to different parts of the window, but it is largely a keyboard-centered experience.
+And it's really, really great.
+Better than the SmartSDR program for Windows and the SmartSDR program for MacOS and iOS that I use on my Flex 6400.
+And that's saying a lot.
+I really like the iOS SmartSDR app.
+
+I think my friend Karen Adolph who designed the [Datavyu](https://datavyu.org) video coding program specifically to minimize mouse use and maximize the use of keyboard commands would really like it, even if she doesn't see the point of ham radio.
+We all need good UI even if we don't always appreciate it.
+PowerSDR is clearly a labor of (very thoughtful) love.
+Thanks KE9NS.
+
+Now, if we could just get FlexRadio to bring the 1500 back.
+It's a great form factor.
+If hams keep Heathkits and tube rigs on the air for nostalgia's sake, why not classic SDRs?
+
+![FlexRadio 1500](https://cdn.shortpixel.ai/spai/w_600+q_lossy+ret_img+to_webp/k0pir.us/wp-content/uploads/2016/03/1500frontsmall-300x200.jpg)

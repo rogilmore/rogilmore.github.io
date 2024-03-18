@@ -1,0 +1,29 @@
+---
+title: "Delivering the package"
+date: "2023-09-30 09:43:00 EDT"
+categories:
+  - Databrary
+  - databraryr
+  - R
+  - reproducibility
+  - open science
+  - software
+---
+
+![`databraryr` package logo](databraryr-logo.png)
+
+At long last, I submitted my first R package to CRAN.
+It's called `databraryr`, and it represents several years of learning.
+`databraryr` permits users to interact with the [Databrary](https://databrary.org) API.
+
+So what?
+Well, the package permits users to develop computational workflows and scripts that can be easily shared with other users.
+I myself use the package to generate reports about the [PLAY project's survey data](https://PLAY-behaviorome.github.io/KoBoToolbox) and to report on the status of Databrary's [holdings](https://databrary.github.io/analytics).
+
+Once the package is released, I'm hoping others will start to use it in their own research.
+For now, if you're interested in trying it out, you can find it at <https://github.com/databrary/databraryr>.
+
+Jeff Spies has helped me polish the package, especially the code related to user authentication.
+I knew nothing about developing R packages or APIs when I started, but thanks to the generous spirit and knowledge of the R community, I now know more.
+And perhaps more important, I've built something useful.
+That's always satisfying.

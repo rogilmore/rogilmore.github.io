@@ -1,0 +1,70 @@
+---
+title: "Teaching"
+---
+
+This page describes some of my teaching.
+
+## PSYCH 260 • Neurological Bases of Human Behavior
+
+I teach this class once or twice a year.
+While it's not been announced officially, I expect to teach PSYCH 260 again in Spring 2024.
+
+Here are some past versions of the course website and materials:
+
+*Spring 2023*: [Site](https://psu-psychology.github.io/psych-260-2023-spring/) | [Repo](https://github.com/psu-psychology/psych-260-2023-spring/)
+
+*Spring 2022*: [Site](https://psu-psychology.github.io/psych-260-2022-spring/) | [Repo](https://github.com/psu-psychology/psych-260-2022-spring/)
+
+## PSYCH 490 • The reproducibility crisis in science
+
+This is a new course for me. I am teaching it in Fall 2023. 
+
+Here are the versions of the course website and materials:
+
+*Fall 2023*: [Site](https://psu-psychology.github.io/psych-490-reproducibility-2023-fall/) | [Repo](https://github.com/psu-psychology/psych-490-reproducibility-2023-fall/)
+
+*Spring 2023*: [Site](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/) | [Repo](https://github.com/psu-psychology/psych-490-reproducibility-2023-spring/)
+
+## PSY 511 • Foundations of Cognitive and Affective Neuroscience
+
+This is a required course for the Psychology Department's Specialization in Cognitive and Affective Neuroscience (SCAN).
+I am slated to teach this course in Spring 2024.
+
+Here are some recent versions of the course website and materials:
+
+*Fall 2021*: [Site](https://psu-psychology.github.io/psy-511-scan-fdns-2021/) | [Repo](https://github.com/psu-psychology/psy-511-scan-fdns-2021/)
+
+*Fall 2020*: [Site](https://psu-psychology.github.io/psy-511-scan-fdns-2020/) | [Repo](https://github.com/psu-psychology/psy-511-scan-fdns-2020/)
+
+## PSY 543 • Clinical Research Methods
+
+I have served as a guest lecturer in this course.
+
+*Spring 2022*: [Site](https://psu-psychology.github.io/psy-543-clinical-research-methods-2022/) | [Repo](https://github.com/psu-psychology/psy-543-clinical-research-methods-2022/)
+
+*Spring 2021*: [Site](https://psu-psychology.github.io/psy-543-clinical-research-methods-2021/) | [Repo](https://github.com/psu-psychology/psy-543-clinical-research-methods-2021/)
+
+*Spring 2019*: [Site](https://psu-psychology.github.io/psy-543-clinical-research-methods-2019/) | [Repo](https://github.com/psu-psychology/psy-543-clinical-research-methods-2019/)
+
+## R Bootcamp
+
+I co-led 2.5 day R workshops in the summers of 2017, 2018 and 2019.
+The pandemic and the departure of several core faculty collaborators ended these events.
+
+*Bootcamp 2019*: [Site](https://psu-psychology.github.io/r-bootcamp-2019/) | [Repo](https://github.com/psu-psychology/r-bootcamp-2019/)
+
+*Bootcamp 2018*: [Site](https://psu-psychology.github.io/r-bootcamp-2018/) | [Repo](https://github.com/psu-psychology/r-bootcamp-2018/)
+
+*Bootcamp 2017*: [Site](https://psu-psychology.github.io/r-bootcamp/) | [Repo](https://github.com/psu-psychology/r-bootcamp/)
+
+::: {.callout-note}
+
+I think that in 2017 we had no idea that we were starting something!
+
+:::
+
+## Open Science Bootcamp
+
+I co-organized a 2.5 day workshop on Open Science in 2023.
+
+*Open Science Bootcamp 2023*: [Site](https://penn-state-open-science.github.io/bootcamp-2023/) | [Repo](https://penn-state-open-science.github.io/bootcamp-2023/)

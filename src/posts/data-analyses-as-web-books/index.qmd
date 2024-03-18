@@ -1,0 +1,19 @@
+---
+title: Data *analyses* as web books
+author: ""
+date: '2023-03-15'
+slug: data-analyses-as-web-books
+categories: [bookdown, coding, open science]
+---
+
+Beyond the open science survey I mentioned in a previous post, I've created two additional `bookdown` books to capture some data gathering, cleaning, and visualization workflows.
+
+One of these focuses on the survey data we are collecting as part of the [Play & Learning Across a Year (PLAY) project](https://play-project.org).
+The survey questions are collected using an open source tool called [KoBoToolbox](https://kobotoolbox.org).
+The web book that documents the gathering, cleaning, and visualization of these data can be found here: <https://PLAY-behaviorome.github.io/KoBoToolbox/>.
+By all means geek-out on the data cleaning steps, or even better, suggest some more efficient ways to whip these data into shape.
+But to see a prettier view of the cleaned data, please start [here](https://play-behaviorome.github.io/KoBoToolbox/visualizations.html).
+
+I'm especially proud of the fact that (with participant permission), we can pull geographic location data about the research participants and visualize it like this:
+
+![](https://play-behaviorome.github.io/KoBoToolbox/include/img/fig-screening-calls-map-1.png)

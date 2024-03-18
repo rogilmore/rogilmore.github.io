@@ -1,0 +1,47 @@
+---
+title: The webs we weave
+author: ""
+date: '2019-01-25'
+categories: [science, motion perception, causal modeling]
+---
+
+I've been 'sketching' out conceptual models for some time without realizing that there is an entire field of analysis where these sorts of diagrams are the starting point: Causal modeling.
+My introduction to this world was Judea Pearl's [The Book of Why: The New Science of Cause and Effect](https://www.amazon.com/Book-Why-Science-Cause-Effect/dp/046509760X/ref=sr_1_1?ie=UTF8&qid=1548436587&sr=8-1&keywords=the+book+of+why).
+Interested casual readers might also enjoy Steve Sloman's excellent and delightfully clear [*Causal Models: How People Think About the World and Its Alternatives*](https://www.amazon.com/Causal-Models-People-Think-Alternatives/dp/0195394291/ref=sr_1_2?ie=UTF8&qid=1548436730&sr=8-2&keywords=steven+sloman).
+
+In this post, I want to build a model for how an observer perceives visual motion given various possible causes.
+
+**NOTE**: The following code no longer runs as of 2023-08-31.
+
+```{r eval=FALSE}
+library(DiagrammeR)
+
+nodes <- create_node_df(
+  n = 15,
+  label = c("retinal motion", "eye mvmt", "head mvmt", "body mvmt", "object mvmt", "passive transp", "eye cmd", "head cmd", "body cmd", "eye prop", "head prop", "head vest", "body prop", "entity", "passive force"),
+  type = "number"
+)
+
+edges <- create_edge_df(
+  from = c(2, 3, 4, 5, 6, 7, 8, 9, 2, 3, 3, 4, 4, 14, 15),
+  to = c(1, 1, 1, 1, 4, 2, 3, 4, 10, 11, 12, 12, 13, 5, 5),
+  rel = "related"
+)
+
+graph <- DiagrammeR::create_graph(nodes_df = nodes, 
+                                  edges_df = edges)
+
+graph %>% DiagrammeR::render_graph()
+```
+
+The figure implies that motion on the retina comes from the movement of objects in the environment, movement of the observer, specifically the eyes, head, or body, or a combination of any of these.
+Eye movements stem from eye movement commands; head movements (translations and rotations) stem from head movement commands; body movements stem from commands to move the body.
+Movements of the eyes, head, or body generate proprioceptive signals from the eyes, head, and body.
+These signals derive from muscle, joint, and tendon receptors.
+Rotational and translational motion of the head stimulates vestibular signals.
+
+Note that retinal motion caused by the observer has multiple non-visual correlates (or consequences) that are detectable under typical circumstances.
+There may also be differences in the specific *properties* of motion caused by eye, head, body, or object motion.
+We'll discuss these in a future post.
+
+So, the task for perception is to answer the question: What's moving and why?

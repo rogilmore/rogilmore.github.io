@@ -1,0 +1,45 @@
+---
+title: "About"
+image: "img/rog-avatar-300x300.png"
+about:
+  template: broadside
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/rick-o-gilmore/
+    - icon: github
+      text: Github
+      href: https://github.com/rogilmore
+---
+
+Rick Gilmore is Professor of Psychology at [The Pennsylvania State University](https://www.psu.edu/). 
+He studies the development of visual perception in infants, children, and adults using behavioral, neural imaging, and computational methods. 
+He co-founded and co-directs the [Databrary.org](https://databrary.org) data library, co-founded the Penn State Social, Life, & Engineering Sciences Imaging Center ([SLEIC](https://imaging.psu.edu)), directs the Open Data and Developmental Science (ODDS) initiative through the Penn State [Child Study Center](https://csc.la.psu.edu/), is a leader in the [Penn State Open Science Initiative](https://github.com/penn-state-open-science/), is Co-PI on the Play & Learning Across a Year ([PLAY](https://play-project.org)) Project, and advocates for more open, transparent, and reproducible scientific practices, especially in psychology and neuroscience.
+
+## Education
+
+Ph.D., Psychology^[Completed training with the Center for the Neural Basis of Cognition], 1997, Carnegie Mellon University</br>
+M.S., Psychology, 1995, Carnegie Mellon University</br>
+A.B., *magna cum laude*, Cognitive Science, 1985, Brown University
+
+## Experience
+
+2019 - present, Professor, Department of Psychology, The Pennsylvania State University; University Park, PA
+
+2008 - 2014, Director of Human Imaging, Penn State Social, Life, & Engineering Sciences Imaging Center
+
+2008 - present, Huck Institutes of the Life Sciences Faculty Co-fund
+
+2004 - 2019, Associate Professor, Department of Psychology, The Pennsylvania State University; University Park, PA
+
+1997- 2004, Assistant Professor, Department of Psychology, The Pennsylvania State University, University Park, PA
+
+1992 - 1997, Instructor, Graduate Teaching and Research Assistant, Department of Psychology, Carnegie Mellon University; Pittsburgh, PA
+
+1991 - 1992, Program Director, International Neural Network Society and National Foundation for Brain Research; Washington, DC
+
+1988 - 1991, Vice President, Tucker & Associates; Washington, DC
+
+1986 - 1988, Development Associate and Director of Research and Development, 70001 Training & Employment Institute; Washington, DC
+
+1985 - 1986, Administrative Assistant, The Appalachian Foundation, Inc.; Washington, DC

@@ -1,0 +1,50 @@
+---
+title: Test-driven development is hard...and important.
+author: ""
+date: '2018-12-28'
+slug: test-driven-development-is-hard-and-important
+categories: [R, software, Databrary]
+---
+
+I've been developing an R package that interacts with the [Databrary.org](https://databrary.org) API and with [Datavyu](https://datavyu.org) annotation files stored locally or on Databrary alongside shared videos.
+If you're curious, you can download the `databraryr` package from this GitHub repository: <https://github.com/databrary/databraryr>.
+
+Like many people in the software world, I'm entirely self-taught.
+Ok, I took a class in C programming at the U.S. Department of Agriculture's Graduate School in the year before I applied to graduate schools in cognitive neuroscience.
+But my R package development skills are entirely self-taught.
+I must thank the incredibly generous geniuses who have gone before me and who share their code and their talents so freely and openly.
+Without the almost instant availability of these resources, my progress would be much, much slower.
+
+Developers are an opinionated bunch, and there are at least as many styles (fads?) in software development as their are developers.
+One style that I have started to try to emulate is ['test-driven development'](https://en.wikipedia.org/wiki/Test-driven_development).
+In TDD, the idea is that you create tests for how each part of your package should respond given this or that input.
+If your tests are through enough and correct, your package should work...at least within the boundaries of what you tested.
+
+For the latest version of the package (0.1.4), I added a bunch of new tests to evaluate several new functions I've added to the package.
+Let's just say that getting through my own self-designed test battery was challenging.
+But as a result, the code is cleaner and less buggy than it would be if I hadn't gone this route.
+
+In the larger sense, TDD is sort of a "plan for the worst" style.
+I like it because I know it forces me to be more precise and specific than I might otherwise choose to be.
+Since I've been using the `databraryapi` more often for keeping tabs on what's going on in the Databrary world, that's a very good thing.
+
+In case you're curious what the package can do, check this out:
+
+```{r eval=FALSE}
+install.packages("databraryr")
+```
+
+Here is a list of some recently authorized researchers:
+
+```{r}
+databraryr::get_db_stats("people")
+```
+
+And here is a very simple plot of the growth in authorized researchers and institutions over time:
+
+```{r}
+with(databraryr::read_csv_data_as_df(), plot(Auth_Investigators, Institutions))
+```
+
+I've said in other places that I think scientists will eventually interact with their data programmatically -- via scripts like this -- with the data and materials stored in repositories that others can also access programmatically.
+Furthermore, I think that the philosophy of test-driven development can help make our software AND the results and findings we derive from it more robust and reproducible.

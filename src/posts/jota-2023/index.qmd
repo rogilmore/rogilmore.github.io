@@ -1,0 +1,29 @@
+---
+title: "JOTA here we go"
+date: 2023-09-20
+categories:
+  - ham radio
+  - special events
+  - NARC
+  - Yaesu 
+image: "Pack_67_Logo_Web_blue.png"
+---
+
+Last night I had the delight of announcing a partnership between Cub Scout Pack 67 and the [Nittany Amateur Radio Club (NARC)](https://nittany-arc.org).
+We're collaborating to participate in the international Jamboree on the Air (JOTA) for Scouts of all ages.
+
+The plan is to set-up a station at Circleville Park outside of State College on Saturday, October 21, 2023.
+Propagation permitting, we'll make contacts with Scout groups and other hams all over North America and perhaps into Europe.
+We've even secured a 1x1 special event callsign for this activity: [K3C](https://qrz.com/db/k3c/).
+W3EDP and K3YV are my partners in organizing the event.
+
+Last year's event fell victim to COVID, so we're very excited to get a second go.
+K3YV will bring his go-box featuring the Yaesu FT-891 for HF work.
+We'll also try connecting to my Allstar node (51401).
+
+If you're a ham or Scout group, please try to make contact.
+We should be active from about 1400 - 1700 UTC.
+
+And if you have any thoughts on how to capture and package the energy of 5 to 10 year-olds, let me know.
+There are days when a little extra kick would come in handy.
+

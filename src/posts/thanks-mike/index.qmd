@@ -1,0 +1,60 @@
+---
+title: "Thanks, Mike"
+date: "2023-09-08"
+categories:
+  - R
+  - visualization
+  - mentors
+image: https://damassets.autodesk.net/content/dam/autodesk/research/publications-assets/gifs/same-stats-different-graphs/DinoSequentialSmaller.gif
+bibliography: 
+  - "../../bib/blog-refs.bib"
+---
+
+One stats class was required in my grad program, and Mike Meyer was my professor.
+The class was in [S-plus](https://en.wikipedia.org/wiki/S-PLUS), the closed source inspiration for R.
+And Mike regularly exhorted us (in his inimitable Australian accent), "Plot your data!"
+
+Mike's encouragment to use S-plus made it easier for me to adopt R when it appeared on the scene a few years later.
+Or at least I had fewer habits to change.
+And, Mike's advice about plotting your data *first* always made sense to me.
+If you can't see a pattern in the plots, how can you believe the inferential statistics?
+
+In that spirit, mostly so that I can find it again, is an outstanding demonstration of that truth, the [`datasauRus`](https://cran.r-project.org/package=datasauRus) package, based on Anscombe's quartet [@anscombe-1973], which is also available as the [`anscombe`](https://cran.r-project.org/package=anscombe) package.
+
+```{r, fig.cap="DatasauRus figures"}
+library("ggplot2")
+library("datasauRus")
+ggplot(datasaurus_dozen, aes(x = x, y = y, colour = dataset))+
+  geom_point() +
+  theme_void() +
+  theme(legend.position = "none")+
+  facet_wrap(~dataset, ncol = 3)
+```
+
+These all have roughly the same summary statistics.
+
+```{r}
+if(requireNamespace("dplyr")){
+  suppressPackageStartupMessages(library(dplyr))
+  datasaurus_dozen %>% 
+    group_by(dataset) %>% 
+    summarize(
+      mean_x    = mean(x),
+      mean_y    = mean(y),
+      std_dev_x = sd(x),
+      std_dev_y = sd(y),
+      corr_x_y  = cor(x, y)
+    )
+}
+```
+
+And here are the originals from [@anscombe-1973]:
+
+```{r}
+with(anscombe, plot(x1, y1))
+with(anscombe, plot(x2, y2))
+with(anscombe, plot(x3, y3))
+with(anscombe, plot(x4, y4))
+```
+
+Thanks for giving me such a great start in statistics, Mike! I'm sure if the Datasaurus had been around then, you'd have been a fan.

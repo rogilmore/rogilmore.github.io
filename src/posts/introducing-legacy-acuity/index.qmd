@@ -1,0 +1,30 @@
+---
+title: "Legacy Project: Visual Acuity"
+date: "2023-09-20 10:48:10 EDT"
+categories:
+  - vision
+  - "legacy: acuity"
+  - meta-analysis
+  - research
+image: https://gilmore-lab.github.io/visual-acuity/data_files/figure-html/fig-teller-acuity-across-age-1.png
+---
+
+My team has launched a new research initiative I call the "[Legacy Project: Visual Acuity](https://gilmore-lab.github.io/visual-acuity/)."
+The overarching effort, the "legacy" portion, aims to capture in more open, transparent, reproducible, and constructive ways what we know about the development of various aspects of infant and child behavior as illustrated in tasks which have been widely used.
+
+One such task is the Teller Visual Acuity Cards (TAC).
+The cards were developed by Davida Teller, a pioneer in the study of child vision, specifically to permit researchers and clinicians to quickly estimate a child's visual acuity for high contrast (black and white) gratings.
+I have used these myself to screen for visual acuity in an effort to confirm that my participants can see the displays well enough to perform other tasks.
+
+The idea here is to capture in one place and in one open database, what is known about the development of visual acuity as measured by the TAC, both at the group (usually age group) and, where data are available, individual level.
+
+This post's cover image shows a very small subset of the data from a preliminary visualization.
+
+![Figure from <https://gilmore-lab.github.io/visual-acuity/data.html>](https://gilmore-lab.github.io/visual-acuity/data_files/figure-html/fig-teller-acuity-across-age-1.png){fig-align="center" width="75%"}
+
+This figure shows a plot of some archival data from my own lab.
+
+![Figure from <https://gilmore-lab.github.io/visual-acuity/data.html](https://gilmore-lab.github.io/visual-acuity/data_files/figure-html/fig-gilmore-lab-archival-1.png){fig-align="center" width="75%"}
+
+Fun, isn't it!
+

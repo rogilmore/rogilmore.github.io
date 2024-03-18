@@ -1,0 +1,3921 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>rick-gilmore.com - Gilmore or less</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      page: 25,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">rick-gilmore.com</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./projects.html" rel="" target="">
+ <span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./publications.html" rel="" target="">
+ <span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./teaching.html" rel="" target="">
+ <span class="menu-text">Teaching</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./interests.html" rel="" target="">
+ <span class="menu-text">Interests</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.linkedin.com/in/rick-o-gilmore/" rel="" target=""><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text">LinkedIn</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/rogilmore" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text">Github</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Gilmore or less</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(101)</span></div><div class="category" data-category="Academia">Academia <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Acoustic Brew">Acoustic Brew <span class="quarto-category-count">(1)</span></div><div class="category" data-category="COVID">COVID <span class="quarto-category-count">(1)</span></div><div class="category" data-category="CW">CW <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Databrary">Databrary <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Field Day">Field Day <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Flex 1500">Flex 1500 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Gilmore U">Gilmore U <span class="quarto-category-count">(1)</span></div><div class="category" data-category="GitHub">GitHub <span class="quarto-category-count">(1)</span></div><div class="category" data-category="IC-9700">IC-9700 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ID-51a">ID-51a <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JEDI">JEDI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JS8call">JS8call <span class="quarto-category-count">(1)</span></div><div class="category" data-category="KoBoToolbox">KoBoToolbox <span class="quarto-category-count">(1)</span></div><div class="category" data-category="LGBTQ+">LGBTQ+ <span class="quarto-category-count">(1)</span></div><div class="category" data-category="NARC">NARC <span class="quarto-category-count">(1)</span></div><div class="category" data-category="PLAY">PLAY <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Penn State">Penn State <span class="quarto-category-count">(1)</span></div><div class="category" data-category="PowerSDR">PowerSDR <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Python">Python <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Quarto">Quarto <span class="quarto-category-count">(5)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(12)</span></div><div class="category" data-category="VHF">VHF <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Yaesu">Yaesu <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ai">ai <span class="quarto-category-count">(1)</span></div><div class="category" data-category="astronomy">astronomy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="behavior">behavior <span class="quarto-category-count">(2)</span></div><div class="category" data-category="behaviorome">behaviorome <span class="quarto-category-count">(1)</span></div><div class="category" data-category="blog">blog <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bookdown">bookdown <span class="quarto-category-count">(2)</span></div><div class="category" data-category="border wall">border wall <span class="quarto-category-count">(1)</span></div><div class="category" data-category="causal modeling">causal modeling <span class="quarto-category-count">(1)</span></div><div class="category" data-category="citizenship">citizenship <span class="quarto-category-count">(1)</span></div><div class="category" data-category="climate">climate <span class="quarto-category-count">(1)</span></div><div class="category" data-category="coding">coding <span class="quarto-category-count">(1)</span></div><div class="category" data-category="commentary">commentary <span class="quarto-category-count">(2)</span></div><div class="category" data-category="community">community <span class="quarto-category-count">(1)</span></div><div class="category" data-category="concepts">concepts <span class="quarto-category-count">(1)</span></div><div class="category" data-category="covid-19">covid-19 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data sharing">data sharing <span class="quarto-category-count">(3)</span></div><div class="category" data-category="data visualization">data visualization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="databraryr">databraryr <span class="quarto-category-count">(2)</span></div><div class="category" data-category="early career researchers">early career researchers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="elections">elections <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ethics">ethics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ethogram">ethogram <span class="quarto-category-count">(1)</span></div><div class="category" data-category="family">family <span class="quarto-category-count">(1)</span></div><div class="category" data-category="folk music">folk music <span class="quarto-category-count">(3)</span></div><div class="category" data-category="genealogy">genealogy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ggplot2">ggplot2 <span class="quarto-category-count">(2)</span></div><div class="category" data-category="graphs">graphs <span class="quarto-category-count">(1)</span></div><div class="category" data-category="graphviz">graphviz <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ham radio">ham radio <span class="quarto-category-count">(8)</span></div><div class="category" data-category="harmonica">harmonica <span class="quarto-category-count">(1)</span></div><div class="category" data-category="hex stickers">hex stickers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="legacy: acuity">legacy: acuity <span class="quarto-category-count">(1)</span></div><div class="category" data-category="mentors">mentors <span class="quarto-category-count">(1)</span></div><div class="category" data-category="mermaid">mermaid <span class="quarto-category-count">(1)</span></div><div class="category" data-category="meta-analysis">meta-analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="motion perception">motion perception <span class="quarto-category-count">(1)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ontology">ontology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="open science">open science <span class="quarto-category-count">(9)</span></div><div class="category" data-category="packet radio">packet radio <span class="quarto-category-count">(1)</span></div><div class="category" data-category="personal">personal <span class="quarto-category-count">(2)</span></div><div class="category" data-category="poetry">poetry <span class="quarto-category-count">(35)</span></div><div class="category" data-category="politics">politics <span class="quarto-category-count">(10)</span></div><div class="category" data-category="pre-registration">pre-registration <span class="quarto-category-count">(1)</span></div><div class="category" data-category="programming">programming <span class="quarto-category-count">(1)</span></div><div class="category" data-category="public health">public health <span class="quarto-category-count">(1)</span></div><div class="category" data-category="quarto">quarto <span class="quarto-category-count">(3)</span></div><div class="category" data-category="religion">religion <span class="quarto-category-count">(1)</span></div><div class="category" data-category="reproducibility">reproducibility <span class="quarto-category-count">(4)</span></div><div class="category" data-category="reproducibility crisis">reproducibility crisis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="research">research <span class="quarto-category-count">(2)</span></div><div class="category" data-category="sailing">sailing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="science">science <span class="quarto-category-count">(6)</span></div><div class="category" data-category="software">software <span class="quarto-category-count">(3)</span></div><div class="category" data-category="special events">special events <span class="quarto-category-count">(1)</span></div><div class="category" data-category="spiders">spiders <span class="quarto-category-count">(1)</span></div><div class="category" data-category="talks">talks <span class="quarto-category-count">(1)</span></div><div class="category" data-category="vision">vision <span class="quarto-category-count">(1)</span></div><div class="category" data-category="visualization">visualization <span class="quarto-category-count">(4)</span></div><div class="category" data-category="voting">voting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="webr">webr <span class="quarto-category-count">(1)</span></div></div></div>
+<!-- main -->
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+
+
+
+
+<p>Welcome to my blog. It’s a catch-all and a sandbox of writings about this and that. But mostly, it’s a place to put things that I’d probably lose track of without it.</p>
+<section id="posts" class="level2">
+<h2 class="anchored" data-anchor-id="posts">Posts</h2>
+
+
+
+</section>
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="ham radio,quarto,GitHub" data-listing-date-sort="1710734400000" data-listing-file-modified-sort="1710790737512" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/w3tm-org/index.html"> <img src="./posts/w3tm-org/w3tm-org.png" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/w3tm-org/index.html">
+<h3 class="no-anchor listing-title">
+W3TM.org
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('ham radio'); return false;">
+ham radio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('quarto'); return false;">
+quarto
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GitHub'); return false;">
+GitHub
+</div>
+</div>
+<a href="./posts/w3tm-org/index.html">
+<div class="listing-description">
+On a lark I decided to grab the…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/w3tm-org/index.html">
+<div class="listing-date">
+Mar 18, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="astronomy" data-listing-date-sort="1708232400000" data-listing-file-modified-sort="1710789898900" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/moon-up-above/index.html"> <p class="card-img-top"><img src="posts/moon-up-above/seestar50-moon-1st.jpeg"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/moon-up-above/index.html">
+<h3 class="no-anchor listing-title">
+Moon up above
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('astronomy'); return false;">
+astronomy
+</div>
+</div>
+<a href="./posts/moon-up-above/index.html">
+<div class="listing-description">
+A few weeks ago, Michelle and I decided on the spur of the moment to head northwest toward Erie to see the total eclipse.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/moon-up-above/index.html">
+<div class="listing-date">
+Feb 18, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1701125140000" data-listing-file-modified-sort="1710789898899" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/gerald-raymond-gilmore/index.html"> <p class="card-img-top"><img src="posts/gerald-raymond-gilmore/dad-lucy.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/gerald-raymond-gilmore/index.html">
+<h3 class="no-anchor listing-title">
+Gerald Raymond Gilmore 1940-2023
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+Gerald Raymond (Jerry) Gilmore, 83, died Thanksgiving night at his home in Littleton after a satisfying feast and joyful celebration with family. Jerry worked in the Denver…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/gerald-raymond-gilmore/index.html">
+<div class="listing-date">
+Nov 27, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1701061200000" data-listing-file-modified-sort="1710789898892" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/borrowed-time/index.html"> <p class="card-img-top"><img src="posts/borrowed-time/rick-dad.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/borrowed-time/index.html">
+<h3 class="no-anchor listing-title">
+Borrowed time
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+My dad died Thanksgiving night.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/borrowed-time/index.html">
+<div class="listing-date">
+Nov 27, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="reproducibility,data sharing" data-listing-date-sort="1700197200000" data-listing-file-modified-sort="1710789898892" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/be-careful-what-you-wish-for/index.html"> <p class="card-img-top"><img src="https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0157911.g004&type=large"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/be-careful-what-you-wish-for/index.html">
+<h3 class="no-anchor listing-title">
+Be careful what you wish for
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('reproducibility'); return false;">
+reproducibility
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('data sharing'); return false;">
+data sharing
+</div>
+</div>
+<a href="./posts/be-careful-what-you-wish-for/index.html">
+<div class="listing-description">
+One of the assignments in PSYCH 490 this term asks students to give a paper a grade for…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/be-careful-what-you-wish-for/index.html">
+<div class="listing-date">
+Nov 17, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="R,programming,Quarto" data-listing-date-sort="1700110800000" data-listing-file-modified-sort="1710789898899" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="thumbnail">
+<p><a href="./posts/i-never-metaprogram/index.html"> <p class="card-img-top"><img src="posts/i-never-metaprogram/index_files/figure-html/fig-dist-mpg-1.png"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/i-never-metaprogram/index.html">
+<h3 class="no-anchor listing-title">
+I never metaprogram I didn’t write
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('programming'); return false;">
+programming
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Quarto'); return false;">
+Quarto
+</div>
+</div>
+<a href="./posts/i-never-metaprogram/index.html">
+<div class="listing-description">
+In PSYCH 490 this week we discussed a paper <span class="citation" data-cites="Chopik2018-wx">(Chopik et al. 2018)</span> that…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/i-never-metaprogram/index.html">
+<div class="listing-date">
+Nov 16, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1699561021000" data-listing-file-modified-sort="1710790043421" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/we-remember/index.html"> <p class="card-img-top"><img src="https://www.pbs.org/wgbh/americanexperience/media/filer_public_thumbnails/filer_public/19/2b/192b33ea-42b1-4dca-99fe-a111e5002e74/holocaust_kristallnacht_index_copy.jpg__300x241_q85_crop_subsampling-2_upscale.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/we-remember/index.html">
+<h3 class="no-anchor listing-title">
+We remember
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+Congregation Brit Shalom will host a memorial service to commemorate the 85th anniversary of Kristallnacht, the fifth anniversary of the Tree of Life…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/we-remember/index.html">
+<div class="listing-date">
+Nov 9, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1699506000000" data-listing-file-modified-sort="1710789898893" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/choosing-sides.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/choosing-sides.html">
+<h3 class="no-anchor listing-title">
+Choosing sides
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+My department sent around an email earlier today announcing an event about the crisis in Gaza titled “Genocide in Gaza: A teach-in”.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/choosing-sides.html">
+<div class="listing-date">
+Nov 9, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-categories="R,visualization,data sharing" data-listing-date-sort="1699012606000" data-listing-file-modified-sort="1710789898891" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/a-plot-of-good-that-did-us/index.html"> <p class="card-img-top"><img src="https://psu-psychology.github.io/psych-490-reproducibility-2023-fall/surveys/many-viz_files/figure-html/fig-n-yellow-by-skin-tone-scatter-1.png"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/a-plot-of-good-that-did-us/index.html">
+<h3 class="no-anchor listing-title">
+A plot of good <em>that</em> did
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('visualization'); return false;">
+visualization
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('data sharing'); return false;">
+data sharing
+</div>
+</div>
+<a href="./posts/a-plot-of-good-that-did-us/index.html">
+<div class="listing-description">
+This week in my senior seminar on the reproducibility crisis in science <span class="citation" data-cites="Gilmore_undated-fl">(Gilmore 2023)</span> we discussed the “many analysts” paper <span class="citation" data-cites="Silberzahn2018-st">(R. Silberzahn et al. 2018)</span>. The main take home message is that different data analysts can take widely varied approaches to answering the same question from the same dataset. It’s a…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/a-plot-of-good-that-did-us/index.html">
+<div class="listing-date">
+Nov 3, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9" data-categories="ham radio,Flex 1500,PowerSDR" data-listing-date-sort="1698486649000" data-listing-file-modified-sort="1710789898915" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/you-and-i-and-good-ui/index.html"> <img src="./posts/you-and-i-and-good-ui/ke9ns-powersdr-2023-10-29.PNG" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/you-and-i-and-good-ui/index.html">
+<h3 class="no-anchor listing-title">
+You and I need good UI
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('ham radio'); return false;">
+ham radio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Flex 1500'); return false;">
+Flex 1500
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('PowerSDR'); return false;">
+PowerSDR
+</div>
+</div>
+<a href="./posts/you-and-i-and-good-ui/index.html">
+<div class="listing-description">
+I <del>Lola</del> woke up early. We…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/you-and-i-and-good-ui/index.html">
+<div class="listing-date">
+Oct 28, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10" data-listing-date-sort="1698465600000" data-listing-file-modified-sort="1710789898913" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/void-and-vast/index.html"> <img src="https://i.ytimg.com/vi/0fKBhvDjuy0/mqdefault.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/void-and-vast/index.html">
+<h3 class="no-anchor listing-title">
+Void and vast
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+I don’t recall exactly when I first saw the Eames’ “Powers of Ten,” but I know it made a powerful impression on me. Later, when my task as an instructor was to teach about…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/void-and-vast/index.html">
+<div class="listing-date">
+Oct 28, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11" data-categories="R,Quarto" data-listing-date-sort="1698244076000" data-listing-file-modified-sort="1710789898899" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/iframe-you-frame.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/iframe-you-frame.html">
+<h3 class="no-anchor listing-title">
+iframe, you frame
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Quarto'); return false;">
+Quarto
+</div>
+</div>
+<a href="./posts/iframe-you-frame.html">
+<div class="listing-description">
+This is a very short post to bookmark this amazing how-to site on using iframes in Quarto:
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/iframe-you-frame.html">
+<div class="listing-date">
+Oct 25, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="12" data-categories="R,Python,databraryr,Databrary,software" data-listing-date-sort="1698206400000" data-listing-file-modified-sort="1710789898908" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/please-release-me/index.html"> <img src="./posts/please-release-me/databraryr-logo.png" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/please-release-me/index.html">
+<h3 class="no-anchor listing-title">
+Please release me
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Python'); return false;">
+Python
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('databraryr'); return false;">
+databraryr
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Databrary'); return false;">
+Databrary
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('software'); return false;">
+software
+</div>
+</div>
+<a href="./posts/please-release-me/index.html">
+<div class="listing-description">
+I am pleased to announce that the <code>databraryr</code> has been released on the Comprehensive R Archive Network (CRAN).
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/please-release-me/index.html">
+<div class="listing-date">
+Oct 25, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="13" data-listing-date-sort="1697707878000" data-listing-file-modified-sort="1710789898893" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/choosing-light.html"> <p class="card-img-top"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/520px-Black_hole_-_Messier_87_crop_max_res.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/choosing-light.html">
+<h3 class="no-anchor listing-title">
+Choosing light
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+Terrorists terrorize.<br> They destroy and divide.<br> They provoke reaction and compel reactionaries.<br> They valorize violence.<br> They corrupt compassion.<br> They mangle meaning.<br> They obliterate order and…<br><br>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/choosing-light.html">
+<div class="listing-date">
+Oct 19, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="14" data-categories="sailing" data-listing-date-sort="1697688000000" data-listing-file-modified-sort="1710789898894" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/come-sail-away/index.html"> <img src="https://annapolisboatshows.com/wp-content/uploads/2023/09/BALI-Catsmart-e1695394073479.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/come-sail-away/index.html">
+<h3 class="no-anchor listing-title">
+Come sail away
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('sailing'); return false;">
+sailing
+</div>
+</div>
+<a href="./posts/come-sail-away/index.html">
+<div class="listing-description">
+Last week, Michelle and I joined friends at the Annapolis Sailboat Show. Before the trip we joked that it would be like an RV show, just on the water. We weren’t wrong. But the cruising yachts we crawled all over were as unlike my grandparents’…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/come-sail-away/index.html">
+<div class="listing-date">
+Oct 19, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="15" data-categories="Quarto,webr" data-listing-date-sort="1696564800000" data-listing-file-modified-sort="1710789898901" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/move-it-move-it.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/move-it-move-it.html">
+<h3 class="no-anchor listing-title">
+Move it, move it
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Quarto'); return false;">
+Quarto
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('webr'); return false;">
+webr
+</div>
+</div>
+<a href="./posts/move-it-move-it.html">
+<div class="listing-description">
+Ok, so this is not an especially thoughtful post. Its purpose is to test video embedding, test some text animations using the Animate.css extension, and test the <code>quarto-webr</code> extensi…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/move-it-move-it.html">
+<div class="listing-date">
+Oct 6, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="16" data-categories="commentary,climate,politics" data-listing-date-sort="1696392000000" data-listing-file-modified-sort="1710789898912" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/trust-but-verify/index.html"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/President_Ronald_Reagan_and_Mikhail_Gorbachev_during_the_second_plenary_session.jpg/220px-President_Ronald_Reagan_and_Mikhail_Gorbachev_during_the_second_plenary_session.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/trust-but-verify/index.html">
+<h3 class="no-anchor listing-title">
+Trust but verify
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('commentary'); return false;">
+commentary
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('climate'); return false;">
+climate
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('politics'); return false;">
+politics
+</div>
+</div>
+<a href="./posts/trust-but-verify/index.html">
+<div class="listing-description">
+The New York Times published a fascinating piece yesterday on Americans’…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/trust-but-verify/index.html">
+<div class="listing-date">
+Oct 4, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="17" data-categories="public health,COVID,citizenship" data-listing-date-sort="1696219200000" data-listing-file-modified-sort="1710789898913" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/vaxxed-to-the-maxx/index.html"> <p class="card-img-top"><img src="https://shirtoid.com/wp-content/uploads/2021/07/Vaxxed-and-Relaxed.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/vaxxed-to-the-maxx/index.html">
+<h3 class="no-anchor listing-title">
+Vaxxed to the maxx
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('public health'); return false;">
+public health
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('COVID'); return false;">
+COVID
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('citizenship'); return false;">
+citizenship
+</div>
+</div>
+<a href="./posts/vaxxed-to-the-maxx/index.html">
+<div class="listing-description">
+I got my COVID booster, flu, and RSV shots this morning. My health insurance through Penn State covered the full cost.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/vaxxed-to-the-maxx/index.html">
+<div class="listing-date">
+Oct 2, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="18" data-categories="folk music,Acoustic Brew" data-listing-date-sort="1696083181000" data-listing-file-modified-sort="1710789898908" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/sail-away-ladies/index.html"> <p class="card-img-top"><img src="https://acousticbrew.org/wp-content/uploads/2022/03/Acoustic-Brew-logo.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/sail-away-ladies/index.html">
+<h3 class="no-anchor listing-title">
+Sail away ladies
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('folk music'); return false;">
+folk music
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Acoustic Brew'); return false;">
+Acoustic Brew
+</div>
+</div>
+<a href="./posts/sail-away-ladies/index.html">
+<div class="listing-description">
+Tonight the Rustical Quality String Band will perform in the Acoustic Brew concert series at the Boal Barn Great Room in Boalsburg.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/sail-away-ladies/index.html">
+<div class="listing-date">
+Sep 30, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="19" data-categories="Databrary,databraryr,R,reproducibility,open science,software" data-listing-date-sort="1696081380000" data-listing-file-modified-sort="1710789898895" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/delivering-the-package/index.html"> <p class="card-img-top"><img src="posts/delivering-the-package/databraryr-logo.png"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/delivering-the-package/index.html">
+<h3 class="no-anchor listing-title">
+Delivering the package
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Databrary'); return false;">
+Databrary
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('databraryr'); return false;">
+databraryr
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('reproducibility'); return false;">
+reproducibility
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('open science'); return false;">
+open science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('software'); return false;">
+software
+</div>
+</div>
+<a href="./posts/delivering-the-package/index.html">
+<div class="listing-description">
+At long last, I submitted my first R package to CRAN. It’s called <code>databraryr</code>, and it represents several years of learning. <code>databraryr</code> permits users to interact with the Da…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/delivering-the-package/index.html">
+<div class="listing-date">
+Sep 30, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="20" data-categories="ham radio,VHF,packet radio,IC-9700,ID-51a" data-listing-date-sort="1696079366000" data-listing-file-modified-sort="1710789898915" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/whats-old-is-new-again/index.html"> <p class="card-img-top"><img src="https://digirig.net/wp-content/uploads/2021/08/IMG_5812-750x350.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/whats-old-is-new-again/index.html">
+<h3 class="no-anchor listing-title">
+What’s old is new again
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('ham radio'); return false;">
+ham radio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('VHF'); return false;">
+VHF
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('packet radio'); return false;">
+packet radio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('IC-9700'); return false;">
+IC-9700
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ID-51a'); return false;">
+ID-51a
+</div>
+</div>
+<a href="./posts/whats-old-is-new-again/index.html">
+<div class="listing-description">
+My local club, the Nittany Amateur Radio Club (NARC) has organized an APRS/Packet Special Interest Group. I’ve been an active APRS…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/whats-old-is-new-again/index.html">
+<div class="listing-date">
+Sep 30, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="21" data-categories="science,religion,concepts" data-listing-date-sort="1696046400000" data-listing-file-modified-sort="1710789898912" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/unseen-forces/index.html"> <img src="https://static.wixstatic.com/media/936d7c_d961d5c58f984377858acc54247c282f~mv2.png/v1/fill/w_342,h_193,al_c,lg_1,q_85,enc_auto/DBN%20logo_Color_250x150transparent.png" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/unseen-forces/index.html">
+<h3 class="no-anchor listing-title">
+Unseen forces
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('science'); return false;">
+science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('religion'); return false;">
+religion
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('concepts'); return false;">
+concepts
+</div>
+</div>
+<a href="./posts/unseen-forces/index.html">
+<div class="listing-description">
+I’m in Boston for a meeting of the Developing Belief Network (DBN), a project I support as a…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/unseen-forces/index.html">
+<div class="listing-date">
+Sep 30, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="22" data-categories="R,ggplot2,PLAY,KoBoToolbox,visualization,bookdown" data-listing-date-sort="1695268800000" data-listing-file-modified-sort="1710789898911" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/the-plot-thickens.html"> <p class="card-img-top"><img src="https://play-behaviorome.github.io/KoBoToolbox/include/img/fig-walk-mos-kea-who-1.png"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/the-plot-thickens.html">
+<h3 class="no-anchor listing-title">
+The plot thickens
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ggplot2'); return false;">
+ggplot2
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('PLAY'); return false;">
+PLAY
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('KoBoToolbox'); return false;">
+KoBoToolbox
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('visualization'); return false;">
+visualization
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('bookdown'); return false;">
+bookdown
+</div>
+</div>
+<a href="./posts/the-plot-thickens.html">
+<div class="listing-description">
+I’ve taken on the task of creating workflows for the PLAY Project survey data that is collected using KoBoToolbox. On a…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/the-plot-thickens.html">
+<div class="listing-date">
+Sep 21, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="23" data-categories="vision,legacy: acuity,meta-analysis,research" data-listing-date-sort="1695221290000" data-listing-file-modified-sort="1710789898899" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/introducing-legacy-acuity/index.html"> <img src="https://gilmore-lab.github.io/visual-acuity/data_files/figure-html/fig-teller-acuity-across-age-1.png" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/introducing-legacy-acuity/index.html">
+<h3 class="no-anchor listing-title">
+Legacy Project: Visual Acuity
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('vision'); return false;">
+vision
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('legacy: acuity'); return false;">
+legacy: acuity
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('meta-analysis'); return false;">
+meta-analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('research'); return false;">
+research
+</div>
+</div>
+<a href="./posts/introducing-legacy-acuity/index.html">
+<div class="listing-description">
+My team has launched a new research initiative I call the “Legacy Project: Visual Acuity.” The overarching effort, the “legacy” portion, aims to capture in more open, transparent, reproducible, and constructive ways what we know about the development of various…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/introducing-legacy-acuity/index.html">
+<div class="listing-date">
+Sep 20, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="24" data-categories="ham radio,special events,NARC,Yaesu" data-listing-date-sort="1695182400000" data-listing-file-modified-sort="1710789898900" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/jota-2023/index.html"> <img src="./posts/jota-2023/Pack_67_Logo_Web_blue.png" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/jota-2023/index.html">
+<h3 class="no-anchor listing-title">
+JOTA here we go
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('ham radio'); return false;">
+ham radio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('special events'); return false;">
+special events
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('NARC'); return false;">
+NARC
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Yaesu'); return false;">
+Yaesu
+</div>
+</div>
+<a href="./posts/jota-2023/index.html">
+<div class="listing-description">
+Last night I had the delight of announcing a partnership between Cub Scout Pack 67 and the Nittany Amateur Radio Club (NARC). We’re collaborating to participate in the…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/jota-2023/index.html">
+<div class="listing-date">
+Sep 20, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="25" data-categories="Academia,Gilmore U" data-listing-date-sort="1694750400000" data-listing-file-modified-sort="1710790479971" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/we-are-not-teammates.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/we-are-not-teammates.html">
+<h3 class="no-anchor listing-title">
+We are…not teammates
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Academia'); return false;">
+Academia
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Gilmore U'); return false;">
+Gilmore U
+</div>
+</div>
+<a href="./posts/we-are-not-teammates.html">
+<div class="listing-description">
+For several years now I’ve argued that unlike the sports for which my institution is most famous, the scholarly side of the shop is <em>not</em> a team effort, not in the least.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/we-are-not-teammates.html">
+<div class="listing-date">
+Sep 15, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="26" data-categories="open science,early career researchers,JEDI" data-listing-date-sort="1694750400000" data-listing-file-modified-sort="1710789898906" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/open-sci-early-career/index.html"> <p class="card-img-top"><img data-src="posts/open-sci-early-career/ukrio-infographic-early-career.png"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/open-sci-early-career/index.html">
+<h3 class="no-anchor listing-title">
+Open science for early career researchers
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('open science'); return false;">
+open science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('early career researchers'); return false;">
+early career researchers
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('JEDI'); return false;">
+JEDI
+</div>
+</div>
+<a href="./posts/open-sci-early-career/index.html">
+<div class="listing-description">
+I gave a talk last week to our developmental area faculty, grads, and postdocs. One attendee noted that many…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/open-sci-early-career/index.html">
+<div class="listing-date">
+Sep 15, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="27" data-categories="R,hex stickers,ai" data-listing-date-sort="1694664000000" data-listing-file-modified-sort="1710790826451" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/the-hex-is-in/index.html"> <p class="card-img-top"><img data-src="https://raw.githubusercontent.com/penn-state-open-science/bootcamp-2023/main/src/include/img/bootcamp-hex-v3.png"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/the-hex-is-in/index.html">
+<h3 class="no-anchor listing-title">
+The hex is in
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('hex stickers'); return false;">
+hex stickers
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ai'); return false;">
+ai
+</div>
+</div>
+<a href="./posts/the-hex-is-in/index.html">
+<div class="listing-description">
+Earlier in the summer, I tried to make a hex sticker for the Open Science Bootcamp.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/the-hex-is-in/index.html">
+<div class="listing-date">
+Sep 14, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="28" data-categories="voting,elections,politics" data-listing-date-sort="1694404800000" data-listing-file-modified-sort="1710789898914" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
+<div class="thumbnail">
+<p><a href="./posts/vote-2023/index.html"> <p class="card-img-top"><img data-src="posts/vote-2023/state-college-precinct-map.png"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/vote-2023/index.html">
+<h3 class="no-anchor listing-title">
+Vote like your future depends on it
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('voting'); return false;">
+voting
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('elections'); return false;">
+elections
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('politics'); return false;">
+politics
+</div>
+</div>
+<a href="./posts/vote-2023/index.html">
+<div class="listing-description">
+The following is a piece I submitted to the Highlands Neighborhood Association newsletter.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/vote-2023/index.html">
+<div class="listing-date">
+Sep 11, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="29" data-categories="folk music,community,LGBTQ+,harmonica" data-listing-date-sort="1694404800000" data-listing-file-modified-sort="1710789898909" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/swimming-to-the-other-side/index.html"> <p class="card-img-top"><img data-src="posts/swimming-to-the-other-side/greenwood-2023.jpeg"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/swimming-to-the-other-side/index.html">
+<h3 class="no-anchor listing-title">
+Swimming to the other side
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('folk music'); return false;">
+folk music
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('community'); return false;">
+community
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('LGBTQ+'); return false;">
+LGBTQ+
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('harmonica'); return false;">
+harmonica
+</div>
+</div>
+<a href="./posts/swimming-to-the-other-side/index.html">
+<div class="listing-description">
+Folk singer Pat Humphries wrote a song called “Swimming to the Other Side” that has been covered by many other artists. Here’s a link to the lyrics: https://emmasrevolution.com/track/1288812…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/swimming-to-the-other-side/index.html">
+<div class="listing-date">
+Sep 11, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="30" data-categories="visualization,graphs,R,quarto,mermaid,graphviz" data-listing-date-sort="1694145600000" data-listing-file-modified-sort="1694176000625" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/picture-worth-1000-words/index.html"> <img data-src="./posts/picture-worth-1000-words/mermaid-graph.png" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/picture-worth-1000-words/index.html">
+<h3 class="no-anchor listing-title">
+If a picture paints 1,000 words…
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('visualization'); return false;">
+visualization
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('graphs'); return false;">
+graphs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('quarto'); return false;">
+quarto
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('mermaid'); return false;">
+mermaid
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('graphviz'); return false;">
+graphviz
+</div>
+</div>
+<a href="./posts/picture-worth-1000-words/index.html">
+<div class="listing-description">
+Music lovers of my generation remember…<em></em>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/picture-worth-1000-words/index.html">
+<div class="listing-date">
+Sep 8, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="31" data-categories="R,visualization,mentors" data-listing-date-sort="1694145600000" data-listing-file-modified-sort="1694173408421" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/thanks-mike/index.html"> <img data-src="https://damassets.autodesk.net/content/dam/autodesk/research/publications-assets/gifs/same-stats-different-graphs/DinoSequentialSmaller.gif" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/thanks-mike/index.html">
+<h3 class="no-anchor listing-title">
+Thanks, Mike
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('visualization'); return false;">
+visualization
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('mentors'); return false;">
+mentors
+</div>
+</div>
+<a href="./posts/thanks-mike/index.html">
+<div class="listing-description">
+One stats class was required in my grad program, and Mike Meyer was my professor. The class was in S-plus, the closed source inspiration for R. And Mike…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/thanks-mike/index.html">
+<div class="listing-date">
+Sep 8, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="32" data-categories="ethics,data visualization,R,Quarto,ggplot2" data-listing-date-sort="1694059200000" data-listing-file-modified-sort="1694173248761" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/norms-and-counter-norms/index.html"> <img data-src="./posts/norms-and-counter-norms/norms-counternorms.png" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/norms-and-counter-norms/index.html">
+<h3 class="no-anchor listing-title">
+Scientific norms and counter-norms
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('ethics'); return false;">
+ethics
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('data visualization'); return false;">
+data visualization
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Quarto'); return false;">
+Quarto
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ggplot2'); return false;">
+ggplot2
+</div>
+</div>
+<a href="./posts/norms-and-counter-norms/index.html">
+<div class="listing-description">
+Scholars who study science as an <em>activity</em> have tried to describe the characteristic norms and counter-norms that govern research activities. In this semester’s PSYCH 490 class, we’ve read…<span class="citation" data-cites="Merton1973-fp"></span><span class="citation" data-cites="Mitroff1974-pp"></span><span class="citation" data-cites="Kardash2012-kq"></span><em></em><em></em>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/norms-and-counter-norms/index.html">
+<div class="listing-date">
+Sep 7, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="33" data-categories="talks,open science,reproducibility crisis,quarto" data-listing-date-sort="1693972800000" data-listing-file-modified-sort="1710789898902" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/no-foolin/index.html"> <img data-src="https://upload.wikimedia.org/wikipedia/en/4/42/Richard_Feynman_Nobel.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/no-foolin/index.html">
+<h3 class="no-anchor listing-title">
+No foolin’
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('talks'); return false;">
+talks
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('open science'); return false;">
+open science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('reproducibility crisis'); return false;">
+reproducibility crisis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('quarto'); return false;">
+quarto
+</div>
+</div>
+<a href="./posts/no-foolin/index.html">
+<div class="listing-description">
+I have a new talk I call “No foolin’: May all our crises be ‘good’ ones”. It’s a new take on familiar topics. This time, I decided to tell a story about how the…<span class="citation" data-cites="Feynman1974-ld"></span>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/no-foolin/index.html">
+<div class="listing-date">
+Sep 6, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="34" data-categories="genealogy,family" data-listing-date-sort="1693800000000" data-listing-file-modified-sort="1694173248768" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/the-webs-we-weave/index.html"> <img data-src="./posts/the-webs-we-weave/gilmore-7-gen-fam-tree.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/the-webs-we-weave/index.html">
+<h3 class="no-anchor listing-title">
+The webs we weave
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('genealogy'); return false;">
+genealogy
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('family'); return false;">
+family
+</div>
+</div>
+<a href="./posts/the-webs-we-weave/index.html">
+<div class="listing-description">
+Some years ago when my own children were small, I got bitten by the genealogy bug. Then the products were all on paper, and searching Census…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/the-webs-we-weave/index.html">
+<div class="listing-date">
+Sep 4, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="35" data-categories="blog,Quarto" data-listing-date-sort="1693540800000" data-listing-file-modified-sort="1694173248769" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/what-i-did/index.html"> <img data-src="./posts/what-i-did/lola.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/what-i-did/index.html">
+<h3 class="no-anchor listing-title">
+What I did on my summer vacation
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('blog'); return false;">
+blog
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Quarto'); return false;">
+Quarto
+</div>
+</div>
+<a href="./posts/what-i-did/index.html">
+<div class="listing-description">
+I haven’t posted in a while. Frankly, the blog…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/what-i-did/index.html">
+<div class="listing-date">
+Sep 1, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="36" data-categories="poetry" data-listing-date-sort="1681963200000" data-listing-file-modified-sort="1694173248746" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/behold.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/behold.html">
+<h3 class="no-anchor listing-title">
+Behold
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/behold.html">
+<div class="listing-description">
+Behold… Yesterday<br> I touched tomorrow.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/behold.html">
+<div class="listing-date">
+Apr 20, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="37" data-categories="bookdown,coding,open science" data-listing-date-sort="1678852800000" data-listing-file-modified-sort="1694173248747" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/data-analyses-as-web-books/index.html"> <p class="card-img-top"><img data-src="https://play-behaviorome.github.io/KoBoToolbox/include/img/fig-screening-calls-map-1.png"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/data-analyses-as-web-books/index.html">
+<h3 class="no-anchor listing-title">
+Data <em>analyses</em> as web books
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('bookdown'); return false;">
+bookdown
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('coding'); return false;">
+coding
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('open science'); return false;">
+open science
+</div>
+</div>
+<a href="./posts/data-analyses-as-web-books/index.html">
+<div class="listing-description">
+Beyond the open science survey I mentioned in a previous post, I’ve created two additional <code>bookdown</code>…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/data-analyses-as-web-books/index.html">
+<div class="listing-date">
+Mar 15, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="38" data-categories="open science,R,reproducibility" data-listing-date-sort="1678852800000" data-listing-file-modified-sort="1694173248764" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/research-protocols-as-web-books/index.html"> <p class="card-img-top"><img data-src="https://penn-state-open-science.github.io/survey-fall-2022/include/img/response-time-series-1.png"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/research-protocols-as-web-books/index.html">
+<h3 class="no-anchor listing-title">
+Research protocols as web books
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('open science'); return false;">
+open science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('reproducibility'); return false;">
+reproducibility
+</div>
+</div>
+<a href="./posts/research-protocols-as-web-books/index.html">
+<div class="listing-description">
+One of the first formal activities of our very informal open science working group has been a survey on open science knowledge and practices.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/research-protocols-as-web-books/index.html">
+<div class="listing-date">
+Mar 15, 2023
+</div>
+<div class="listing-author">
+Rick Gilmore
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="39" data-categories="personal" data-listing-date-sort="1671253200000" data-listing-file-modified-sort="1694173248746" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/back-in-the-saddle/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/back-in-the-saddle/index.html">
+<h3 class="no-anchor listing-title">
+Back in the saddle
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('personal'); return false;">
+personal
+</div>
+</div>
+<a href="./posts/back-in-the-saddle/index.html">
+<div class="listing-description">
+I woke up insanely early this morning. Of all things, I decided that it was time to update my…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/back-in-the-saddle/index.html">
+<div class="listing-date">
+Dec 17, 2022
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="40" data-categories="poetry" data-listing-date-sort="1669870800000" data-listing-file-modified-sort="1694173248758" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/more-reverent-hands.html"> <img data-src="https://www.sciencenews.org/wp-content/uploads/2022/09/090122_lg_jwst_feat-1030x580.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/more-reverent-hands.html">
+<h3 class="no-anchor listing-title">
+More Reverent Hands
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/more-reverent-hands.html">
+<div class="listing-description">
+Many in curiosity, some in urgency,<br> seek secret signs in corners dark and cold, <br> red and brown,<br> in rock, or ice, or vapor.<br>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/more-reverent-hands.html">
+<div class="listing-date">
+Dec 1, 2022
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="41" data-categories="personal,Penn State" data-listing-date-sort="1615179600000" data-listing-file-modified-sort="1694173248747" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/deep-rest/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/deep-rest/index.html">
+<h3 class="no-anchor listing-title">
+Deep rest
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('personal'); return false;">
+personal
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Penn State'); return false;">
+Penn State
+</div>
+</div>
+<a href="./posts/deep-rest/index.html">
+<div class="listing-description">
+This morning I read an article in the New York…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/deep-rest/index.html">
+<div class="listing-date">
+Mar 8, 2021
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="42" data-categories="open science" data-listing-date-sort="1614834000000" data-listing-file-modified-sort="1694173248746" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/blast-from-the-past/index.html"> <p class="card-img-top"><img data-src="https://nyu.databrary.org/slot/6510/-/asset/11894/download?inline=true.png"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/blast-from-the-past/index.html">
+<h3 class="no-anchor listing-title">
+Blast from the past
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('open science'); return false;">
+open science
+</div>
+</div>
+<a href="./posts/blast-from-the-past/index.html">
+<div class="listing-description">
+A colleague reached out to me…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/blast-from-the-past/index.html">
+<div class="listing-date">
+Mar 4, 2021
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="43" data-categories="politics" data-listing-date-sort="1613192400000" data-listing-file-modified-sort="1694173248768" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/this-is-great/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/this-is-great/index.html">
+<h3 class="no-anchor listing-title">
+This is great
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('politics'); return false;">
+politics
+</div>
+</div>
+<a href="./posts/this-is-great/index.html">
+<div class="listing-description">
+Perhaps like me you suspected that the red hats did not share your view of what makes America great.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/this-is-great/index.html">
+<div class="listing-date">
+Feb 13, 2021
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="44" data-categories="poetry" data-listing-date-sort="1611378000000" data-listing-file-modified-sort="1694173248771" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/yields-again-to-dawn.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/yields-again-to-dawn.html">
+<h3 class="no-anchor listing-title">
+Yields again to dawn
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/yields-again-to-dawn.html">
+<div class="listing-description">
+a midnight glance proves<br> that darkness dominates light.<br>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/yields-again-to-dawn.html">
+<div class="listing-date">
+Jan 23, 2021
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="45" data-categories="poetry" data-listing-date-sort="1610427600000" data-listing-file-modified-sort="1694173248765" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/shovel-brigade.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/shovel-brigade.html">
+<h3 class="no-anchor listing-title">
+Shovel brigade
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/shovel-brigade.html">
+<div class="listing-description">
+a long-term symptom of this peculiar viral infection<br> is loss of smell.<br>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/shovel-brigade.html">
+<div class="listing-date">
+Jan 12, 2021
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="46" data-categories="politics" data-listing-date-sort="1605070800000" data-listing-file-modified-sort="1694173248769" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./posts/this-is-personal/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/this-is-personal/index.html">
+<h3 class="no-anchor listing-title">
+This is personal
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('politics'); return false;">
+politics
+</div>
+</div>
+<a href="./posts/this-is-personal/index.html">
+<div class="listing-description">
+The Trump campaign is suing Centre County where I live and serve as an election official:
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/this-is-personal/index.html">
+<div class="listing-date">
+Nov 11, 2020
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="47" data-listing-date-sort="1604466000000" data-listing-file-modified-sort="1694173248768" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/this-i-believe/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/this-i-believe/index.html">
+<h3 class="no-anchor listing-title">
+This, I believe
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+I believe that Earth is the only planet our species can expect to thrive on for the imaginable future.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/this-i-believe/index.html">
+<div class="listing-date">
+Nov 4, 2020
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="48" data-categories="poetry,covid-19" data-listing-date-sort="1596427200000" data-listing-file-modified-sort="1694173248750" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/dont-cry-for-us/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/dont-cry-for-us/index.html">
+<h3 class="no-anchor listing-title">
+Don’t cry for us
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('covid-19'); return false;">
+covid-19
+</div>
+</div>
+<a href="./posts/dont-cry-for-us/index.html">
+<div class="listing-description">
+don’t cry for us argentina.<br> the truth is we chose ignorance<br> and embraced cruelty<br> out of fear<br> that our boasts<br> were as empty<br> as our heart.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/dont-cry-for-us/index.html">
+<div class="listing-date">
+Aug 3, 2020
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="49" data-categories="poetry" data-listing-date-sort="1590638400000" data-listing-file-modified-sort="1694173248758" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/mother-earth.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/mother-earth.html">
+<h3 class="no-anchor listing-title">
+Mother Earth
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/mother-earth.html">
+<div class="listing-description">
+Mother Earth<br> loves her children like no other.<br> She pulls us close–<br> an attraction lawful.<br> No mass within her orbit<br> resists the pull.<br>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/mother-earth.html">
+<div class="listing-date">
+May 28, 2020
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="50" data-categories="politics" data-listing-date-sort="1589342400000" data-listing-file-modified-sort="1694173248756" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/home-of-the-meek/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/home-of-the-meek/index.html">
+<h3 class="no-anchor listing-title">
+Home of the meek
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('politics'); return false;">
+politics
+</div>
+</div>
+<a href="./posts/home-of-the-meek/index.html">
+<div class="listing-description">
+There is no doubt that the corona virus pandemic provides the entire world a terrifying reminder that human life and civilization is vulnerable to the whims of uncaring…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/home-of-the-meek/index.html">
+<div class="listing-date">
+May 13, 2020
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="51" data-categories="ham radio" data-listing-date-sort="1589342400000" data-listing-file-modified-sort="1694173248758" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/morse-of-course/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/morse-of-course/index.html">
+<h3 class="no-anchor listing-title">
+Morse, of course
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('ham radio'); return false;">
+ham radio
+</div>
+</div>
+<a href="./posts/morse-of-course/index.html">
+<div class="listing-description">
+I’ve been a ham for only a few years. In that time, I’ve enjoyed sampling the hobby’s many facets. When I first heard about ham radio as a boy, the thrills were mostly…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/morse-of-course/index.html">
+<div class="listing-date">
+May 13, 2020
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="52" data-categories="poetry" data-listing-date-sort="1589256000000" data-listing-file-modified-sort="1694173248756" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/ho-ho-ho.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/ho-ho-ho.html">
+<h3 class="no-anchor listing-title">
+Ho, ho, ho
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/ho-ho-ho.html">
+<div class="listing-description">
+Pandemics aren’t funny.<br> Sure, people still chuckle.<br> There are jokes.<br> Some are almost good.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/ho-ho-ho.html">
+<div class="listing-date">
+May 12, 2020
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="53" data-categories="politics" data-listing-date-sort="1573966800000" data-listing-file-modified-sort="1694173248764" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/seeing-through-the-fog/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/seeing-through-the-fog/index.html">
+<h3 class="no-anchor listing-title">
+Seeing through the fog
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('politics'); return false;">
+politics
+</div>
+</div>
+<a href="./posts/seeing-through-the-fog/index.html">
+<div class="listing-description">
+I understand why Republican partisans want to confuse the public. But this is crystal clear.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/seeing-through-the-fog/index.html">
+<div class="listing-date">
+Nov 17, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="54" data-listing-date-sort="1565755200000" data-listing-file-modified-sort="1694173248745" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/2019-08-14-what-makes-america-great-to-me.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-08-14-what-makes-america-great-to-me.html">
+<h3 class="no-anchor listing-title">
+What makes America great (to me)
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+Today I rode my bicycle to our public library (an American innovation), and walked around the corner to an Indian restaurant that is owned and operated by people of Latin…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-08-14-what-makes-america-great-to-me.html">
+<div class="listing-date">
+Aug 14, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="55" data-categories="ham radio,Field Day" data-listing-date-sort="1561694400000" data-listing-file-modified-sort="1694173248745" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/2019-06-28-just-do-it.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-06-28-just-do-it.html">
+<h3 class="no-anchor listing-title">
+Just do it!
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('ham radio'); return false;">
+ham radio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Field Day'); return false;">
+Field Day
+</div>
+</div>
+<a href="./posts/2019-06-28-just-do-it.html">
+<div class="listing-description">
+Two years ago, I participated in my first Field Day as a ham. For the uninitiated, Field Day…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-06-28-just-do-it.html">
+<div class="listing-date">
+Jun 28, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="56" data-categories="open science,reproducibility" data-listing-date-sort="1559620800000" data-listing-file-modified-sort="1694173248744" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./posts/2019-06-04-is-there-a-crisis-of-reproducibility-in-science.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-06-04-is-there-a-crisis-of-reproducibility-in-science.html">
+<h3 class="no-anchor listing-title">
+Is there a crisis of reproducibility in science?
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('open science'); return false;">
+open science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('reproducibility'); return false;">
+reproducibility
+</div>
+</div>
+<a href="./posts/2019-06-04-is-there-a-crisis-of-reproducibility-in-science.html">
+<div class="listing-description">
+A recent article in the <em>Proceedings of the National Academy of Sciences</em> by Redish et al.&nbsp;argues that ‘reproducibility failures are essential to scientific inquiry.’ The authors remind readers that progress in many fields often proceeds…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-06-04-is-there-a-crisis-of-reproducibility-in-science.html">
+<div class="listing-date">
+Jun 4, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="57" data-categories="politics,poetry" data-listing-date-sort="1558065600000" data-listing-file-modified-sort="1694173248744" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/2019-05-17-atheist-prayer.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-05-17-atheist-prayer.html">
+<h3 class="no-anchor listing-title">
+Atheist prayer
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('politics'); return false;">
+politics
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/2019-05-17-atheist-prayer.html">
+<div class="listing-description">
+we fear the people who love their guns<br> more than we love our children.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-05-17-atheist-prayer.html">
+<div class="listing-date">
+May 17, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="58" data-categories="open science,ethics,data sharing,pre-registration" data-listing-date-sort="1556078400000" data-listing-file-modified-sort="1694173248744" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9">
+<div class="thumbnail">
+<p><a href="./posts/2019-04-24-devilish-details.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-04-24-devilish-details.html">
+<h3 class="no-anchor listing-title">
+Devilish details
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('open science'); return false;">
+open science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ethics'); return false;">
+ethics
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('data sharing'); return false;">
+data sharing
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('pre-registration'); return false;">
+pre-registration
+</div>
+</div>
+<a href="./posts/2019-04-24-devilish-details.html">
+<div class="listing-description">
+I’ve…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-04-24-devilish-details.html">
+<div class="listing-date">
+Apr 24, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="59" data-categories="poetry" data-listing-date-sort="1553832000000" data-listing-file-modified-sort="1694173248743" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/2019-03-29-poets-may-know-it.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-03-29-poets-may-know-it.html">
+<h3 class="no-anchor listing-title">
+Poets may know it
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/2019-03-29-poets-may-know-it.html">
+<div class="listing-description">
+I’ve been slowly moving my poetry into position on this site. There may be scraps left in some corner of the hard drive, but the task is essentially done.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-03-29-poets-may-know-it.html">
+<div class="listing-date">
+Mar 29, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="60" data-categories="ham radio,JS8call" data-listing-date-sort="1553745600000" data-listing-file-modified-sort="1694173248743" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/2019-03-28-if-you-js8.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-03-28-if-you-js8.html">
+<h3 class="no-anchor listing-title">
+If you JS8…
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('ham radio'); return false;">
+ham radio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('JS8call'); return false;">
+JS8call
+</div>
+</div>
+<a href="./posts/2019-03-28-if-you-js8.html">
+<div class="listing-description">
+One thing I like about ham radio is the variety. There are new modes to try and new things to learn all the time.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-03-28-if-you-js8.html">
+<div class="listing-date">
+Mar 28, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="61" data-categories="politics" data-listing-date-sort="1553313600000" data-listing-file-modified-sort="1694173248743" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/2019-03-23-of-donocrats-and-trumpublicans.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-03-23-of-donocrats-and-trumpublicans.html">
+<h3 class="no-anchor listing-title">
+Of Donocrats and Trumpublicans
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('politics'); return false;">
+politics
+</div>
+</div>
+<a href="./posts/2019-03-23-of-donocrats-and-trumpublicans.html">
+<div class="listing-description">
+I wish it were otherwise, but I agree with Andrew Sullivan.…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-03-23-of-donocrats-and-trumpublicans.html">
+<div class="listing-date">
+Mar 23, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="62" data-categories="poetry" data-listing-date-sort="1553227200000" data-listing-file-modified-sort="1694173248743" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/2019-03-22-burns-a-bridge.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-03-22-burns-a-bridge.html">
+<h3 class="no-anchor listing-title">
+Burns a bridge
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/2019-03-22-burns-a-bridge.html">
+<div class="listing-description">
+burns a bridge<br> the night long, this heat<br> retards bitterness and cold<br> yellow-red flickers illuminate, but dimly<br> even in that moment fleeting<br> but wonders he later<br> wher…<br><br>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-03-22-burns-a-bridge.html">
+<div class="listing-date">
+Mar 22, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="63" data-categories="science,open science" data-listing-date-sort="1553054400000" data-listing-file-modified-sort="1694173248742" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/2019-03-20-open-developmental-science.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-03-20-open-developmental-science.html">
+<h3 class="no-anchor listing-title">
+Open developmental science
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('science'); return false;">
+science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('open science'); return false;">
+open science
+</div>
+</div>
+<a href="./posts/2019-03-20-open-developmental-science.html">
+<div class="listing-description">
+If you plan to attend the…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-03-20-open-developmental-science.html">
+<div class="listing-date">
+Mar 20, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="64" data-categories="politics" data-listing-date-sort="1552881600000" data-listing-file-modified-sort="1694173248742" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/2019-03-18-april-9-a-day-of-reflection-and-reconciliation.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-03-18-april-9-a-day-of-reflection-and-reconciliation.html">
+<h3 class="no-anchor listing-title">
+April 9: A national day of reflection and reconciliation
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('politics'); return false;">
+politics
+</div>
+</div>
+<a href="./posts/2019-03-18-april-9-a-day-of-reflection-and-reconciliation.html">
+<div class="listing-description">
+America needs a holiday dedicated to reflecting on the many ways we have failed to…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-03-18-april-9-a-day-of-reflection-and-reconciliation.html">
+<div class="listing-date">
+Mar 18, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="65" data-categories="poetry,spiders" data-listing-date-sort="1551157200000" data-listing-file-modified-sort="1694173248742" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/2019-02-26-itsy-bitsy.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-02-26-itsy-bitsy.html">
+<h3 class="no-anchor listing-title">
+Itsy Bitsy
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('spiders'); return false;">
+spiders
+</div>
+</div>
+<a href="./posts/2019-02-26-itsy-bitsy.html">
+<div class="listing-description">
+i wonder what it is like
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-02-26-itsy-bitsy.html">
+<div class="listing-date">
+Feb 26, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="66" data-categories="science,behavior" data-listing-date-sort="1549342800000" data-listing-file-modified-sort="1694173248741" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="thumbnail">
+<p><a href="./posts/2019-02-05-behavior-is-the-linchpin.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-02-05-behavior-is-the-linchpin.html">
+<h3 class="no-anchor listing-title">
+Behavior is the linchpin
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('science'); return false;">
+science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('behavior'); return false;">
+behavior
+</div>
+</div>
+<a href="./posts/2019-02-05-behavior-is-the-linchpin.html">
+<div class="listing-description">
+The Eunice Kennedy Shriver National Institute for Child Health and Human Development (NICHD) has requested input on a draft strategic plan for 2020-2024.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-02-05-behavior-is-the-linchpin.html">
+<div class="listing-date">
+Feb 5, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="67" data-categories="science,ethogram,behavior,ontology,behaviorome" data-listing-date-sort="1548910800000" data-listing-file-modified-sort="1694173248741" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="thumbnail">
+<p><a href="./posts/2019-01-31-in-search-of-the-ethogram.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-01-31-in-search-of-the-ethogram.html">
+<h3 class="no-anchor listing-title">
+In search of the ethogram
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('science'); return false;">
+science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ethogram'); return false;">
+ethogram
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('behavior'); return false;">
+behavior
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ontology'); return false;">
+ontology
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('behaviorome'); return false;">
+behaviorome
+</div>
+</div>
+<a href="./posts/2019-01-31-in-search-of-the-ethogram.html">
+<div class="listing-description">
+Psychology is in part, a science of behavior. Mental experience – thoughts and feelings – are also common targets of inquiry.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-01-31-in-search-of-the-ethogram.html">
+<div class="listing-date">
+Jan 31, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="68" data-categories="science" data-listing-date-sort="1548910800000" data-listing-file-modified-sort="1694173248741" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./posts/2019-01-31-parameters-for-action.html"> <p class="card-img-top"><img data-src="https://raw.githubusercontent.com/gilmore-lab/temple-2017-02-27/master/img/computing-flow.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-01-31-parameters-for-action.html">
+<h3 class="no-anchor listing-title">
+Parameters for action
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('science'); return false;">
+science
+</div>
+</div>
+<a href="./posts/2019-01-31-parameters-for-action.html">
+<div class="listing-description">
+Several years ago, Florian Raudies, Swapnaa Jayaraman and I published a paper where we simulated the optic flow that infants would experience in…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-01-31-parameters-for-action.html">
+<div class="listing-date">
+Jan 31, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="69" data-categories="science,motion perception,causal modeling" data-listing-date-sort="1548392400000" data-listing-file-modified-sort="1694173248741" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/2019-01-25-the-webs-we-weave.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-01-25-the-webs-we-weave.html">
+<h3 class="no-anchor listing-title">
+The webs we weave
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('science'); return false;">
+science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('motion perception'); return false;">
+motion perception
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('causal modeling'); return false;">
+causal modeling
+</div>
+</div>
+<a href="./posts/2019-01-25-the-webs-we-weave.html">
+<div class="listing-description">
+I’ve been ‘sketching’ out conceptual models for some time…<em></em>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-01-25-the-webs-we-weave.html">
+<div class="listing-date">
+Jan 25, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="70" data-categories="ham radio,CW" data-listing-date-sort="1547701200000" data-listing-file-modified-sort="1694173248740" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/2019-01-17-qsl-qsl.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-01-17-qsl-qsl.html">
+<h3 class="no-anchor listing-title">
+QSL? QSL
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('ham radio'); return false;">
+ham radio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('CW'); return false;">
+CW
+</div>
+</div>
+<a href="./posts/2019-01-17-qsl-qsl.html">
+<div class="listing-description">
+Last night, my friend Mike (N3LI) and I made our first-ever CW QSOs. In ham-speak, that means we chatted using Morse code.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-01-17-qsl-qsl.html">
+<div class="listing-date">
+Jan 17, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="71" data-categories="research" data-listing-date-sort="1547614800000" data-listing-file-modified-sort="1694173248759" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/new-lab-logo/index.html"> <img data-src="./posts/new-lab-logo/nested-causality.jpeg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/new-lab-logo/index.html">
+<h3 class="no-anchor listing-title">
+New lab logo
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('research'); return false;">
+research
+</div>
+</div>
+<a href="./posts/new-lab-logo/index.html">
+<div class="listing-description">
+For I don’t remember how many years I’ve wanted a lab logo. I thought that designing a logo was something that <em>some</em> student might actually enjoy…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/new-lab-logo/index.html">
+<div class="listing-date">
+Jan 16, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="72" data-categories="commentary,folk music,border wall" data-listing-date-sort="1546405200000" data-listing-file-modified-sort="1694173248740" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/2019-01-02-building-walls-and-tearing-them-down.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2019-01-02-building-walls-and-tearing-them-down.html">
+<h3 class="no-anchor listing-title">
+Building walls and tearing them down
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('commentary'); return false;">
+commentary
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('folk music'); return false;">
+folk music
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('border wall'); return false;">
+border wall
+</div>
+</div>
+<a href="./posts/2019-01-02-building-walls-and-tearing-them-down.html">
+<div class="listing-description">
+The building of walls is of much concern these days. This song from Anais Mitchell’s folk opera “Hadestown” sheds light on <em>why</em> some of us want so desperately to build them:
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2019-01-02-building-walls-and-tearing-them-down.html">
+<div class="listing-date">
+Jan 2, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="73" data-categories="R,software,Databrary" data-listing-date-sort="1545973200000" data-listing-file-modified-sort="1710792106876" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./posts/test-driven-development-is-hard-and-important/index.html"> <p class="card-img-top"><img data-src="posts/test-driven-development-is-hard-and-important/index_files/figure-html/unnamed-chunk-3-1.png"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/test-driven-development-is-hard-and-important/index.html">
+<h3 class="no-anchor listing-title">
+Test-driven development is hard…and important.
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('software'); return false;">
+software
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Databrary'); return false;">
+Databrary
+</div>
+</div>
+<a href="./posts/test-driven-development-is-hard-and-important/index.html">
+<div class="listing-description">
+I’ve been developing an R package that interacts with the Databrary.org API and with Datavyu annotation files stored…<code></code>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/test-driven-development-is-hard-and-important/index.html">
+<div class="listing-date">
+Dec 28, 2018
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="74" data-categories="news,politics" data-listing-date-sort="1545886800000" data-listing-file-modified-sort="1694173248751" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/ending-the-endless-war/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/ending-the-endless-war/index.html">
+<h3 class="no-anchor listing-title">
+Ending the endless war
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
+news
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('politics'); return false;">
+politics
+</div>
+</div>
+<a href="./posts/ending-the-endless-war/index.html">
+<div class="listing-description">
+I find Andrew Sullivan worth reading almost all of the time even if I disagree with him. This time, I agree completely:
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/ending-the-endless-war/index.html">
+<div class="listing-date">
+Dec 27, 2018
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="75" data-categories="poetry" data-listing-date-sort="1536465600000" data-listing-file-modified-sort="1694173248755" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/heroics.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/heroics.html">
+<h3 class="no-anchor listing-title">
+Heroics
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/heroics.html">
+<div class="listing-description">
+Some rascal or rogue<br> Stashed kryptonite<br> Upon my person.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/heroics.html">
+<div class="listing-date">
+Sep 9, 2018
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="76" data-categories="poetry" data-listing-date-sort="1506312000000" data-listing-file-modified-sort="1694173248766" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/speedy-recovery.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/speedy-recovery.html">
+<h3 class="no-anchor listing-title">
+Speedy recovery
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/speedy-recovery.html">
+<div class="listing-description">
+The tools of the do-it-yourself surgeon vary in sharpness.<br> Some glint in just that light,<br> and cut in their fashion,<br> but how deeply<br> or cleanly<br> only the scar will tell.<br>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/speedy-recovery.html">
+<div class="listing-date">
+Sep 25, 2017
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="77" data-categories="poetry" data-listing-date-sort="1506312000000" data-listing-file-modified-sort="1694173248755" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/goad-gunner.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/goad-gunner.html">
+<h3 class="no-anchor listing-title">
+Goad Gunner
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/goad-gunner.html">
+<div class="listing-description">
+taunts of bad hair boy-men<br> transfix the play yard.<br> mine is bigger. no mine. look.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/goad-gunner.html">
+<div class="listing-date">
+Sep 25, 2017
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="78" data-categories="poetry" data-listing-date-sort="1457413200000" data-listing-file-modified-sort="1694173248754" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/fourth-and-long.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/fourth-and-long.html">
+<h3 class="no-anchor listing-title">
+Fourth and long
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/fourth-and-long.html">
+<div class="listing-description">
+
+sometimes late in the 4th quarter<br> you’re down a score,<br> out of timeouts,<br> and it’s 4th and long.
+
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/fourth-and-long.html">
+<div class="listing-date">
+Mar 8, 2016
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="79" data-categories="poetry" data-listing-date-sort="1456376400000" data-listing-file-modified-sort="1694173248750" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/delightful-delusion.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/delightful-delusion.html">
+<h3 class="no-anchor listing-title">
+Delightful delusion
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/delightful-delusion.html">
+<div class="listing-description">
+oh my, yes.<br> I oh so wanted to see<br> a tuxedo, penguin crisp, satin shiny,<br> pseudo-sparkle when he sauntered by<br> us peons, clinging to<br> such rags as misfortune<br> left in her…<br>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/delightful-delusion.html">
+<div class="listing-date">
+Feb 25, 2016
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="80" data-categories="poetry" data-listing-date-sort="1456376400000" data-listing-file-modified-sort="1694173248764" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/promise.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/promise.html">
+<h3 class="no-anchor listing-title">
+Promise
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/promise.html">
+<div class="listing-description">
+
+I flare my talons<br> and prepare to strike,<br> but only in defense.<br> I sharpen my beak, but only in warning.
+
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/promise.html">
+<div class="listing-date">
+Feb 25, 2016
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="81" data-categories="poetry" data-listing-date-sort="1453352400000" data-listing-file-modified-sort="1694173248765" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/specific-gravity.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/specific-gravity.html">
+<h3 class="no-anchor listing-title">
+Specific gravity
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/specific-gravity.html">
+<div class="listing-description">
+
+the call always<br> comes too early<br> in the morning for anything<br> but mischief<br> or the baker
+
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/specific-gravity.html">
+<div class="listing-date">
+Jan 21, 2016
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="82" data-categories="poetry" data-listing-date-sort="1439524800000" data-listing-file-modified-sort="1694173248756" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/i-never-metaphysics.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/i-never-metaphysics.html">
+<h3 class="no-anchor listing-title">
+I never metaphysics
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/i-never-metaphysics.html">
+<div class="listing-description">
+
+it’s like fireworks, dad.<br> you said the colors and patterns come from all the minerals.<br> their making a mutual arrangement designed to ignite and illuminate.
+
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/i-never-metaphysics.html">
+<div class="listing-date">
+Aug 14, 2015
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="83" data-categories="poetry" data-listing-date-sort="1436673600000" data-listing-file-modified-sort="1694173248763" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/oh-beautiful.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/oh-beautiful.html">
+<h3 class="no-anchor listing-title">
+Oh beautiful
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/oh-beautiful.html">
+<div class="listing-description">
+
+sweet land of liberty of thee i sing
+
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/oh-beautiful.html">
+<div class="listing-date">
+Jul 12, 2015
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="84" data-categories="poetry" data-listing-date-sort="1436673600000" data-listing-file-modified-sort="1694173248755" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/haiku-4-u/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/haiku-4-u/index.html">
+<h3 class="no-anchor listing-title">
+Haiku 4 U
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/haiku-4-u/index.html">
+<div class="listing-description">
+
+One last time, Dad says.<br> Jason squeals ands bolts inside<br> the mister. Slippery guy.
+
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/haiku-4-u/index.html">
+<div class="listing-date">
+Jul 12, 2015
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="85" data-categories="poetry" data-listing-date-sort="1436673600000" data-listing-file-modified-sort="1694173248757" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/lonely-cicada.html"> <p class="card-img-top"><img data-src="https://www.princeton.edu/~angarone/cicada/cicada83.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/lonely-cicada.html">
+<h3 class="no-anchor listing-title">
+Lonely cicada
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/lonely-cicada.html">
+<div class="listing-description">
+
+Lonely cicada.<br> Bad at math. Off by one? Damn.<br> No choral singing.
+
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/lonely-cicada.html">
+<div class="listing-date">
+Jul 12, 2015
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="86" data-categories="poetry" data-listing-date-sort="1430971200000" data-listing-file-modified-sort="1694173248751" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/food-for-thought.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/food-for-thought.html">
+<h3 class="no-anchor listing-title">
+Food for thought
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/food-for-thought.html">
+<div class="listing-description">
+yes she cranked the handle<br> but the meat and potato man put his heart in the grinder<br> and no one saved the pink spaghetti strands for chili.<br>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/food-for-thought.html">
+<div class="listing-date">
+May 7, 2015
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="87" data-categories="poetry" data-listing-date-sort="1425618000000" data-listing-file-modified-sort="1694173248770" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/who-knows-how-to-unmake-love.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/who-knows-how-to-unmake-love.html">
+<h3 class="no-anchor listing-title">
+Who knows how to unmake love
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/who-knows-how-to-unmake-love.html">
+<div class="listing-description">
+
+Who knows how to unmake love?<br> that fertile ground for growing<br> goodness<br> in tiny cracks between beings.<br>
+
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/who-knows-how-to-unmake-love.html">
+<div class="listing-date">
+Mar 6, 2015
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="88" data-listing-date-sort="1425618000000" data-listing-file-modified-sort="1694173248751" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/four-letter-word.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/four-letter-word.html">
+<h3 class="no-anchor listing-title">
+Four letter word
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+
+I strangled hope.<br> Smug bastard annoyed me.<br> I spring eternal; there is always room for me,<br> he’d say<br> (or his fanboys would moonily recite).<br> So I grabbed his throat<br> and fingers…<br><br><br><br><br><br><br><br>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/four-letter-word.html">
+<div class="listing-date">
+Mar 6, 2015
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="89" data-categories="poetry" data-listing-date-sort="1421038800000" data-listing-file-modified-sort="1694173248757" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/lipstick-on-a-pig.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/lipstick-on-a-pig.html">
+<h3 class="no-anchor listing-title">
+Lipstick on a pig
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/lipstick-on-a-pig.html">
+<div class="listing-description">
+some Wilburs inspire no spider-poets<br> nor earn the love of Fern.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/lipstick-on-a-pig.html">
+<div class="listing-date">
+Jan 12, 2015
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="90" data-categories="poetry" data-listing-date-sort="1421038800000" data-listing-file-modified-sort="1694173248771" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/who-shall-lionize.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/who-shall-lionize.html">
+<h3 class="no-anchor listing-title">
+Who shall lionize
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/who-shall-lionize.html">
+<div class="listing-description">
+who shall lionize<br> this deceased?<br> and where<br> pray<br> tell<br> shall the bodiless<br> be interred?<br> i know not<br> where to<br> lay bouquets<br> nor what color<br> on such<br> civic holy-days<br> that celebrate<br> my dear…<br><br><br><br><br><br>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/who-shall-lionize.html">
+<div class="listing-date">
+Jan 12, 2015
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="91" data-categories="poetry" data-listing-date-sort="1421038800000" data-listing-file-modified-sort="1694173248769" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/unsolicited-advice.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/unsolicited-advice.html">
+<h3 class="no-anchor listing-title">
+Unsolicited Advice
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/unsolicited-advice.html">
+<div class="listing-description">
+
+Get it? He says, I’m like a Magritte or an Escher. Self-referential.
+
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/unsolicited-advice.html">
+<div class="listing-date">
+Jan 12, 2015
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="92" data-listing-date-sort="1421038800000" data-listing-file-modified-sort="1694173248757" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/in-longing-and-light.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/in-longing-and-light.html">
+<h3 class="no-anchor listing-title">
+In Longing and Light
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+Dear Friends,<br> <br> It is the ache<br> and honor<br> of those you<br> have touched<br> <br> to join you uninvited<br> <br> to fathom the unfathomable<br> to grieve the grievous<br> <br> to go where none<br> would ever choose<br> except thrust by…<br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/in-longing-and-light.html">
+<div class="listing-date">
+Jan 12, 2015
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="93" data-categories="poetry" data-listing-date-sort="1420779600000" data-listing-file-modified-sort="1694173248745" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/angels-blue.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/angels-blue.html">
+<h3 class="no-anchor listing-title">
+Angels Blue
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/angels-blue.html">
+<div class="listing-description">
+
+They don’t wear wings, you know.<br> Impractical indoors. Hard to fit under a winter coat. Showy.<br> Too many feathers ruffled already.
+
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/angels-blue.html">
+<div class="listing-date">
+Jan 9, 2015
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="94" data-categories="poetry" data-listing-date-sort="1413086400000" data-listing-file-modified-sort="1694173248758" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/love-of-death.html"> <p class="card-img-top"><img data-src="https://i.guim.co.uk/static/w-620/h--/q-95/sys-images/Guardian/Pix/pictures/2014/8/20/1408530010517/Screengrab-from-the-ISIS--011.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/love-of-death.html">
+<h3 class="no-anchor listing-title">
+Love of death
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/love-of-death.html">
+<div class="listing-description">
+
+Love of death and fear of life<br> well describes the current strife<br> in Babylonia today.<br> Nihilism rules the day.
+
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/love-of-death.html">
+<div class="listing-date">
+Oct 12, 2014
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="95" data-categories="poetry" data-listing-date-sort="1412568000000" data-listing-file-modified-sort="1694173248761" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/no-one-loves-a-volcano.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/no-one-loves-a-volcano.html">
+<h3 class="no-anchor listing-title">
+No one loves a volcano
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/no-one-loves-a-volcano.html">
+<div class="listing-description">
+
+spewing strangling gas<br> red white vapor paints green grass gray.
+
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/no-one-loves-a-volcano.html">
+<div class="listing-date">
+Oct 6, 2014
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="96" data-categories="poetry" data-listing-date-sort="1412568000000" data-listing-file-modified-sort="1694173248766" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/the-physics-of-love.html"> <p class="card-img-top"><img data-src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Comet_P1_McNaught02_-_23-01-07-edited.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/the-physics-of-love.html">
+<h3 class="no-anchor listing-title">
+The physics of love
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/the-physics-of-love.html">
+<div class="listing-description">
+
+like surfing a comet
+
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/the-physics-of-love.html">
+<div class="listing-date">
+Oct 6, 2014
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="97" data-categories="poetry" data-listing-date-sort="1411012800000" data-listing-file-modified-sort="1694173248771" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/worn-on-the-sleeve.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/worn-on-the-sleeve.html">
+<h3 class="no-anchor listing-title">
+Worn on the sleeve
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/worn-on-the-sleeve.html">
+<div class="listing-description">
+I used to envy those who carried<br> their hearts<br> safe<br> surrounded by the warm fellowship of other organs.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/worn-on-the-sleeve.html">
+<div class="listing-date">
+Sep 18, 2014
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="98" data-categories="poetry" data-listing-date-sort="1409803200000" data-listing-file-modified-sort="1694173248768" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/there-are-no-heroes.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/there-are-no-heroes.html">
+<h3 class="no-anchor listing-title">
+There are no heroes
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/there-are-no-heroes.html">
+<div class="listing-description">
+there are no heroes<br> in this comic book,<br>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/there-are-no-heroes.html">
+<div class="listing-date">
+Sep 4, 2014
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="99" data-categories="poetry" data-listing-date-sort="1395460800000" data-listing-file-modified-sort="1694173248747" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/burns-a-bridge.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/burns-a-bridge.html">
+<h3 class="no-anchor listing-title">
+Burns a bridge
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/burns-a-bridge.html">
+<div class="listing-description">
+burns a bridge<br> the night long, this heat<br> retards bitterness and cold<br> yellow-red flickers illuminate, but dimly<br> even in that moment fleeting<br> but wonders he later<br> wher…<br><br>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/burns-a-bridge.html">
+<div class="listing-date">
+Mar 22, 2014
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="100" data-categories="poetry" data-listing-date-sort="1395028800000" data-listing-file-modified-sort="1694173248757" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/joy-untethered.html"> <p class="card-img-top"><img data-src="https://upload.wikimedia.org/wikipedia/en/thumb/8/81/Man_flying_kite.jpg/320px-Man_flying_kite.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/joy-untethered.html">
+<h3 class="no-anchor listing-title">
+Joy untethered
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('poetry'); return false;">
+poetry
+</div>
+</div>
+<a href="./posts/joy-untethered.html">
+<div class="listing-description">
+joy untethered by sorrow
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/joy-untethered.html">
+<div class="listing-date">
+Mar 17, 2014
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

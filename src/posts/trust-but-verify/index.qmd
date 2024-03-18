@@ -1,0 +1,26 @@
+---
+title: "Trust but verify"
+date: 2023-10-04
+categories:
+  - commentary
+  - climate
+  - politics
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/President_Ronald_Reagan_and_Mikhail_Gorbachev_during_the_second_plenary_session.jpg/220px-President_Ronald_Reagan_and_Mikhail_Gorbachev_during_the_second_plenary_session.jpg
+---
+
+The New York Times published a [fascinating piece](https://www.nytimes.com/2023/10/03/opinion/science-americans-trust-covid.html) yesterday on Americans' changing views about science and scientists, especially whether and when we are trustworthy.
+From time to time, I worry that in [teaching my students](https://psu-psychology.github.io/psych-490-reproducibility-2023-fall/) about challenges to reproducibility in science, I am adding fuel to that fire.
+
+The article's author, M. Anthony Mills, is also author of a new [report](https://www.americansurveycenter.org/research/americas-crisis-of-confidence-rising-mistrust-conspiracies-and-vaccine-hesitancy-after-covid-19/) from the American Enterprise Institute's Survey Center on American Life.
+The data there are encouraging for those of us who worry about belief in evolution, but deeply discouraging about climate change.
+Here's what I mean:
+
+![Source: <https://www.americansurveycenter.org/research/americas-crisis-of-confidence-rising-mistrust-conspiracies-and-vaccine-hesitancy-after-covid-19/>](american-survey-center-climate-change.png){fig-align="center"}
+
+The gap between Republicans and other voters, even among the highly educated, is striking.
+
+Still, I wonder if the Russian proverb Ronald Reagan learned in the context of nuclear arms negotiations with the Soviets, "trust but verify", might play a role here in forging a more constructive consensus on this and other vital issues of public concern.
+
+What does the evidence, on vaccines, masking and COVID, evolution, climate change, the economy, or any other issue *actually say*?
+Don't just trust me, demand my evidence and critique it.
+And while you're at it, show me yours.

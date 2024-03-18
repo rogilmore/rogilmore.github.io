@@ -1,0 +1,44 @@
+---
+title: "Move it, move it"
+date: 2023-10-06
+categories:
+  - Quarto
+  - webr
+filters:
+  - webr
+---
+
+{{< video https://www.youtube.com/embed/PLEQRIisP_Q title="'I Like To Move It' by wil i am"
+>}}
+
+Ok, so this is not an especially thoughtful post.
+Its purpose is to test video embedding, test some text animations using the [Animate.css](https://github.com/mcanouil/quarto-animate) extension, and test the `quarto-webr` [extension](https://quarto-webr.thecoatlessprofessor.com).
+
+Does {{< animate bounce "this text" >}} move?
+
+Let's hope so.
+
+## {{< animate rubberBand "Rubber band" >}} header
+
+Did the title snap to?
+I think so.
+Ok, now I know how to do this.
+
+The [animate.style](https://animate.style) site provides more information.
+
+## Let's try some webr
+
+<https://quarto-webr.thecoatlessprofessor.com>
+
+```{webr-r}
+fit = lm(mpg ~ am, data = mtcars)
+summary(fit)
+```
+
+::: {.callout-note}
+
+I have tried all of the troubleshooting tips on <https://quarto-webr.thecoatlessprofessor.com/qwebr-troubleshooting.html> but have not resolved the problem.
+
+I'm going to leave this here to sort-out later.
+
+:::

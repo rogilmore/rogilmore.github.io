@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: "../docs"
+
+website:
+  title: "rick-gilmore.com"
+  navbar:
+    left:
+      - about.qmd
+      - projects.qmd
+      - publications.qmd
+      - teaching.qmd
+
+    right:
+      - interests.qmd
+      - icon: linkedin
+        text: LinkedIn
+        href: https://www.linkedin.com/in/rick-o-gilmore/
+      - icon: github
+        text: Github
+        href: https://github.com/rogilmore
+  
+format:
+  html:
+    theme: litera
+    css: styles.css
+
+
+

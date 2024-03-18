@@ -1,0 +1,14 @@
+{
+  "hash": "eff8705032f9d86da60d7c45d3b0de8f",
+  "result": {
+    "markdown": "---\ntitle: \"The hex is in\"\ndate: 2023-09-14\ncategories:\n  - R\n  - hex stickers\n  - ai\n---\n\n\nEarlier in the summer, I tried to make a hex sticker for the [Open Science Bootcamp](https://penn-state-open-science.github.io/bootcamp-2023).\n\nOne of my inspirations was this post from the R bloggers site:\n\n<https://www.r-bloggers.com/2023/06/how-to-generate-a-hex-sticker-with-openai-and-cropcircles/?utm_source=phpList&utm_medium=email&utm_campaign=R-bloggers-daily&utm_content=HTML>\n\nSo, I entered the terms \"open transparent reproducible science\" into the AI, and it came back with this image:\n\n![AI generated image for \"open transparent reproducible science\"](https://raw.githubusercontent.com/penn-state-open-science/bootcamp-2023/main/src/include/img/bootcamp-hex-v3.png){fig-align=\"center\"}\n\nWe didn't like it much, so we ended up using a word cloud as a poor man's substitute.\n\nIn digging a little deeper though, I found the *hexSticker* package (<https://github.com/GuangchuangYu/hexSticker>).\n\nEvery self-respecting computer-person has to have a collection of hex stickers, right?\nOk, so I confess that I do not put stickers on my laptop.\nI'm one of those folks who likes the sleek metalic look of my laptop to remain, well sleek and metalic.\nBut I recognize a popular trend when I see one.\nSo here, mostly to document where and how to do it, is some code to make a simple hex sticker.\nIt draws heavily on the how-tos from the *hexSticker* GitHub site.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(hexSticker)\n\nhexSticker::sticker(\n  \"play-leaf.png\",\n  package = \"PLAY\",\n  p_size = 35,\n  p_color = \"#5C8C5C\",\n  h_fill =\"#FFFFFF\",\n  h_color = \"#5C8C5C\",\n  s_x = 1,\n  s_y = .8,\n  s_width = .40,\n  filename = \"play-hex.png\"\n)\n```\n:::\n\n\n![Hex sticker for the [PLAY Project](https://play-project.org)](play-hex.png){fig-align=\"center\"}\n\nThere are a lot of parameters to play with to make this look good.\nBut this is a start.\nGo forth and make stickers.",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

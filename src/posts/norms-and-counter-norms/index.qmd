@@ -1,0 +1,24 @@
+---
+title: "Scientific norms and counter-norms"
+date: 2023-09-07
+categories:
+  - ethics
+  - data visualization
+  - R
+  - Quarto
+  - ggplot2
+image: norms-counternorms.png
+bibliography: 
+  - "../../bib/blog-refs.bib"
+---
+
+Scholars who study science as an *activity* have tried to describe the characteristic norms and counter-norms that govern research activities.
+In this semester's [PSYCH 490 class](https://psu-psychology.github.io/psych-490-reproducibility-2023-fall), we've read Merton [@Merton1973-fp], Mitroff [@Mitroff1974-pp], and a couple of empirical articles [@Kardash2012-kq] that focus on how often scientists *should* versus *actually* embrace these values.
+We've even created a [document](https://psu-psychology.github.io/psych-490-reproducibility-2023-fall/survey-02.html) that summarizes the entire data processing workflow, from gathering data from our own colleagues to visualizing it.
+
+![Visualization of [Survey-02](https://psu-psychology.github.io/psych-490-reproducibility-2023-fall/survey-02.html) results from PSYCH 490.009 Fall 2023](norms-counternorms.png){fig-align="center"}
+
+I've struggled a bit to come up with a visualization about our own results
+This one seems to be the best so far.
+Perhaps not surprisingly, and in accord with empirical data [@Kardash2012-kq], undergraduate trainees rate scientists actual adherence to aspirational norms lower than what those scientists ought to do.
+Still, the students aren't completely jaded, so there is hope we can turn this crisis of credibility into an opportunity.

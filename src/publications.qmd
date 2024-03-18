@@ -1,0 +1,293 @@
+---
+title: "Publications"
+---
+
+## Books
+
+Gilmore, R.O., & Lockman, J. (eds.) (2022). *New methods and approaches for studying child development. Advances in child development and behavior* (vol. 62). Elsevier Press.
+
+Johnson, M.H., Munakata, Y., & Gilmore, R.O. (2002). *Brain development and cognition: A reader, 2nd Ed*. Cambridge: Blackwell.
+
+## Peer-Reviewed Articles 
+
+Qian, Y., Berenbaum, S., & Gilmore, R.O. (2022). Vision contributes to sex differences in spatial cognition and activity interests. *Scientific Reports*, *12*, 17623. https://doi.org/10.1038/s41598-022-22269-y.
+
+Kohler, P.J., Vedak, S., & Gilmore, R.O. (2022). Perceptual similarities among wallpaper group exemplars. *Symmetry*, *14*, 857. https://doi.org/10.3390/sym14050857.
+
+Wilkinson, K.M., Gilmore, R.O., & Qian, Y. (2022). Judicious arrangement of symbols on a simulated AAC display optimizes visual attention by individuals with and without Down syndrome. *Journal of Speech, Language, and Hearing Research*, *65*(2), 710-726. https://doi.org/10.1044/2021_JSLHR-21-00278.
+
+Soska, K.C., Xu, M., Gonzalez, S.L., Herzberg, O., Tamis-LeMonda, C.S., Gilmore, R.O., & Adolph, K.E. (2021). (Hyper)active data curation: A video case study from behavioral science. *Journal of eScience Librarianship*, 10(3), e1208. https://doi.org/10.7191/jeslib.2021.1208.
+
+Gilmore, R.O., & Qian, Y. (2021). An open developmental science will be more rigorous, robust, and impactful. *Infant and Child Development*. https://doi.org/10.1002/icd.2254.
+
+Qian, Y., Seisler, A.R., & Gilmore, R.O. (2021). Children’s sensitivity to optic flow-like visual motion differs from adults. *Developmental Psychology*, *57*(11), 1810-1821. https://doi.org/10.1037/dev0001227.
+
+Liao, B., Hu, J, & Gilmore, R.O. (2021). Optical flow estimation combining with illumination adjustment and edge refinement in livestock UAV videos. *Computers in Electronics and Agriculture*, *180*, January 2021, 105910. https://doi.org/10.1016/j.compag.2020.105910.
+
+Cuadra, C., Gilmore, R.O., & Latash, M. (2020). Finger force matching and verbal reports: Testing predictions of the Iso-Perceptual Manifold (IPM) concept, *Journal of Motor Behavior*, 1-13. https://doi.org/10.1080/00222895.2020.1813681.
+
+Stoop, T.B., Moriarty, P.M., Wolf, R., Gilmore, R.O.,  Perez-Edgar, K., Scherf, S, Vigeant, M.C., & Cole, P.M. (2020). I know that voice! Mothers' voices influence children's perceptions of emotional intensity. *Journal of Experimental Child Psychology*, *199*. https://doi.org/10.1016/j.jecp.2020.104907.
+
+Gilmore, R.O., Cole, P.M., van Aken, M.A.G., Verma S., & Worthman, C.M. (2020). Advancing scientific integrity, transparency, and openness in child development research: Challenges and possible solutions. *Child Development Perspectives*, *14*(1), 9-14. https://dx.doi.org/10.1111/cdep.12360.
+
+Ossmy, O., Gilmore, R.O., & Adolph, K.E. (2019). AutoViDev: A computer-vision framework to enhance and accelerate research in human development. In: Arai K., Kapoor S. (eds.) *Advances in Computer Vision. CVC 2019. Advances in Intelligent Systems and Computing*, vol 944. Springer, Cham. doi: 10.1007/978-3-030-17798-0_14.
+
+Liu, P., Cole, P.M., Gilmore, R.O., Pérez-Edgar, K.E., Vigeant, M.C., Moriarty, P., Scherf, K.S. (2019). Young children's neural processing of their mother’s voice: An fMRI study. *Neuropsychologia*, 122, 11-19. doi: 10.1016/j.neuropsychologia.2018.12.003.
+
+Gilmore, R. O., Kennedy, J. L., & Adolph, K. E. (2018). Practical solutions for sharing data and materials from psychological research. *Advances in Methods and Practices in Psychological Science*. doi:10.1177/2515245917746500.
+
+Gilmore, R.O. & Adolph, K.E. (2017). Video can make behavioural science more reproducible. *Nature Human Behaviour*. doi: 10.1038/s41562-017-0128.
+
+Gilmore, R.O., Diaz, M.T., Wyble, B.A., & Yarkoni, T. (2017). Progress toward openness, transparency, and reproducibility in cognitive neuroscience. *Annals of the New York Academy of Sciences*. doi: 10.1111/nyas.13325.
+
+Moriarty, P.M., Vigeant, M.C., Liu, P., Gilmore, R., Wolf, R., & Cole, P.M. (2016). Low frequency analysis of acoustical parameters of emotional speech for use with functional magnetic resonance imaging. *The Journal of the Acoustical Society of America*, *140*(4), 3237–3238. Acoustical Society of America. Retrieved from https://doi.org/10.1121/1.4970240.
+
+Gilmore, R.O., Adolph, K.E., & Millman, D.S. (2016). Curating identifiable data for sharing: The Databrary project. In *Proceedings of the 2016 New York Scientific Data Summit*. doi: 10.1109/NYSDS.2016.7747817.
+
+Gilmore, R.O., Thomas, A.L., & Fesi, J.D (2016). Children's brain responses to optic flow vary by pattern type and motion speed. *PLOS One*. doi: 10.1371/journal.pone.0157911. Materials: doi: 10.17910/B7QG6W.
+
+Gilmore, R.O., Adolph, K.E., & Millman, D.S. (2016). Transforming education research through open video data sharing. *Advances in Engineering Education*. <http://advances.asee.org/publication/transforming-education-research-through-open-video-data-sharing/>.
+
+Gilmore, R.O. (2016). From big data to deep insight in developmental science. *Wiley Interdisciplinary Reviews Cognitive Science*. doi: 10.1002/wcs.1379.
+
+Gordon, A., Millman, D.S., Steiger, L., Adolph, K.E., & Gilmore, R.O. (2015). Researcher-library collaborations: Data repositories as a service for researchers. *Journal of Librarianship and Scholarly Communication*, *3*(2), doi: 10.7710/2162-3309.1238.
+
+Gilmore, R.O., Raudies, F., & Jayaraman, S. (2015). What accounts for developmental shifts in optic flow sensitivity? *2015 Joint IEEE International Conference on Development and Learning and Epigenetic Robotics (ICDL-EpiRob)*, 19-25, doi: 10.1109/DEVLRN.2015.7345450.
+
+Ely, A.L., Weinstein, J.M., Price, J.M., Gillon, J.T., Boltz, M.E., Mowery, S.F., Aminlari, A., Gilmore, R.O., & Cheung, A.Y., (2014). Degradation of swept parameter VEP responses by neutral density filters in amblyopic and normal subjects. *Investigative Ophthalmology and Visual Science*, *55*(13), 7248-7255. doi: 10.1167/iovs.14-15052.
+
+Raudies, F. & Gilmore, R.O. (2014). Visual motion priors differ for infants and mothers. *Neural Computation*, *26*(11), 2652-2668. doi: 10.1162/NECO_a_00645.
+
+Fesi, J.F., Thomas, A.L., & Gilmore, R.O. (2014). Cortical responses to optic flow and motion contrast across patterns and speeds. *Vision Research*, *100*, 56–71. doi: 10.1016/j.visres.2014.04.004.
+
+Beltz, A.M., Gates, K.M., Engels, A.S., Molenaar, P., Pulido, C., Turrisi, R., Berenbaum, S.A., Gilmore, R.O., & Wilson, S.J. (2013). Changes in alcohol-related brain networks across the first year of college: A prospective pilot study using fMRI effective connectivity mapping. *Addictive Behaviors*, *38*(4), 2052-2059. doi: 10.1016/j.addbeh.2012.12.023.
+
+Wilson, S. J., Beltz, A. M., Henry, S. L., Geier, C., Gilmore, R. O., Turrisi, R. J., & Berenbaum, S. A. (2013). Neurocognitive processing in relation to alcohol use across the early years of college. *Alcoholism-Clinical and Experimental Research*, 37(2, SI), 210A.
+
+Raudies, F., Gilmore, R.O., Kretch, K.S., Franchak, J.M., & Adolph, K.E. (2012). Understanding the development of motion processing by characterizing optic flow experienced by infants and their mothers. *Proceedings of the IEEE International Conference on Development and Learning*. doi: 10.1109/DevLrn.2012.6400584.
+
+Adolph, K.E., Gilmore, R.O., Freeman, C., Sanderson, P., & Millman, D. (2012). Toward open behavioral science, *Psychological Inquiry: An International Journal for the Advancement of Psychological Theory*, *23*(3), 244-247. doi: 10.1080/1047840X.2012.705133.
+
+Pemberton, C., Bass, A., Moore, G., Murray-Kolb, L., Tan, P., Gilmore, R.O., Buss, K., Cole, P.M, & Teti, L.O. (2012). Let me go: The influence of crawling experience and temperament on the development of anger reactivity and regulation. *Infancy*, 17(5), 558-577. doi: 10.1111/j.1532-7078.2011.00092.x.
+
+Fesi, J.D., Yannes, M.P., Brinckman, D.D., Norcia, A.M., Ales, J.M., & Gilmore, R.O. (2011). Distinct cortical responses to 2D figures defined by motion contrast. *Vision Research*, *51*(19), 2110-2120. doi: 10.1016/j.visres.2011.07.015.
+
+Weinstein, J.M., Gilmore, R.O., Trescher, W.V., Shaikh, S.M., Tashima, L.M., Boltz, M.E., McAuliffe, M.B., Cheung, A., Fesi, J.D., & Kunselman, A.R. (2011). Defective motion processing in children with cerebral visual impairment due to periventricular white matter damage. *Developmental Medicine & Child Neurology*, *53*, doi: 10.1111/j.1469-8749.2010.03874.x.
+
+Hou, C., Gilmore, R.O., Pettet, M.W., & Norcia, A.M. (2009). Spatio-temporal tuning of coherent motion evoked responses in 4-6 month old infants and adults. *Vision Research*, *49*(20), 2509-2517. doi: 10.1016/j.visres.2009.08.007.
+
+Gilmore, R.O., Hou, C., Pettet, M.W., & Norcia, A.M. (2007). Development of cortical responses to optic flow. *Visual Neuroscience*, 24, 845-856. doi: 10.1017/S0952523807070769.
+
+Kaufman, J., Gilmore, R.O., & Johnson, M.H. (2006). Frames of reference for anticipatory action in 4-month-old infants. *Infant Behavior & Development*, *29*(3), 322-333. doi: 10.1016/j.infbeh.2005.01.003.
+
+Thomas, H., & Gilmore, R.O. (2004). Habituation assessment in infancy. *Psychological Methods*, *9*(1), 70-92. doi: 10.1037/1082-989X.9.1.70.
+
+Gilmore, R.O., Baker, T.J., & Grobman, K.H. (2004). Stability in infants’ discrimination of optic flow. *Developmental Psychology*, 40(2), 259-270. doi: 10.1037/0012-1649.40.2.259.
+
+Gilmore, R.O., & Rettke, H.R. (2003). Four-month-olds' discrimination of optic flow patterns depicting different directions of observer motion. *Infancy*, *4*(2), 177-200. doi: 10.1207/S15327078IN0402_02.
+
+Brown, J., Johnson, M.H., Paterson, S., Gilmore, R.O., Longhi, E., & Karmiloff-Smith, A. (2003). Spatial representation and attention in toddlers with Williams syndrome and Down syndrome. *Neuropsychologia*, 41(8), 1037-1046. doi: 10.1016/S0028-3932(02)00299-3.
+
+Gilmore, R.O. & Thomas, H. (2002). Examining individual differences in infants’ habituation patterns using objective quantitative techniques. *Infant Behavior and Development*, *153*, 399-412. doi: 10.1016/S0163-6383(02)00142-X.
+
+Rosenbaum, D.A., Carlson, R.A., Gilmore, R.O. (2000). Acquisition of intellectual and perceptual-motor skills.  *Annual Review of Psychology*, *52*, 453-470. doi: 10.1146/annurev.psych.52.1.453.
+
+Johnson, M.H. & Gilmore, R.O. (1998). Object-centered representations in 8-month-old infants. *Developmental Science*, 1, 221-225. doi: 10.1111/1467-7687.00034.
+
+Gilmore, R.O. & Johnson, M.H. (1997). Body-centered representations for visually-guided action emerge in early infancy. *Cognition*, *65*, B1-B9. doi: 10.1016/S0010-0277(97)00038-3.
+
+Gilmore, R.O., & Johnson, M.H. (1997). Egocentric action in early infancy: Spatial frames of reference for saccades. *Psychological Science*, *8*(3), 224-230. doi: 10.1111/j.1467-9280.1997.tb00416.x.
+
+Johnson, M.H., Gilmore, R.O., Tucker, L.A., & Minister, S.L. (1996). Cortical development and saccadic control: Evidence for vector summation in young infants. Proceedings of TENNET VI, Montreal, Canada. *Brain & Cognition*, *32*(2), 237-243.
+
+Gilmore, R.O., & Johnson, M.H. (1995). Working memory in infancy: Six-month-olds' performance on two versions of the oculomotor delayed response task. *Journal of Experimental Child Psychology*, 59, 397-418. doi: 10.1006/jecp.1995.1019.
+
+## Book chapters, preprints, technical reports, and other publications
+
+Gilmore, R.O. (2022). KoBoToolbox. Code for processing Play & Learning Across a Year (PLAY) Project survey data. https://github.com/PLAY-behaviorome/KoBoToolbox.
+
+Gilmore, R.O. (2022). Databrary Analytics. Code for generating analytics data for the Databrary data library. https://github.com/gilmore-lab/databrary-analytics.
+
+Gilmore, R.O. (2022). Open Science Survey. Code for analyzing and visualizing the results of a survey of Penn State faculty, staff, and students about open science. https://github.com/penn-state-open-science/survey-fall-2022.
+
+Gilmore, R.O. (2022). Show your work: Tools for open developmental science. In Gilmore, R.O. & Lockman, J. (Eds.), New Approaches to Studying Child Development. Advances in Child Development and Behavior (vol. 62). 37-59. Elsevier Press. https://doi.org/10.1016/bs.acdb.2022.01.001.
+
+Gilmore, R.O., Xu, M., & Adolph, K.E. (2021). Data sharing. In Panecker, S. & Stanley, B. (Eds.), Handbook of Research Ethics in Psychological Science, APA Press, Washington, DC.
+
+Gilmore, R.O., & Adolph, K.E. (2019). Open sharing of research video -- Breaking down the boundaries of the research team. In Hall, K., Croyle, R. & Vogel, A. (Eds.), Advancing Social and Behavioral Health Research through Cross-Disciplinary Team Science: Principles for Success. Springer, 575-583. ISBN 978-3-030-20992-6.
+
+Gilmore, R.O. (2019). They get rhythm—Who could ask for anything more? [Invited peer commentary on the article “The development of bimanual coordination across toddlerhood” by K. Brakke and M. M. Pacheco]. Monograph Matters. Available from: https://monographmatters.srcd.org/2019/05/30/commentary-gilmore-84-2/
+
+Adolph, K.E., Gilmore, R.O., & Kennedy, J.L. (2017, October). Video data and documentation will improve psychological science. Psychological Science Agenda. http://www.apa.org/science/about/psa/2017/10/video-data.aspx
+
+Gilmore, R.O., Kennedy, J.L., & Adolph, K. E. (2017, September 7). Practical solutions for the ethical sharing of identifiable research data. Preprint. Retrieved from psyarxiv.com/kew8u. doi: 10.17605/OSF.IO/KEW8U
+
+Seisler, A.R. & Gilmore, R.O. (2017). Developing R code for the processing and analysis of optic flow data. In Kitzes, J., Turek, D., & Deniz, F. (Eds.). The Practice of Reproducible Research: Case Studies and Lessons from the Data-Intensive Sciences, Oakland, CA: University of California Press, [Online Version]. Retrieved from http://www.practicereproducibleresearch.org.
+
+Gilmore, R. O., & Adolph, K. E. (2017, February 6). Video can make science more open, transparent, robust, and reproducible. Preprint. Retrieved from http://osf.io/3kvp7.
+
+Gilmore, R.O, Gummer, E., & Koedinger, K. (2015). Collaborating on tools, infrastructures, and repositories. In Dede, C. (Ed.) Data- intensive research in education: Current work and next steps, Report on two National Science Foundation sponsored computing research education workshops, 63-73. Computing Research Association. 
+
+Gilmore, R.O. & Fesi, J.D. (2009). Infant perception: Methods of testing. In B. Goldstein (Ed.), Encyclopedia of Perception, Sage Publishing.
+
+Gilmore, R.O., Weinstein, J. & Von Der Heide, R. (2008). The development and neuropsychology of visual impairment. In A.M. Walker, D.M. Kaufman, G.E. Solomon, and C. Pfeffer (Eds.), Child and Adolescent Neurology for Psychiatrists. Baltimore: Lippincott Williams & Wilkins. 323-347.
+
+Gilmore, R.O. (2003). Where are they going? The perception of information about visual direction in young infants. In B. Hopkins & S.P. Johnson (Eds.), Neurobiology of Infant Vision, Advances in Infancy Research. Westport, CT: Praeger Publishers. 181-210.
+
+Gilmore, R.O. (2003). Toward a neuropsychology of visual development. In S. J. Segalowitz & I. Rapin (Eds.), Handbook of Neuropsychology (2nd Ed.), Vol 8., Part II: Child Neuropsychology. Amsterdam: Elsevier Science. 417-437. 
+
+Gilmore, R.O. (2000). The development of representations for perception and action. In J.G. Warhol, N. Fox, & L. Leavitt, (Eds.), The Role of Early Experience in Infant Development. Johnson & Johnson Pediatric Roundtable Series. 209-224.
+
+Johnson, M.H., & Gilmore, R.O. (2000). Infancy: Biological processes, in A. Kazdin (Ed.), Encyclopedia of Psychology, Vol 4. Washington, DC: APA Press. 263-268.
+
+Gilmore, R.O., & Johnson, M.H. (1998). Learning what is where: Oculomotor constraints on the development of spatial cognition. In G. Butterworth & F. Simion, (Eds.), The Development of Sensory, Motor & Cognitive Capacities in Early Infancy: From Sensation to Cognition. Hillsdale, NJ: Erlbaum.
+
+Johnson, M.H., Gilmore, R.O., & Csibra, G. (1998). Toward a computational model of the development of saccadic control. In J. Richards, (Ed.), The Cognitive Neuroscience of Attention. Hillsdale, NJ: Erlbaum. 
+
+Gilmore, R.O. (1998). Review of Canfield, R.C., Smith, E.G., Brezsnyak, M.P, & Snow, K.L. (1997). Information processing in the first year of life: A longitudinal study using the visual expectation paradigm, Chicago: University of Chicago Press, Perception, 27(10), 1261-1262.
+
+Johnson, M.H., & Gilmore, R.O. (1996). Developmental cognitive neuroscience: A biological perspective on cognitive change. In R. Gelman & T. Au (Eds.), Handbook of Perception and Cognition, 13, Orlando, FL: Academic Press.
+
+Gilmore, R.O., & Johnson, M.H. (1995). Egocentric action in early infancy: Spatial frames of reference for saccades, Developmental Cognitive Neuroscience Tech. Report 95-4. London: U.K. MRC Cognitive Development Unit.
+
+Johnson, M.H., Gilmore, R.O., Tucker, L.A., & Minister, S.L. (1995). Cortical development and saccadic control: Vector summation in young infants, Developmental Cognitive Neuroscience Tech. Report 95-3. London: U.K. MRC Cognitive Development Unit.
+
+## Invited Talks
+
+Gilmore, R.O. (2023, August). "No foolin': May all our crises be 'good' ones." Invited talk to the Penn State Psychology Department Colloquium. [HTML Slides](https://gilmore-lab.github.io/cog-colloq-2023/)
+
+Gilmore, R.O. (2023, March). “Sharing video and image data,” Invited talk to the Penn State Scholarship and Research Integrity (SARI) program. https://github.com/penn-state-open-science/2023-03-01-PSU-SARI.
+
+Gilmore, R.O. (2022, February). “Making psychological science robust”, Invited talk to the Penn State World Campus Psi Chi organization.
+
+Gilmore, R.O. (2021, November). “Git yer GitHub on”, Invited talk to the Penn State Department of Psychology Industrial/Organizational area brown bag.
+
+Gilmore, R.O. (2021, October). “On BS in Science.” Invited lecture in Philosophy 131N - BS: Identifying Bias and Falsehood, Penn State.
+
+Gilmore, R.O. (2021, October). “Vision: How it works, how it develops, and why you should care.” Invited lecture in Communication Sciences and Disorders 502, Penn State.
+
+Gilmore, R.O. (2021, October). “How do we value research data?”. Invited panel presentation in “Are we ready for Data Citation Metrics?” a workshop sponsored by CHORUS (virtual). https://www.chorusaccess.org/events/chorus-forum-are-we-ready-for-data-citation-metrics/.
+
+Gilmore, R.O. (2021, October). “Getting ahead of the curve: Responding to emerging data management plan requirements”. Presentation in the Penn State Child Study Center’s series under the Open Data and Developmental Science (ODDS) Initiative.
+
+Gilmore, R.O. (2021, April). Invited panel presentation to “Changing the Culture of Data Management and Sharing: A Workshop”, National Academies of Science, Engineering, and Medicine.
+
+Gilmore, R.O. (2021, January). “The Human Behaviorome Project”, Invited presentation to the Networking and Information Technology Research and Development (NITRD) workshop on the Future of Federally Supported Data Repositories.
+
+Gilmore, R.O. (2020, September). Invited presentation at FLUX Preconference Workshop on Infant Neuroimaging.
+
+Gilmore, R.O. (2020, May). Invited symposium presentation on Open Science for Different Methodological Approaches in Psychology, 2020 meeting of the Association for Psychological Science, Chicago, IL. [CANCELLED].
+
+Gilmore, R.O. (2020, February). Research computing in child development research. Invited talk to the Penn State Child Study Center.
+
+Gilmore, R.O. (2019, August). Video as data and documentation. Invited talk in a pre-conference workshop: Wishlists and Workflows: Integrating Research Transparency into Editorial and Publishing Processes. American Political Science Association, Washington, DC. 
+
+Gilmore, R.O. (2019, June). Video as data and documentation. Workshop at a Symposium Honoring Brian MacWhinney, Carnegie Mellon University, Pittsburgh, PA.
+
+Gilmore, R.O. (2019, June). Making cognitive science even better. Invited talk to the James S. McDonnell Foundation, Sedona, AZ.
+
+Gilmore, R.O. (2019, April). Neuroscience: The frontier within. Invited talk in the Osher Lifelong Learning Institute (OLLI) series. The Pennsylvania State University. University Park, PA.
+
+Gilmore, R.O., Gennetian, L., Tamis-LeMonda, C., Worthman, C., Kalish, C., Smetana, J. (2019, March). What SRCD is doing about open science. Invited presentation at the Society for Research in Child Development Biennial conference. Baltimore, MD.
+
+Gilmore, R.O. (2019, March). The whole elephant. Invited talk in the Penn State Center for Neural Engineering colloquium series. University Park, PA.
+
+Gilmore, R.O. (2018, October). The Open Data and Developmental Science (ODDS) initiative. Invited talk at the Penn State Child Study Center. University Park, PA.
+
+Gilmore, R.O. (2018, October). The promise of open developmental science. Invited talk at the SRCD Conference on the Use of Secondary and Open Source Data in Developmental Science. Phoenix, AZ. 
+
+Gilmore, R.O. (2018, September). Big data behavioral science: From micro- to macro-scale. Invited talk at the Annual Conference of the Federal Statistical Research Data Centers. University Park, PA.
+
+Gilmore, R.O. (2018, May). Open, says me: Practical solutions for sharing data and materials. Invited talk at the Association for Psychological Science 2018 meeting. San Francisco, CA.
+
+Gilmore, R.O. (2018, April 25). Video as data and documentation. Talk in the Department of Communication Arts & Sciences, Penn State.
+
+Gilmore, R.O. (2018, February 20). Songs and dances about the brain. Talk given at the Science Gang at the Foxdale Village Retirement Community.
+
+Gilmore, R.O. (2018, February 14). The future of quantitative developmental science. Talk given at the Penn State Quantitative Developmental Methodology brown bag series.
+
+Gilmore, R.O. (2018, January 31). Introducing Databrary. Talk given at the Penn State Software in the Humanities & Social Sciences workshop. HTML slides.
+
+Gilmore, R.O. (2018, January 26). The Video Databservatory: A platform for behavioral discovery. Talk at the Pathways to Competence initiative meeting of the Penn State Child Study Center.
+
+Gilmore, R.O. (2017, September 28). Data sharing, research ethics, & scientific reproducibility. Invited talk given at the Scholarship and Research Integrity (SARI) workshop series, Penn State.
+
+Gilmore, R.O. (2017, September 7). Reproducibility in computationally intensive behavioral research. Talk at the ACI-ICS seminar series, Penn State. 
+
+Gilmore, R.O. (2017, July 10). The reproducibility crisis in psychology & neuroscience. Talk given at the Penn State Data Reproducibility Bootcamp.
+
+Gilmore, R.O. (2017, February). Go with the flow: The development of behavioral sensitivity and brain responses to optic flow. Talk at Temple University.
+
+Gilmore, R.O. (2017, January 31). An -ome of our own: Toward a more reproducible, robust, and insightful science of human behavior. Talk given to the Social Data Analytics (SoDA) 501 students. Penn State University.
+
+Gilmore, R.O. (2016, October). The future of big data in developmental science. Talk given at a meeting of the Penn State Child Study Center (CSC) faculty.
+
+Gilmore, R.O. (2016, October). Go with the flow: The development of behavioral sensitivity and brain responses to optic flow. Talk at the Penn State Action club meeting.
+
+Gilmore, R.O. (2016, September). Donald Rumsfeld and the promise of a ‘big data’ science of human behavior. Talk given at a meeting of the Stochastic Modeling and Computational Statistics (SMACS) group, Department of Statistics. Penn State University.
+
+Gilmore, R.O., Adolph, K.E., & Millman, D. (2016, May). Video doesn’t lie: Reproducible workflows with Databrary. Talk given at the NYU Data Science Center Symposium on Reproducibility.
+
+Gilmore, R.O. (2016, January). Workshop on Public Access to NSF-Funded Research Data for the Social, Behavioral, and Economic Sciences, National Science Foundation, Chapel Hill, NC.
+
+Gilmore, R.O. (2015, June). Workshop on Data-intensive Research in Education, National Science Foundation, Arlington, VA.
+
+Gilmore, R.O. (2015, April). Workshop on using and sharing video, American Educational Research Association, Chicago, IL.
+
+Gilmore, R.O. (2015, February). Sharing identifiable research data with Databrary, Penn State Child Study Center.
+
+Gilmore, R.O. (2014, October). Data on the Mind workshop, University of California, Berkeley.
+
+Gilmore, R.O. (2014, June). Digital Learning Data as a Public Good: Forging First Principles and Protocols for Scientific Collaboration, Asilomar Conference Center.
+
+Gilmore, R.O. (2014, July). Centre for Brain and Cognitive Development, Birkbeck College, University of London.
+
+Gilmore, R.O. (2014, May). NFAIS webinar on video data sharing.
+
+Gilmore, R.O. (2014, April). Beyond MT: The development of brain and behavioral responses to complex patterns of motion. Department of Cognitive and Linguistic Sciences, Brown University.
+
+Gilmore, R.O. (2014, February). Spatial Data Mine workshop, Temple University.
+
+Gilmore, R.O. (2014, January). Go with the flow: The development of brain dynamics to complex multi-sensory streams. Sackler Winter Institute on Developmental Psychobiology. Cozumel, Mexico.
+
+Gilmore, R.O. (2013, November). NFAIS/CENDI Workshop on Open Data, U.S. Library of Congress, Washington, DC.
+
+Gilmore, R.O., Simon, D.A., & Millman, D.S. (2013, December). Coalition for Networked Information (CNI Fall 13), Washington, DC.
+
+Gilmore, R.O. (2013, November). Center for Neural Engineering, Penn State University.
+
+Gilmore, R.O. (2011, December). Department of Psychology, New York University.
+
+Gilmore, R.O. (2011, January). Cyberinfrastructure Day, Penn State University.
+
+Gilmore, R.O. (2009, April). Frontiers in Eye and Vision Research Lecture, Department of Ophthalmology, Penn State Hershey Eye Center.
+
+Gilmore, R.O. (2008, March). Center for Cognitive Neuroscience, Duke University.
+
+Gilmore, R.O. (2007, November). McDonnell Foundation Workshop on Near infrared Optical Imaging in Infants, Cambridge, MA.
+
+Gilmore, R.O. (2007, November). Department of Biomedical Engineering, Boston University.
+
+Gilmore, R.O. (2007, March). Department of Kinesiology, Penn State University.
+
+Gilmore, R.O. (2002, October). Department of Cognitive and Linguistic Sciences, Brown University, Providence, RI.
+
+Gilmore, R.O. (2002, May). James S. McDonnell Foundation Workshop on Infant Research Methods, Chatham, MA.
+
+Gilmore, R.O. (2002, March). Department of Biology, Edinboro University. Edinboro, PA.
+
+Gilmore, R.O. (2001, March). Department of Psychology, New York University. New York, NY.
+
+Gilmore, R.O. (2000, October). Department of Kinesiology, University of Maryland. College Park, MD
+
+Gilmore, R.O. (2000, September). Department of Kinesiology, Penn State University.
+
+Gilmore, R.O. (2000, March). Lebanon Valley College, Annville, PA.
+
+Gilmore, R.O. (2000, March). National Association of State Universities and Land Grant Colleges Leadership Conference, Chevy Chase, MD.
+
+Gilmore, R.O. (1999, January). Johnson & Johnson Pediatric Roundtable, Palm Beach, FL.
+
+Gilmore, R.O. (1996, September). Human Frontiers Foundation Infancy Research Group, Cambridge, England.
+
+Gilmore, R.O. (1994, June). Graduate student research award talk, IXth International Conference on Infant Studies, Paris, France.
