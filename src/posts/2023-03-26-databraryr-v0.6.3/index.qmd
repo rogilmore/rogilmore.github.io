@@ -1,0 +1,39 @@
+---
+title: "New databraryr v0.6.3"
+date: 2024-03-26
+categories:
+    - databraryr
+---
+
+A new version of `databraryr` is now available on CRAN.
+
+This version supports "piping" of commands:
+
+```{r}
+databraryr::list_volume_assets() |> 
+  dplyr::filter(format_extension == "csv") |>
+  databraryr::download_session_assets_fr_df()
+```
+
+These CSV files are from the default volume 1, session/slot 9807.
+By default, the files are saved in the local directory named with the session ID.
+
+So, we can do the following:
+
+```{r}
+inst_invest_df <- readr::read_csv("9807/databrary-institutions-investigators.csv",
+                                  show_col_types = FALSE)
+
+library(ggplot2)
+inst_invest_df |>
+  ggplot() +
+  aes(x = Date, y = Institutions) +
+  geom_point()
+```
+
+This is obviously an older version of the plot showing growth in the number of authorizing institutions.
+The current, more colorfully styled version is here:
+
+![<https://databrary.github.io/analytics/include/img/fig-databrary-inst-invest-timeseries-1.png>](https://databrary.github.io/analytics/include/img/fig-databrary-inst-invest-timeseries-1.png)
+
+Supporting piping had been on my to-do list, but I pushed it up the priority list on the request of some colleagues.
