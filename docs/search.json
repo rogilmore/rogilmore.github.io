@@ -1006,5 +1006,19 @@
     "title": "New databraryr v0.6.3",
     "section": "",
     "text": "A new version of databraryr is now available on CRAN.\nThis version supports “piping” of commands:\n\ndatabraryr::list_volume_assets() |&gt; \n  dplyr::filter(format_extension == \"csv\") |&gt;\n  databraryr::download_session_assets_fr_df()\n\n[1] \"9807/databrary-institutions-investigators.csv\"\n[2] \"9807/volumes-citations-monthly.csv\"           \n\n\nThese CSV files are from the default volume 1, session/slot 9807. By default, the files are saved in the local directory named with the session ID.\nSo, we can do the following:\n\ninst_invest_df &lt;- readr::read_csv(\"9807/databrary-institutions-investigators.csv\",\n                                  show_col_types = FALSE)\n\nlibrary(ggplot2)\ninst_invest_df |&gt;\n  ggplot() +\n  aes(x = Date, y = Institutions) +\n  geom_point()\n\n\n\n\n\n\n\n\nThis is obviously an older version of the plot showing growth in the number of authorizing institutions. The current, more colorfully styled version is here:\n\n\n\nhttps://databrary.github.io/analytics/include/img/fig-databrary-inst-invest-timeseries-1.png\n\n\nSupporting piping had been on my to-do list, but I pushed it up the priority list on the request of some colleagues.\n\n\n\n\n\n\nNote\n\n\n\nIn generating this post, I discovered that I had not generated an arm64 MacOS binary.\nSo, the standard workflow for installing the package on some Macs will not work.\nIn the meantime, devtoools::install_github(\"databrary/databrary\") should work.\nThis will be fixed soon.\nCoding is hard."
+  },
+  {
+    "objectID": "posts/2024-03-26-databraryr-v0.6.3/index.html",
+    "href": "posts/2024-03-26-databraryr-v0.6.3/index.html",
+    "title": "New databraryr v0.6.3",
+    "section": "",
+    "text": "A new version of databraryr is now available on CRAN.\nThis version supports “piping” of commands:\n\ndatabraryr::list_volume_assets() |&gt; \n  dplyr::filter(format_extension == \"csv\") |&gt;\n  databraryr::download_session_assets_fr_df()\n\n[1] \"9807/databrary-institutions-investigators.csv\"\n[2] \"9807/volumes-citations-monthly.csv\"           \n\n\nThese CSV files are from the default volume 1, session/slot 9807. By default, the files are saved in the local directory named with the session ID.\nSo, we can do the following:\n\ninst_invest_df &lt;- readr::read_csv(\"9807/databrary-institutions-investigators.csv\",\n                                  show_col_types = FALSE)\n\nlibrary(ggplot2)\ninst_invest_df |&gt;\n  ggplot() +\n  aes(x = Date, y = Institutions) +\n  geom_point()\n\n\n\n\n\n\n\n\nThis is obviously an older version of the plot showing growth in the number of authorizing institutions. The current, more colorfully styled version is here:\n\n\n\nhttps://databrary.github.io/analytics/include/img/fig-databrary-inst-invest-timeseries-1.png\n\n\nSupporting piping had been on my to-do list, but I pushed it up the priority list on the request of some colleagues.\n\n\n\n\n\n\nNote\n\n\n\nIn generating this post, I discovered that I had not generated an arm64 MacOS binary.\nSo, the standard workflow for installing the package on some Macs will not work.\nIn the meantime, devtoools::install_github(\"databrary/databrary\") should work.\nThis will be fixed soon.\nCoding is hard."
+  },
+  {
+    "objectID": "posts/2024-03-27-scammers/index.html",
+    "href": "posts/2024-03-27-scammers/index.html",
+    "title": "Beware of scammers",
+    "section": "",
+    "text": "Someone is impersonating me and soliciting information from unsuspecting students who are led to think that I am recruiting a highly paid research assistant.\nThere is no such position.\nDO NOT SEND THIS PERSON ANY INFORMATION"
   }
 ]
