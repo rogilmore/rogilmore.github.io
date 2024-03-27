@@ -37,3 +37,18 @@ The current, more colorfully styled version is here:
 ![<https://databrary.github.io/analytics/include/img/fig-databrary-inst-invest-timeseries-1.png>](https://databrary.github.io/analytics/include/img/fig-databrary-inst-invest-timeseries-1.png)
 
 Supporting piping had been on my to-do list, but I pushed it up the priority list on the request of some colleagues.
+
+::: {.callout-note}
+
+In generating this post, I discovered that I had not generated an arm64 MacOS binary.
+
+So, the standard workflow for installing the package on some Macs will not work.
+
+In the meantime, `devtoools::install_github("databrary/databrary")` should work.
+
+This will be fixed soon.
+
+Coding is hard.
+
+:::
+
