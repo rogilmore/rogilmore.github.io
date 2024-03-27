@@ -1019,6 +1019,10 @@
     "href": "posts/2024-03-27-scammers/index.html",
     "title": "Beware of scammers",
     "section": "",
+<<<<<<< HEAD
     "text": "Someone is impersonating me and soliciting information from unsuspecting students who are led to think that I am recruiting a highly paid research assistant.\nIt’s a scam. There is no such position.\nDO NOT SEND THIS PERSON ANY INFORMATION"
+=======
+    "text": "Someone is impersonating me and soliciting information from unsuspecting students who are led to think that I am recruiting a highly paid research assistant.\nThere is no such position.\nDO NOT SEND THIS PERSON ANY INFORMATION"
+>>>>>>> f09331f040d73b41cb9995036f7a3a28f56f514b
   }
 ]
