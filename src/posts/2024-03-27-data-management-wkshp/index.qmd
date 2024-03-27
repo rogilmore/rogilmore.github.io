@@ -1,0 +1,13 @@
+---
+title: "Good enough data and project management workshop"
+date: 2024-03-27
+categories:
+  - open science
+image: https://headguruteacher.files.wordpress.com/2017/02/9464b325-d2f4-4604-8258-82093bf93af6.jpg
+---
+
+Today is a workshop on "Good enough data and project management practices."
+I'm delighted to be a member of a team that is bringing these ideas to a wider audience here at Penn State.
+This effort is part of a broader initiative on open scholarship that a number of us have been working to promote.
+
+Here is the workshop [website](https://penn-state-open-science/data-mgmt-2024).
