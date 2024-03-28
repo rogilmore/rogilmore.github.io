@@ -1,0 +1,25 @@
+---
+title: Cool Paperpile/GitHub integration
+date: 2024-03-28
+categories:
+  - GitHub
+  - Paperile
+  - visual acuity project
+  - automation
+image: https://gilmore-lab.github.io/visual-acuity/data_files/figure-html/fig-teller-acuity-across-age-1.png
+---
+
+![Teller Acuity Card data from  <https://gilmore-lab.github.io/visual-acuity>](https://gilmore-lab.github.io/visual-acuity/data_files/figure-html/fig-teller-acuity-across-age-1.png)
+
+Several years ago, on the recommendation of Tal Yarkoni, I started using [Paperpile](https://paperpile.com) for reference management.
+I like the Google Chrome integration and the easy ability to import references and PDFs.
+My lab uses it extensively, including for projects like our [Legacy Project: Visual Acuity](https://gilmore-lab.github.io/visual-acuity) initiative where we are doing a large scale synthesis of data about the development of visual acuity.
+
+The project has also provided a testbed to evaluate how we make an open research protocol and how we use Quarto tools to monitor our progress in various phases of data collection, cleaning, and visualization.
+
+For example, here is a recent plot from our data collection dashboard:
+
+![<https://gilmore-lab.github.io/visual-acuity/dashboard.html>](https://gilmore-lab.github.io/visual-acuity/dashboard_files/figure-html/fig-papers-by-pub-year-1.png)
+
+The workflow has many manual [steps](https://gilmore-lab.github.io/visual-acuity/protocol.html), but I have recently discovered that Paperpile will synch a specific subset of papers directly to GitHub.
+So, if I can figure out how to pull the data from that synched *.bib file, we can save ourselves some manual data entry and its accompanying headaches.
