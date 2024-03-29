@@ -1020,5 +1020,19 @@
     "title": "About",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nCompleted training with the Center for the Neural Basis of Cognition↩︎"
+  },
+  {
+    "objectID": "posts/2024-04-29-paperpile-github/index.html",
+    "href": "posts/2024-04-29-paperpile-github/index.html",
+    "title": "Automation…is the way",
+    "section": "",
+    "text": "I mentioned the Paperpile/Github integration we’re using for the Legacy Project: Visual Acuity initiative in a recent post.\nToday, we figured out an even more useful trick: How to filter the papers we’ve added to our Paperpile group by those that have PDFs and those that do not. The trick was to use Paperpile’s filters to select the subsets that do or do not have automatically extracted PDFs, tag them, then create custom synching workflows for those tags. Coupled with the bib2df package, we can now import those reference files as data frames and do things like this with them:\n\n\n\nhttps://gilmore-lab.github.io/visual-acuity/dashboard.html\n\n\nWe still have to figure out how to keep track of the next phase of the project – extracting the paper-level data. And someone will have to try to track down those missing (or paywalled) PDFs. But this is a huge win. Three cheers for automation!\nAnd apologies to Stevie Wonder for the bad pun. Love the song, though."
+  },
+  {
+    "objectID": "posts/2024-04-29-reasons-for-climate-optimism/index.html",
+    "href": "posts/2024-04-29-reasons-for-climate-optimism/index.html",
+    "title": "Optimism about the future; pessimism about our neighbors",
+    "section": "",
+    "text": "The outstanding team at Our World in Data has an interactive graphic showing the results of a recent survey about who would be willing to contribute 1% of their income to tackle climate change vs. the perceived proportion of the population in the respondents’ home countries that they predict would be willing to make such a commitment.\nThere are many interesting insights, including which countries are most committed to making changes. But universally, more people say they personally would contribute than predict that others would do likewise."
   }
 ]

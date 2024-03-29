@@ -1,0 +1,16 @@
+---
+title: "Optimism about the future; pessimism about our neighbors"
+date: 2024-03-29
+categories:
+  - climate
+  - future
+  - data
+image: willingness-climate-action.png
+---
+
+<iframe src="https://ourworldindata.org/grapher/willingness-climate-action" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+
+The outstanding team at [Our World in Data](https://ourworldindata.org) has an interactive graphic showing the results of a recent survey about who would be willing to contribute 1% of their income to tackle climate change vs. the perceived proportion of the population in the respondents' home countries that they predict would be willing to make such a commitment.
+
+There are many interesting insights, including which countries are most committed to making changes.
+But universally, more people say they personally would contribute than predict that others would do likewise.
