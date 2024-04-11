@@ -1,0 +1,24 @@
+---
+title: Eclipse propagation
+date: 2024-04-11
+categories:
+  - propagation
+  - ham radio
+  - Flex 6400
+  - wspr
+  - eclipse
+---
+
+![Weak Signal Propagation Reporter (WSPR) spots on 20m during the 2024-04-08 eclipse](w3tm-2024-04-08-20m.png)
+
+I ran my Flex 6400 at low power (5 W) to generate propagation data for the [HamSCI](https://hamsci.org) project during the 2024-04-08 total eclipse.
+The WSJT-X program generated the signals.
+With the SmartSDR iOS and MacOS apps and Google Remote Desktop, I was able to monitor the station and control it remotely.
+
+The radio telescope did not get built in time.
+Nor did I participate in the [Solar Eclipse QSO Party](https://hamsci.org/seqp-rules).
+
+It's fun to see just how far a decent antenna--my end-fed half-wave (EFHW)--got out with only 5 W.
+And I'll look forward to the report about how the eclipse affected the ionosphere.
+
+As the website itself claims, [wspr.rocks](http://wspr.rocks)!

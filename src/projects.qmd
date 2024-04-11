@@ -8,7 +8,7 @@ This page briefly describes some of my active scholarly projects.
 
 ## PLAY Project
 
-![](https://www.play-project.org/img/PLAY-logo.png){width=75%}
+![](https://play-project.org/img/PLAY-logo.png){width=75%}
 
 The Play & Learning Across a Year ([PLAY](https://play-project.org)) Project is a large-scale research effort funded by the U.S. National Institutes of Health (NIH) to collect a database of video recordings of 1,000 mothers and their infants engaged in natural activity at home. 
 More than 30 sites across the U.S. are collecting data, and more than 70 researchers across North America are participating.
