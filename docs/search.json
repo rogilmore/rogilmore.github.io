@@ -1048,5 +1048,12 @@
     "title": "Eclipse propagation",
     "section": "",
     "text": "Weak Signal Propagation Reporter (WSPR) spots on 20m during the 2024-04-08 eclipse\n\n\nI ran my Flex 6400 at low power (5 W) to generate propagation data for the HamSCI project during the 2024-04-08 total eclipse. The WSJT-X program generated the signals. With the SmartSDR iOS and MacOS apps and Google Remote Desktop, I was able to monitor the station and control it remotely.\nThe radio telescope did not get built in time. Nor did I participate in the Solar Eclipse QSO Party.\nIt’s fun to see just how far a decent antenna–my end-fed half-wave (EFHW)–got out with only 5 W. And I’ll look forward to the report about how the eclipse affected the ionosphere.\nAs the website itself claims, wspr.rocks!"
+  },
+  {
+    "objectID": "posts/2024-04-16-open-sci-conversation/index.html",
+    "href": "posts/2024-04-16-open-sci-conversation/index.html",
+    "title": "A conversation about open science",
+    "section": "",
+    "text": "My department’s clinical area invited me to present in PSY 543, Clinical Research Methods on open science. I gratefully accepted. We have a strong clinical program, and I enjoy engaging with the students. Today was no exception.\nToday was exceptional, however, in that all seven students said “Yes, a significant crisis” when asked if there is a reproducibility crisis in science, a question asked by a 2016 Nature survey I like to use as a starting point for a conversation on these topics. Whether that’s good or bad depends on your point of view, I suppose. Of course, I agree with the endorsement, and think that recognizing a problem is the first essential step to devising solutions.\nLess notable, but no less fun was a successful experiment with a new Reveal.js trick (multiplex feature) that lets the audience watch the slides advance as I advance them."
   }
 ]

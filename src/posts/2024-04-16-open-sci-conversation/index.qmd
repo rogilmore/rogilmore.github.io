@@ -1,0 +1,21 @@
+---
+title: "A conversation about open science"
+date: 2024-04-16
+categories:
+  - open science
+  - psychological science
+  - reproducibility
+  - Quarto
+---
+
+My department's clinical area invited me to [present in PSY 543, Clinical Research Methods](https://github.com/psu-psychology/psy-543-clinical-research-methods-2024) on open science.
+I gratefully accepted.
+We have a strong clinical program, and I enjoy engaging with the students.
+Today was no exception.
+
+Today was exceptional, however, in that all seven students said "Yes, a significant crisis" when asked if there is a reproducibility crisis in science, a question asked by a [2016 *Nature* survey](https://www.nature.com/articles/533452a) I like to use as a starting point for a conversation on these topics.
+Whether that's good or bad depends on your point of view, I suppose.
+Of course, I agree with the endorsement, and think that recognizing a problem is the first essential step to devising solutions.
+
+Less notable, but no less fun was a successful experiment with a new Reveal.js trick ([multiplex feature](https://quarto.org/docs/presentations/revealjs/presenting.html#multiplex)) that lets the audience watch the slides advance as I advance them.
+
