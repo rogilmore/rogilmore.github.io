@@ -17,5 +17,5 @@ Today was exceptional, however, in that all seven students said "Yes, a signific
 Whether that's good or bad depends on your point of view, I suppose.
 Of course, I agree with the endorsement, and think that recognizing a problem is the first essential step to devising solutions.
 
-Less notable, but no less fun was a successful experiment with a new Reveal.js trick ([multiplex feature](https://quarto.org/docs/presentations/revealjs/presenting.html#multiplex)) that lets the audience watch the slides advance as I advance them.
+Less notable, but no less fun was a successful experiment with a new Reveal.js trick ([multiplex ](https://quarto.org/docs/presentations/revealjs/presenting.html#multiplex)) that lets the audience watch the slides advance as I advance them.
 
