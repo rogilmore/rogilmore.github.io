@@ -1,7 +1,6 @@
 project:
   type: website
   output-dir: "../docs"
-
 website:
   title: "rick-gilmore.com"
   navbar:
@@ -24,6 +23,7 @@ format:
   html:
     theme: litera
     css: styles.css
+    bibliography: bib/blog-refs.bib
 
 
 

@@ -6,16 +6,22 @@ categories:
   - psychological science
   - reproducibility
   - Quarto
+  - trust in science
+image: https://www.pewresearch.org/science/wp-content/uploads/sites/16/2023/11/PS_2023.11.14_trust-in-scientists_00-01.png
 ---
+
+![[@Kennedy2023-nb]](https://www.pewresearch.org/science/wp-content/uploads/sites/16/2023/11/PS_2023.11.14_trust-in-scientists_00-01.png)
 
 My department's clinical area invited me to [present in PSY 543, Clinical Research Methods](https://github.com/psu-psychology/psy-543-clinical-research-methods-2024) on open science.
 I gratefully accepted.
 We have a strong clinical program, and I enjoy engaging with the students.
 Today was no exception.
 
-Today was exceptional, however, in that all seven students said "Yes, a significant crisis" when asked if there is a reproducibility crisis in science, a question asked by a [2016 *Nature* survey](https://www.nature.com/articles/533452a) I like to use as a starting point for a conversation on these topics.
+Today was exceptional, however, in that all seven students said "Yes, a significant crisis" when asked if there is a reproducibility crisis in science, a question asked by a 2016 *Nature* survey [@Baker2016-rz] that I like to use as a starting point for a conversation on these topics.
 Whether that's good or bad depends on your point of view, I suppose.
 Of course, I agree with the endorsement, and think that recognizing a problem is the first essential step to devising solutions.
 
 Less notable, but no less fun was a successful experiment with a new Reveal.js trick ([multiplex ](https://quarto.org/docs/presentations/revealjs/presenting.html#multiplex)) that lets the audience watch the slides advance as I advance them.
 
+The talk was also a good excuse to review some of the recent results from the Pew Research Center surveys on trust in science and support for public funding of research [@Kennedy2023-nb].
+It's not clear that these patterns reflect recent issues of reproducibility, but that's all the more reason researchers must get out in front of these issues.

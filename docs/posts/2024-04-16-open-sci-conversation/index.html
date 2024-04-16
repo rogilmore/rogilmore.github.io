@@ -21,7 +21,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -138,6 +158,7 @@ ul.task-list li input[type="checkbox"] {
                 <div class="quarto-category">psychological science</div>
                 <div class="quarto-category">reproducibility</div>
                 <div class="quarto-category">Quarto</div>
+                <div class="quarto-category">trust in science</div>
               </div>
                   </div>
   </div>
@@ -168,13 +189,28 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://www.pewresearch.org/science/wp-content/uploads/sites/16/2023/11/PS_2023.11.14_trust-in-scientists_00-01.png" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Kennedy2023-nb">(<a href="#ref-Kennedy2023-nb" role="doc-biblioref">Kennedy 2023</a>)</span></figcaption>
+</figure>
+</div>
 <p>My department’s clinical area invited me to <a href="https://github.com/psu-psychology/psy-543-clinical-research-methods-2024">present in PSY 543, Clinical Research Methods</a> on open science. I gratefully accepted. We have a strong clinical program, and I enjoy engaging with the students. Today was no exception.</p>
-<p>Today was exceptional, however, in that all seven students said “Yes, a significant crisis” when asked if there is a reproducibility crisis in science, a question asked by a <a href="https://www.nature.com/articles/533452a">2016 <em>Nature</em> survey</a> I like to use as a starting point for a conversation on these topics. Whether that’s good or bad depends on your point of view, I suppose. Of course, I agree with the endorsement, and think that recognizing a problem is the first essential step to devising solutions.</p>
+<p>Today was exceptional, however, in that all seven students said “Yes, a significant crisis” when asked if there is a reproducibility crisis in science, a question asked by a 2016 <em>Nature</em> survey <span class="citation" data-cites="Baker2016-rz">(<a href="#ref-Baker2016-rz" role="doc-biblioref">Baker 2016</a>)</span> that I like to use as a starting point for a conversation on these topics. Whether that’s good or bad depends on your point of view, I suppose. Of course, I agree with the endorsement, and think that recognizing a problem is the first essential step to devising solutions.</p>
 <p>Less notable, but no less fun was a successful experiment with a new Reveal.js trick (<a href="https://quarto.org/docs/presentations/revealjs/presenting.html#multiplex">multiplex</a>) that lets the audience watch the slides advance as I advance them.</p>
+<p>The talk was also a good excuse to review some of the recent results from the Pew Research Center surveys on trust in science and support for public funding of research <span class="citation" data-cites="Kennedy2023-nb">(<a href="#ref-Kennedy2023-nb" role="doc-biblioref">Kennedy 2023</a>)</span>. It’s not clear that these patterns reflect recent issues of reproducibility, but that’s all the more reason researchers must get out in front of these issues.</p>
 
 
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Baker2016-rz" class="csl-entry" role="listitem">
+Baker, Monya. 2016. <span>“1,500 Scientists Lift the Lid on Reproducibility.”</span> <em>Nature News</em> 533 (7604): 452. <a href="https://doi.org/10.1038/533452a">https://doi.org/10.1038/533452a</a>.
+</div>
+<div id="ref-Kennedy2023-nb" class="csl-entry" role="listitem">
+Kennedy, Brian. 2023. <span>“Americans’ Trust in Scientists, Positive Views of Science Continue to Decline.”</span> <a href="https://www.pewresearch.org/science/2023/11/14/americans-trust-in-scientists-positive-views-of-science-continue-to-decline/" class="uri">https://www.pewresearch.org/science/2023/11/14/americans-trust-in-scientists-positive-views-of-science-continue-to-decline/</a>. <a href="https://www.pewresearch.org/science/2023/11/14/americans-trust-in-scientists-positive-views-of-science-continue-to-decline/">https://www.pewresearch.org/science/2023/11/14/americans-trust-in-scientists-positive-views-of-science-continue-to-decline/</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
