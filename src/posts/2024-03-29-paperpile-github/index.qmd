@@ -3,7 +3,7 @@ title: "Automation...is the way"
 date: 2024-03-29
 categories:
   - R
-  - Github
+  - GitHub
   - Paperpile
   - visual acuity project
   - research

@@ -3,7 +3,7 @@ title: "Legacy Project: Visual Acuity"
 date: "2023-09-20 10:48:10 EDT"
 categories:
   - vision
-  - "legacy: acuity"
+  - visual acuity project
   - meta-analysis
   - research
 image: https://gilmore-lab.github.io/visual-acuity/data_files/figure-html/fig-teller-acuity-across-age-1.png

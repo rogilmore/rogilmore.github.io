@@ -3,7 +3,7 @@ title: Cool Paperpile/GitHub integration
 date: 2024-03-28
 categories:
   - GitHub
-  - Paperile
+  - Paperpile
   - visual acuity project
   - automation
 image: https://gilmore-lab.github.io/visual-acuity/data_files/figure-html/fig-teller-acuity-across-age-1.png
