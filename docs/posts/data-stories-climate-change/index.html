@@ -211,7 +211,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">download.file</span>(url, <span class="at">destfile =</span> <span class="st">"data/edgar-co2-2024.xlsx"</span>, <span class="at">mode =</span> <span class="st">"wb"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>This is an Excel spreadsheet, so the <a href="https://readxl.tidyverse.org">readxl</a> package will be helpful here.</p>
+<p>This is an Excel spreadsheet, so the <a href="https://readxl.tidyverse.org">readxl</a> package will be helpful.</p>
 <p>Some poking around in the Excel spreadsheet indicates two tabs that are especially relevant <code>fossil_CO2_per_GDP_by_country</code> and <code>fossil_CO2_per_capita_by_country</code>.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>sheets_avail <span class="ot">&lt;-</span> readxl<span class="sc">::</span><span class="fu">excel_sheets</span>(<span class="st">"data/edgar-co2-2024.xlsx"</span>)</span>
@@ -455,9 +455,14 @@ Figure&nbsp;1: CO2 emissions per capita 1970-2023 from the Emissions Database fo
 <span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_classic</span>() <span class="sc">+</span></span>
 <span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">90</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="672"></p>
+<div id="fig-co2-emissions-1970-2023-largest-in-2023" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-co2-emissions-1970-2023-largest-in-2023-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="index_files/figure-html/fig-co2-emissions-1970-2023-largest-in-2023-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-co2-emissions-1970-2023-largest-in-2023-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: CO2 emissions per capita 1970-2023 from the Emissions Database for Global Atmospheric Research (EDGAR) database. This chart focuses on the top 20 emitters in 2023.
+</figcaption>
 </figure>
 </div>
 </div>
@@ -580,9 +585,14 @@ Figure&nbsp;1: CO2 emissions per capita 1970-2023 from the Emissions Database fo
 <span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_classic</span>() <span class="sc">+</span></span>
 <span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">90</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid figure-img" width="672"></p>
+<div id="fig-co2-emissions-1970-2023-largest-in-1970" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-co2-emissions-1970-2023-largest-in-1970-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="index_files/figure-html/fig-co2-emissions-1970-2023-largest-in-1970-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-co2-emissions-1970-2023-largest-in-1970-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: CO2 emissions per capita 1970-2023 from the Emissions Database for Global Atmospheric Research (EDGAR) database. This chart focuses on the top 20 emitters in 1970.
+</figcaption>
 </figure>
 </div>
 </div>

@@ -99,6 +99,9 @@ top_20_2023 |>
 Let's see how these countries fared since 1970.
 
 ```{r}
+#| label: fig-co2-emissions-1970-2023-largest-in-2023
+#| fig-cap: "CO2 emissions per capita 1970-2023 from the Emissions Database for Global Atmospheric Research (EDGAR) database. This chart focuses on the top 20 emitters in 2023."
+
 CO2_per_capita_long |>
   dplyr::filter(Country %in% top_20_2023$Country) |>
   ggplot2::ggplot() +
@@ -126,6 +129,9 @@ top_20_1970 |>
 ```
 
 ```{r}
+#| label: fig-co2-emissions-1970-2023-largest-in-1970
+#| fig-cap: "CO2 emissions per capita 1970-2023 from the Emissions Database for Global Atmospheric Research (EDGAR) database. This chart focuses on the top 20 emitters in 1970."
+
 CO2_per_capita_long |>
   dplyr::filter(Country %in% top_20_1970$Country) |>
   ggplot2::ggplot() +
