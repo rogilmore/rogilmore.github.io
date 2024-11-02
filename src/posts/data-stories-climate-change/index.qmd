@@ -1,0 +1,146 @@
+---
+title: "Data stories: Climate change"
+date: 2024-11-01
+categories:
+    - climate change
+    - data science
+---
+
+It's impossible to ignore the big decisions that Americans will be making next Tuesday.
+But neither campaign is talking about climate change in a serious way.
+I have my own thoughts about why, but let's look at some data rather than pontificate.
+
+I found that there is an Emissions Database for Global Atmospheric Research (EDGAR) site that collects data on these questions. 
+Here is the site for emissions data from 1970 to 2024 for a large set of countries:
+
+<https://data.jrc.ec.europa.eu/dataset/74f34d14-5819-4954-8b61-b11ce3d4ca48>
+
+The following code downloads the data.
+
+```{r}
+url <- "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/EDGAR/datasets/EDGAR_2024_report/EDGAR_2024_GHG_booklet_2024_fossilCO2only.xlsx"
+
+download.file(url, destfile = "data/edgar-co2-2024.xlsx", mode = "wb")
+```
+
+This is an Excel spreadsheet, so the [readxl](https://readxl.tidyverse.org) package will be helpful.
+
+Some poking around in the Excel spreadsheet indicates two tabs that are especially relevant `fossil_CO2_per_GDP_by_country` and `fossil_CO2_per_capita_by_country`.
+
+```{r}
+sheets_avail <- readxl::excel_sheets("data/edgar-co2-2024.xlsx")
+sheets_avail
+```
+
+```{r}
+CO2_per_capita <- readxl::read_excel("data/edgar-co2-2024.xlsx", sheet = sheets_avail[7])
+str(CO2_per_capita)
+```
+
+We need to make this longer if we want to use Tidyverse-style plotting commands.
+
+```{r}
+CO2_per_capita_long <- CO2_per_capita |>
+  tidyr::pivot_longer(
+    cols = (starts_with("19") |
+              starts_with("20")),
+    names_to = "year",
+    values_to = "emissionsPerCapita"
+  ) |>
+  # Make the year a properly formatted YYYY-MM-DD string for parsing
+  dplyr::mutate(year = lubridate::as_date(paste0(year, "-12-31")))
+```
+
+Now we can make our first attempt at a plot.
+
+```{r}
+#| label: fig-co2-emissions-1970-2023-big-economies
+#| fig-cap: "CO2 emissions per capita 1970-2023 from the Emissions Database for Global Atmospheric Research (EDGAR) database."
+library(ggplot2)
+CO2_per_capita_long |>
+  dplyr::filter(
+    Country %in% c(
+      "United States",
+      "China",
+      "Japan",
+      "Germany",
+      "France and Monaco",
+      "Canada",
+      "United Kingdom",
+      "Taiwan",
+      "South Korea",
+      "Australia"
+    )
+  ) |>
+  ggplot2::ggplot() +
+  aes(year, emissionsPerCapita, color = Country, group = Country) +
+  geom_point() +
+  geom_line() +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 90))
+```
+
+Let's look at the top countries in 2023.
+
+```{r}
+top_2023 <- CO2_per_capita_long |>
+  dplyr::filter(year == "2023-12-31") |>
+  dplyr::arrange(desc(emissionsPerCapita))
+
+top_20_2023 <- top_2023[1:20,]
+top_20_countries_2023 <- top_20_2023$Country
+
+top_20_2023 |>
+  dplyr::select(Country, emissionsPerCapita) |>
+  kableExtra::kable(format = 'html') |>
+  kableExtra::kable_classic()
+```
+
+Let's see how these countries fared since 1970.
+
+```{r}
+CO2_per_capita_long |>
+  dplyr::filter(Country %in% top_20_2023$Country) |>
+  ggplot2::ggplot() +
+  aes(year, emissionsPerCapita, color = Country, group = Country) +
+  geom_point() +
+  geom_line() +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 90))
+```
+
+Now, let's see how the top 20 in 1970 have changed.
+
+```{r}
+top_1970 <- CO2_per_capita_long |>
+  dplyr::filter(year == "1970-12-31") |>
+  dplyr::arrange(desc(emissionsPerCapita))
+
+top_20_1970 <- top_1970[1:20,]
+top_20_countries_1970 <- top_20_1970$Country
+
+top_20_1970 |>
+  dplyr::select(Country, emissionsPerCapita) |>
+  kableExtra::kable(format = 'html') |>
+  kableExtra::kable_classic()
+```
+
+```{r}
+CO2_per_capita_long |>
+  dplyr::filter(Country %in% top_20_1970$Country) |>
+  ggplot2::ggplot() +
+  aes(year, emissionsPerCapita, color = Country, group = Country) +
+  geom_point() +
+  geom_line() +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 90))
+```
+
+So, the top emitters per capita in 1970 have made substantial progress in reducing emissions.
+The top emitters in 2023 also made substantial reductions from 1970 to 2023.
+
+The East Asian countries that have have increased emissions per capita since 1970 (China, Taiwan, Japan, South Korea) have joined the mid-ranks of the other wealthy countries in emissions per capita.
+
+This all strikes me as very interesting, and largely positive news.
+The data story I would tell is that the world is getting richer, and that per capita CO2 emissions are falling into a similar range, even among countries that have grown quickly over the past 50 years.
+We just need to do more, especially those of us living in wealthy, large countries who can.
