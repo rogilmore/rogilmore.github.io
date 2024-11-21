@@ -6,8 +6,8 @@ image: "https://askthemanager.com/wp-content/uploads/2021/02/circular-firing-squ
 ---
 
 We visited my mom and brother last Christmas in Denver.
-We didn't know then it would be the last time any of us celebrated the holiday there.
-My mom's friends gathered at the progressive care facility my mom had tried unsuccessfully to lure my dad into moving to.
+We didn't know then that it would be the last time any of us celebrated the holiday there.
+My mom's friends gathered at the progressive care facility my mom had tried unsuccessfully to lure my dad to.
 There Michelle and I and about 20 of my mom's friends gathered for brunch.
 
 One of my mom's friends--a person who has provided her enormous emotional and practical support since my dad's death--wanted to share a story about a remarkable dialogue she had had with her much more conservative family members at Thanksgiving.
@@ -19,28 +19,31 @@ I can rant, and that's not polite.
 And I had more emotional feelings about the topic of trans rights at that particular time for personal reasons I may disclose in a separate post.
 
 So, I tried to demur by saying that I didn't think the issue was all that important.
-I mean the threat of climate change, a growing Russian threat, high housing and food prices, bird flu, and the orange man's renewed political strength seemed like issues that affected all of us--and our children, grandchildren, and great-grandchildren--more than this one. 
+I mean the threat of climate change, a Russian aggression, high housing and food prices, bird flu, and the orange man's renewed political strength seemed like issues that threatene all of us--and our children, grandchildren, and great-grandchildren--more than this one. 
 
 That explanation didn't fly.
 I learned later that my mom's friend was known as an especially persistent questioner.
-Pressed to respond to "didn't I think it was unfair?" I explained that I work at an institution of higher learning that values sports, men's football in particular, more highly than any other activity. That priority is shared by a large number of loyal and properous alumni, and the focus on sports over academics has wide-ranging consequences.
+Pressed to respond to "didn't I think it was unfair?" I explained that I work at an institution of higher learning that values sports, men's football in particular, more highly than any other activity. That priority is shared by a large number of loyal and properous alumni
+The focus on sports over academics has wide-ranging consequences.
 
 But my mom's friend knew that my dad had lettered in three sports all four years of high school.
-My dad went to college on a baseball scholarship, and our family, like many Denver residents had supported the Broncos for years, and more recently the Nuggets, Avalanche, and the hapless Rockies.
+He went to college on a baseball scholarship, and even tried out for the Yankees.
+Our family, like many Denver residents, had supported the Broncos for years, and more recently the Nuggets, Avalanche, and the hapless Rockies.
 
 So, I went on to say that I understand why people want fairness in sports.
-I could see why people might think that a trans women could have biological advantages in some athletic activities^[The research does not support this claim.].
-But I said that separating competitors into sex-specific categories was itself unfair in a sense.
+I could see why people might think that trans women could have biological advantages in some athletic activities^[The research on this question is mixed, see @Oberlin2023-zs.] since cis men often do.
+But I said that separating competitors into sex- or gender-specific categories was itself unfair in a sense.
 Sure, it gives opportunities to girls and women that weren't available before Title IX.
 But there are other solutions, like having fielding multiple teams that vary by ability level.
-If the goal is to maximize participation and competition, for *all* athletes, wouldn't that sort of system be better for everyone?
+If the goal is to maximize participation and competition, for *all* athletes, wouldn't *that* sort of system be better for everyone?
 Why single-out the tiniest of minorities, trans women?
+And why do so *now*?
 
 And then I made a professor's mistake.
 I answered my own question.
 
-I said that I thought the reason we were talking about this issue now was not because it's especially important, or that we're especially concerned about fairness in sport.
-We're talking about it because it's a wedge issue, designed precisely to distract and divide people into politically convenient groups of us and them.
+I said that I thought the reason we were talking about this issue now was not because it's especially important, or that fairness in sport is of vital national importance.
+We're talking about it now because it's a wedge issue, designed precisely to distract and divide people into politically convenient groups of us and them.
 In a way, I was predicting the "she's for they/them not you" ads that had such a powerful influence on undecided voters in the late stages of the recent campaign.
 
 My mom's friend wasn't convinced, and the conversation moved on to other topics like grandchildren.
@@ -52,10 +55,23 @@ These reminded me about an assembly at Henry Junior High some 50 years ago when 
 
 {{< video https://youtu.be/2cQIeF5LFCk?si=dEdsqt_jYNrBYOMw >}}
 
-So, you could say I was carefully taught to reflect on my own prejudice and work tirelessly to keep it from clouding my judgment and metastasizing into hate.
+Seeing it the first time was shocking and confusing.
+But as the film continued, I began to see the point.
+And I have never forgotten the lesson.
+You could say that I was carefully taught to reflect on my own prejudice.
+And in seeing it, work to diminish it.
+The smaller my prejudice became, the less likely it was to cloud my judgment or metastasize into hate.
 
 {{< video https://youtu.be/VPf6ITsjsgk?si=JfhHUD9cgQGFh57H >}}
 
-When we all fail at this task--with cynical encouragement--who benefits from the circular firing squad that results?
+And to be clear, the work includes trying especially hard not to hate the hateful, however difficult that can sometimes be.
+
+It is difficult work.
+Many of us perform poorly.
+Yet it is essential to continue.
+
+Because when we fail--with cynical encouragement or completely on our own--who benefits from the circular firing squad that results?
 
 ![](https://askthemanager.com/wp-content/uploads/2021/02/circular-firing-squad.png)
+
+The answer to *that* question is the common ground I'd prefer we seek.
