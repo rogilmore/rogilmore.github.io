@@ -19,48 +19,55 @@ I can rant, and that's not polite.
 And I had more emotional feelings about the topic of trans rights at that particular time for personal reasons I may disclose in a separate post.
 
 So, I tried to demur by saying that I didn't think the issue was all that important.
-I mean the threat of climate change, a Russian aggression, high housing and food prices, bird flu, and the orange man's renewed political strength seemed like issues that threatene all of us--and our children, grandchildren, and great-grandchildren--more than this one. 
+I mean the threat of climate change, Russian aggression, high housing and food prices, bird flu, and the orange man's renewed political strength seemed like issues that threatened all of us--and our children, grandchildren, and great-grandchildren--much, much more than this one. 
 
 That explanation didn't fly.
 I learned later that my mom's friend was known as an especially persistent questioner.
-Pressed to respond to "didn't I think it was unfair?" I explained that I work at an institution of higher learning that values sports, men's football in particular, more highly than any other activity. That priority is shared by a large number of loyal and properous alumni
-The focus on sports over academics has wide-ranging consequences.
+Pressed to respond to "didn't I think it was unfair?" I explained that I work at an institution of higher learning that values sports, men's football in particular, more highly than any other activity. That priority is shared by a large number of loyal and properous alumni.
+The focus on sports over academics has wide-ranging consequences, many of them negative.
 
 But my mom's friend knew that my dad had lettered in three sports all four years of high school.
 He went to college on a baseball scholarship, and even tried out for the Yankees.
 Our family, like many Denver residents, had supported the Broncos for years, and more recently the Nuggets, Avalanche, and the hapless Rockies.
 
 So, I went on to say that I understand why people want fairness in sports.
-I could see why people might think that trans women could have biological advantages in some athletic activities^[The research on this question is mixed, see @Oberlin2023-zs.] since cis men often do.
-But I said that separating competitors into sex- or gender-specific categories was itself unfair in a sense.
+I understood why people might think that trans women could have biological advantages in some athletic activities^[The research on this question is mixed, see @Oberlin2023-zs.] since *cis* men often do.
+But I said that separating competitors into sex- or gender-specific categories was itself unfair, in a sense.
 Sure, it gives opportunities to girls and women that weren't available before Title IX.
-But there are other solutions, like having fielding multiple teams that vary by ability level.
-If the goal is to maximize participation and competition, for *all* athletes, wouldn't *that* sort of system be better for everyone?
+But in most sports except for boxing and wrestling, no one bats an eye when an athlete is unusually tall or strong or fast or skilled relative to other competitors.
+That's just natural human variation.
+If your team lands an extraordinary talent, no one says that's unfair.
+
+Besides, if we're really concerned about fairness in sports, there are other solutions, like fielding multiple teams that vary by ability level.
+I myself never made the varsity cross country team in high school, but I competed against other "B" and "C" team runners.
+If the goal is to maximize participation and competition for *all* athletes, wouldn't *that* sort of system be better for everyone?
+Wouldn't it ultimately be fairer, too?
 Why single-out the tiniest of minorities, trans women?
 And why do so *now*?
 
 And then I made a professor's mistake.
 I answered my own question.
 
-I said that I thought the reason we were talking about this issue now was not because it's especially important, or that fairness in sport is of vital national importance.
+I said that I thought the reason we were talking about this issue now was not because fairness in sport is of vital national interest.
 We're talking about it now because it's a wedge issue, designed precisely to distract and divide people into politically convenient groups of us and them.
-In a way, I was predicting the "she's for they/them not you" ads that had such a powerful influence on undecided voters in the late stages of the recent campaign.
+In a way, I was foreshadowing the "she's for they/them not you" ads that had such a powerful influence on undecided voters in the late stages of the recent campaign.
 
 My mom's friend wasn't convinced, and the conversation moved on to other topics like grandchildren.
 The audience to our rather heated and longer-than-appropriate conversation was relieved.
 
 Now almost a year later I return to the topic.
-The inspirations are two: That dreadful campaign ad, and a comment I did not appreciate about Palestinians made by one of the guys in an informal breakfast group I participate in.
+The inspirations are two: That dreadful campaign ad, and a negative comment I did not appreciate about Palestinians made by one of the guys in an informal breakfast group I participate in.
 These reminded me about an assembly at Henry Junior High some 50 years ago when we were herded into the auditorium to watch this video by Bill Cosby:
 
 {{< video https://youtu.be/2cQIeF5LFCk?si=dEdsqt_jYNrBYOMw >}}
 
-Seeing it the first time was shocking and confusing.
+Seeing it the first time was shocking and confusing at first.
 But as the film continued, I began to see the point.
 And I have never forgotten the lesson.
 You could say that I was carefully taught to reflect on my own prejudice.
 And in seeing it, work to diminish it.
 The smaller my prejudice became, the less likely it was to cloud my judgment or metastasize into hate.
+Rogers and Hammerstein understood this:
 
 {{< video https://youtu.be/VPf6ITsjsgk?si=JfhHUD9cgQGFh57H >}}
 
@@ -68,6 +75,7 @@ And to be clear, the work includes trying especially hard not to hate the hatefu
 
 It is difficult work.
 Many of us perform poorly.
+I lapse all the time.
 Yet it is essential to continue.
 
 Because when we fail--with cynical encouragement or completely on our own--who benefits from the circular firing squad that results?
