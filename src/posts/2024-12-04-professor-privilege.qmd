@@ -1,0 +1,37 @@
+---
+title: "Truly a privilege"
+date: '2024-12-04'
+categories: [teaching, humility, openness, sharing, gratitude]
+---
+
+![Figure 1 from @Koetke2024-zg](../img/koetke-etal-2024-fig-01.png){#fig-koetke-etal-fig-01}
+
+We're approaching the end of my [senior seminar class](https://psu-psychology.github.io/psych-490-reproducibility-2024-fall/) on the reproducibility crisis in science.
+I've decided to go a [different direction](https://psu-psychology.github.io/psych-490-data-viz-2025-spring/) next semester.
+So, I don't know when (or if) I'll teach this particular course again.
+
+Still, there are many things I'm proud of about it.
+Most important is the fact that the entire course is [openly shared](https://github.com/psu-psychology/psych-490-reproducibility-2024-fall/) for anyone anywhere to use or reuse as they see fit.
+Whether anyone does so is beside the point.
+Taxpayers pay a small part of my salary.
+This is one small way I can return the favor.
+
+Intellectual humility among people like me (i.e., scientists) may reinforce trust in the results we report, at least according to a recent paper by @Koetke2024-zg (See @fig-koetke-etal-fig-01).
+So, acknowledging the privilege of our position may contribute indirectly to making it more likely that humanity listens to scientists about critical challenges facing all of us, like climate change and public health preparations for future pandemics.
+To a skeptic, that might sound like scientists do or should feign humility in order to gain influence.
+
+Maybe some do.
+Definitely some of us could check our arrogance.
+But that caution applies broadly, in many other areas of human activity beyond scientific research.
+Especially now.
+
+Sometimes popular culture provides the best perspective on important topics.
+Here's a song I'm introducing my students to this afternoon as a light-hearted prelude to discussing the @Koetke2024-zg paper.
+
+{{< video https://www.youtube.com/watch?v=RCyYuLQ7_Ws >}}
+
+@GamblingKenny2012-kw
+
+It truly is an immense privilege to have a regular platform to bring ideas from scientific journal articles *and* popular music to willing (or at least captive) audiences of young people.
+It's fun, too.
+
