@@ -1,0 +1,17 @@
+{
+  "hash": "b8fd0ccf579c27efc8e04406343cf0b4",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Fewer than 10\"\ndate: '2025-02-07'\ncategories: [prejudice, transgender]\n---\n\n\n\nAccording to NCAA officials, there are fewer than 10 transgender athletes among\nmore than 510,000 collegiate athletes in the U.S.\n\n<https://substack.com/@extremearturo/note/c-82077335?r=db7nz&utm_medium=ios&utm_source=notes-share-action>\n\nI just don't believe people who think that banning transgender athletes from competition has ~~anything~~ very much to do with fairness in sport.\n\n::: {.callout-note}\n## Data story visualization\n\nIn the spirit of my [Spring 2025 class on data visualization](https://psu-psychology.github.io/psych-490-data-viz-2025-spring), here is a simple visualization of these data.\n\n\n\n::: {.cell fig-caption='Transgender vs. non-transgender athletes in the NCAA.'}\n\n```{.r .cell-code}\nsuppressPackageStartupMessages(library(ggplot2))\n\ngender <- data.frame(gender = c(\"non-transgender\", \"transgender\"), athletes = c(510000, 10))\n\ngender |>\n  ggplot() +\n  aes(x = gender, y = athletes) +\n  geom_col() +\n  ylab(\"NCAA athletes\") +\n  theme_classic()\n```\n\n::: {.cell-output-display}\n![](2025-02-07-fewer-than-ten_files/figure-html/fig-visualize-transgender-ncaa-1.png){#fig-visualize-transgender-ncaa width=672}\n:::\n:::\n\n\n\nIt's hard to see a tiny stand of trees amidst a vast forest, isn't it?\n\n:::",
+    "supporting": [
+      "2025-02-07-fewer-than-ten_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

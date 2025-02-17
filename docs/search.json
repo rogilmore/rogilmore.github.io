@@ -1110,6 +1110,6 @@
     "href": "posts/2025-02-07-fewer-than-ten.html",
     "title": "Fewer than 10",
     "section": "",
-    "text": "According to NCAA officials, there are fewer than 10 transgender athletes among more than 510,000 collegiate athletes in the U.S.\nhttps://substack.com/@extremearturo/note/c-82077335?r=db7nz&utm_medium=ios&utm_source=notes-share-action\nI just don’t believe people who think that banning transgender athletes from competition has anything to do with fairness in sport."
+    "text": "According to NCAA officials, there are fewer than 10 transgender athletes among more than 510,000 collegiate athletes in the U.S.\nhttps://substack.com/@extremearturo/note/c-82077335?r=db7nz&utm_medium=ios&utm_source=notes-share-action\nI just don’t believe people who think that banning transgender athletes from competition has anything very much to do with fairness in sport.\n\n\n\n\n\n\nData story visualization\n\n\n\nIn the spirit of my Spring 2025 class on data visualization, here is a simple visualization of these data.\n\nsuppressPackageStartupMessages(library(ggplot2))\n\ngender &lt;- data.frame(gender = c(\"non-transgender\", \"transgender\"), athletes = c(510000, 10))\n\ngender |&gt;\n  ggplot() +\n  aes(x = gender, y = athletes) +\n  geom_col() +\n  ylab(\"NCAA athletes\") +\n  theme_classic()\n\n\n\n\n\n\n\nFigure 1\n\n\n\n\n\nIt’s hard to see a tiny stand of trees amidst a vast forest, isn’t it?"
   }
 ]

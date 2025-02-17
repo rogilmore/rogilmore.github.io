@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -168,7 +202,45 @@ ul.task-list li input[type="checkbox"] {
 
 <p>According to NCAA officials, there are fewer than 10 transgender athletes among more than 510,000 collegiate athletes in the U.S.</p>
 <p><a href="https://substack.com/@extremearturo/note/c-82077335?r=db7nz&amp;utm_medium=ios&amp;utm_source=notes-share-action" class="uri">https://substack.com/@extremearturo/note/c-82077335?r=db7nz&amp;utm_medium=ios&amp;utm_source=notes-share-action</a></p>
-<p>I just don’t believe people who think that banning transgender athletes from competition has anything to do with fairness in sport.</p>
+<p>I just don’t believe people who think that banning transgender athletes from competition has <del>anything</del> very much to do with fairness in sport.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Data story visualization
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In the spirit of my <a href="https://psu-psychology.github.io/psych-490-data-viz-2025-spring">Spring 2025 class on data visualization</a>, here is a simple visualization of these data.</p>
+<div class="cell" data-fig-caption="Transgender vs. non-transgender athletes in the NCAA.">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressPackageStartupMessages</span>(<span class="fu">library</span>(ggplot2))</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>gender <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">gender =</span> <span class="fu">c</span>(<span class="st">"non-transgender"</span>, <span class="st">"transgender"</span>), <span class="at">athletes =</span> <span class="fu">c</span>(<span class="dv">510000</span>, <span class="dv">10</span>))</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>gender <span class="sc">|&gt;</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">aes</span>(<span class="at">x =</span> gender, <span class="at">y =</span> athletes) <span class="sc">+</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>() <span class="sc">+</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylab</span>(<span class="st">"NCAA athletes"</span>) <span class="sc">+</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_classic</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div id="fig-visualize-transgender-ncaa" class="quarto-float quarto-figure quarto-figure-center anchored" width="672">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-visualize-transgender-ncaa-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="2025-02-07-fewer-than-ten_files/figure-html/fig-visualize-transgender-ncaa-1.png" id="fig-visualize-transgender-ncaa" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-visualize-transgender-ncaa-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>It’s hard to see a tiny stand of trees amidst a vast forest, isn’t it?</p>
+</div>
+</div>
 
 
 
